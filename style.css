@@ -142,13 +142,31 @@ nav li {
 
 .gallery-container{
   padding-top: 100px;
+  width: 60%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2px;
+  gap: 4px;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-auto-rows: 20em;
+  justify-content: center;
 }
 
-.gallery__img {
+.gallery__item{
+  display: flex;
+justify-content: center;
+  align-items: center;
+}
+
+.gallery__img{
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
+
+
+
+
+
+
+
+
