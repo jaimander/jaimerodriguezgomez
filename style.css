@@ -53,23 +53,7 @@ nav {
 
 }
 
-/*
-.enlace {
-  display: inline;
-  margin-right: 0px;
-  padding: 3px 0px 0px 0px;
-  float: left;
-}
-*/
-
 nav ul {
-  /*
-  float: right;
-  margin-right: 20px;
-  margin-top: 0px;
-  padding-top: 0%;
-*/
-
   margin-top: 5px;
   margin-left: 0px;
   margin-right: 20px;
@@ -94,23 +78,6 @@ nav li {
   font-family: 'Chakra Petch', sans-serif;
 }
 
-/*
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin-top: 0px;
-  padding-top: 0%;
-}*/
-/*
-nav ul li a {
-  font-size: 18px;
-  padding: 7px 13px;
-  border-radius: 3px;
-  margin-top: 0px;
-  padding-top: 0%;
-}*/
-
-/*    */
 
 .checkbtn {
   font-size: 20px;
@@ -121,10 +88,12 @@ nav ul li a {
   cursor: pointer;
   display: none;
 }
+
 #check {
   display: none;
 }
-#section--menu-mobile{
+
+#section--menu-mobile {
   /*background: url(fondo.jpg) no-repeat;*/
   background-size: cover;
   background-position: center center;
@@ -135,6 +104,7 @@ nav ul li a {
   .checkbtn {
     display: block;
   }
+
   ul {
     position: fixed;
     width: 100%;
@@ -145,22 +115,40 @@ nav ul li a {
     text-align: center;
     transition: all 0.5s;
   }
+
   nav ul li {
     display: block;
     margin: 50px 0;
     line-height: 30px;
     color: #ffffff;
   }
+
   nav ul li a {
     font-size: 30px;
     color: #ffffff;
   }
+
   li a:hover,
   li a.active {
     background: none;
     color: rgb(212, 255, 0);
   }
-  #check:checked ~ ul {
+
+  #check:checked~ul {
     left: 0;
   }
+}
+
+
+.gallery-container{
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2px;
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
