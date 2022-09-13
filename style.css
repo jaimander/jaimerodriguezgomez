@@ -100,14 +100,14 @@ nav li {
   height: calc(100vh - 40px);
 }
 
+
+
 @media (max-width: 658px) {
   .checkbtn {
     display: block;
   }
 
-  .gallery-container{
-   
-  }
+
 
   ul {
     position: fixed;
@@ -144,7 +144,7 @@ nav li {
 }
 
 
-.gallery-container{
+.gallery-container {
   padding-top: 100px;
   width: 60%;
   display: grid;
@@ -154,13 +154,13 @@ nav li {
   justify-content: center;
 }
 
-.gallery__item{
+.gallery__item {
   display: flex;
-justify-content: center;
+  justify-content: center;
   align-items: center;
 }
 
-.gallery__img{
+.gallery__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -168,9 +168,10 @@ justify-content: center;
 
 
 
-
-
-
-
-
-
+@media (max-width: 980px) {
+  .gallery-container {
+    grid-template-columns: repeat(3, minmax(10em, 1fr));
+    grid-auto-rows: minmax(10em, 1fr);
+    width: 100%;
+  }
+}
