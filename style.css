@@ -105,6 +105,10 @@ nav li {
     display: block;
   }
 
+  .gallery-container{
+   
+  }
+
   ul {
     position: fixed;
     width: 100%;
@@ -145,7 +149,7 @@ nav li {
   width: 60%;
   display: grid;
   gap: 4px;
-  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-template-columns: repeat(3, minmax(20em, 1fr));
   grid-auto-rows: 20em;
   justify-content: center;
 }
