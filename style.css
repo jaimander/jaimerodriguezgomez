@@ -1,3 +1,4 @@
+@import url(//fonts.googleapis.com/css?family=Chakra+Petch);
 @import url(//fonts.googleapis.com/css?family=Work+Sans);
 
 * {
@@ -14,7 +15,8 @@ a {
 }
 
 body {
-  background: #d3ebfa;
+  background: #f0f0f0;
+  /*font-family: 'Chakra Petch', sans-serif;*/
   font-family: 'Work Sans', sans-serif;
   margin: 0 auto;
 }
@@ -32,15 +34,21 @@ nav {
 #name {
   display: inline;
   margin-right: 0px;
-  padding: 3px 10px 0px 0px;
+  padding: 3px 10px 0px 10px;
   float: left;
 }
 
 #name p {
   list-style: none;
   display: inline;
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 10px;
+  /* font-weight: bold; */
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+#name a {
+  color: rgb(0, 0, 255);
 }
 
 /*
@@ -72,16 +80,17 @@ nav ul {
 nav {
   display: inline;
   margin-right: 0px;
-  padding-top: 0%;
+  padding-top: 5px;
 }
 
 nav li {
   list-style: none;
   display: inline;
-  font-size: 20px;
-  margin-left: 10px;
+  font-size: 16px;
+  margin-left: 20px;
   margin-top: 0px;
   padding-top: 0%;
+  font-family: 'Chakra Petch', sans-serif;
 }
 /*
 nav ul li {
@@ -106,7 +115,7 @@ nav ul li a {
   color: rgb(0, 0, 0);
   float: right;
   line-height: 40px;
-  margin-right: 40px;
+  margin-right: 20px;
   cursor: pointer;
   display: none;
 }
