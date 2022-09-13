@@ -161,7 +161,7 @@ nav li {
   align-items: center;
 }
 
-.gallery__img {
+.gallery__img, a{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -176,4 +176,24 @@ nav li {
     left: 0px;
     justify-content: normal;
   }
+}
+
+.titulo, h1{
+margin-bottom: 20px;
+font-family: 'Chakra Petch', sans-serif;
+font-size: 50px;
+}
+
+.section--descripcion {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  width: 50%;
+  /*background-color: #b80e0e;*/
+}
+
+.descripcion--text, p{
+  padding-bottom: 40px;
+  line-height: 120%;
 }
