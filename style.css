@@ -160,27 +160,37 @@ nav li {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  background-color: rgba(212, 255, 0, 0.8);
 }
 
 .nombre-proyecto {
-  background-color: rgba(212, 255, 0, 0.8);
   color: rgb(0, 0, 0);
-  font-size: 16px;
-  /*padding: 16px 32px;*/
+  font-size: 24px;
+  padding: 16px 32px;
   vertical-align: middle;
-  padding-top: 50%;
-  height: 50%;
+  /*padding-top: 50%;*/
   font-family: 'Chakra Petch', sans-serif;
 }
-
-
-
 
 .contenedor-nombre-proyecto:hover {
   opacity: 1;
 }
 
+@media (max-width: 980px) {
+  .nombre-proyecto {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 16px 32px;
+    vertical-align: middle;
+    /*padding-top: 50%;*/
+    font-family: 'Chakra Petch', sans-serif;
+  }
+}
 
+
+
+
+/*  */
 
 .gallery__img{
   opacity: 1;
@@ -221,6 +231,18 @@ a {
     justify-content: normal;
   }
 }
+
+@media (min-width: 1300px) {
+  .gallery-container {
+    grid-template-columns: repeat(3, minmax(4em, 1fr));
+    grid-auto-rows: minmax(4em, 1fr);
+    width: 75%;
+    left: 0px;
+    justify-content: normal;
+  }
+}
+
+
 
 .titulo,
 h1 {
