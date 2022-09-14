@@ -29,6 +29,7 @@ nav {
   position: fixed;
   display: inline;
   margin-right: 0px;
+  z-index: 9;
 }
 
 #name {
@@ -132,7 +133,7 @@ nav li {
     color: rgb(212, 255, 0);
   }
 
-  #check:checked ~ ul {
+  #check:checked~ul {
     left: 0;
   }
 }
@@ -148,7 +149,7 @@ nav li {
 }
 
 
-.contenedor-nombre-proyecto{
+.contenedor-nombre-proyecto {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -159,31 +160,40 @@ nav li {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-} 
+}
 
-.contenedor-nombre-proyecto:hover{
+.nombre-proyecto {
+  background-color: rgba(212, 255, 0, 0.8);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  /*padding: 16px 32px;*/
+  vertical-align: middle;
+  padding-top: 50%;
+  height: 50%;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+
+
+
+.contenedor-nombre-proyecto:hover {
   opacity: 1;
- }
+}
 
-.gallery__img:hover{
-  opacity: 0.5;
- }
 
- .gallery__img{
+
+.gallery__img{
   opacity: 1;
-  display: block;
+  /*display: block;*/
   width: 100%;
   height: auto;
   transition: .5s ease;
-  backface-visibility: hidden;
- }
+  backface-visibility:visible;
+}
 
-
-.nombre-proyecto{
-  background-color: rgb(212, 255, 0);
-  color: rgb(0, 0, 0);
-  font-size: 16px;
-  padding: 16px 32px;
+/* esto no funciona*/
+.gallery__img:hover{
+  opacity: 0;
 }
 
 
@@ -191,7 +201,6 @@ nav li {
   display: flex;
   justify-content: center;
   align-items: center;
-
   position: relative;
 }
 
@@ -201,6 +210,7 @@ a {
   height: 100%;
   object-fit: cover;
 }
+
 
 @media (max-width: 980px) {
   .gallery-container {
