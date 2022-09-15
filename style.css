@@ -32,10 +32,28 @@ nav {
   z-index: 9;
 }
 
+table {
+  border-collapse: separate;
+  border-spacing: 0 0.3em;
+}
+
+table th {
+  text-align: left;
+  vertical-align: top;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.an {
+  padding-right: 20px;
+  width: 100px;
+  text-align: right;
+}
+
 #name {
   display: inline;
   margin-right: 0px;
-  padding: 5px 0px 0px 0px;
+  padding: 6px 0px 0px 0px;
   float: left;
 }
 
@@ -46,7 +64,7 @@ nav {
   margin-left: 10px;
   /* font-weight: bold; */
   font-family: 'Chakra Petch', sans-serif;
-  padding: 50px 0px 0px 0px;
+  /*padding: 50px 0px 0px 0px;*/
 }
 
 #name a {
@@ -133,7 +151,7 @@ nav li {
     color: rgb(212, 255, 0);
   }
 
-  #check:checked~ul {
+  #check:checked ~ ul {
     left: 0;
   }
 }
@@ -148,9 +166,8 @@ nav li {
   justify-content: center;
 }
 
-
 .contenedor-nombre-proyecto {
-  transition: .5s ease;
+  transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -187,25 +204,21 @@ nav li {
   }
 }
 
-
-
-
 /*  */
 
-.gallery__img{
+.gallery__img {
   opacity: 1;
   /*display: block;*/
   width: 100%;
   height: auto;
-  transition: .5s ease;
-  backface-visibility:visible;
+  transition: 0.5s ease;
+  backface-visibility: visible;
 }
 
 /* esto no funciona*/
-.gallery__img:hover{
+.gallery__img:hover {
   opacity: 0;
 }
-
 
 .gallery__item {
   display: flex;
@@ -220,7 +233,6 @@ a {
   height: 100%;
   object-fit: cover;
 }
-
 
 @media (max-width: 980px) {
   .gallery-container {
@@ -241,8 +253,6 @@ a {
     justify-content: normal;
   }
 }
-
-
 
 .titulo,
 h1 {
@@ -283,4 +293,7 @@ p {
 
 h3 {
   font-family: 'Chakra Petch', sans-serif;
+}
+
+#canvasp5-1 {
 }
