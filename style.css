@@ -68,6 +68,9 @@ table th {
   /*padding: 50px 0px 0px 0px;*/
 }
 
+#name a:hover {
+}
+
 #name a {
   color: rgb(0, 0, 255);
 }
@@ -277,7 +280,7 @@ p {
   line-height: 120%;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 800px) {
   .section--descripcion {
     width: 80%;
   }
@@ -294,4 +297,8 @@ p {
 
 h3 {
   font-family: 'Chakra Petch', sans-serif;
+}
+
+.nav-link a:hover {
+  color: rgb(0, 0, 255);
 }
