@@ -253,6 +253,7 @@ nav li {
   height: auto;
   transition: 0.5s ease;
   backface-visibility: visible;
+  aspect-ratio: 1/1;
 }
 
 /* esto no funciona*/
