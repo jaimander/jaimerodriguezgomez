@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap");
+
+body {
+  background-color: #caedfc;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: white;
+}
+
+#contenido {
+  width: 60%;
+  margin: 0;
+  /*
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto*/
+ 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  /*border-style: solid;*/
+}
+
+.texto {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contenedor-imagen {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  width: 30vw;
+  height: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.contenedor-imagen img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 8px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+}
+
+#img-home{
+  width: 30px;
+  height: auto;
+  margin: 20px;
+}
+
+#link-img { /* a */
+  display: inline-block;
+}
+
+#link-img:hover{ /* img */
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
+
