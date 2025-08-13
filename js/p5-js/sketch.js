@@ -168,3 +168,19 @@ const s2 = (sketch2) => {
 let myp52 = new p5(s2, document.getElementById('canvasp5-2'));
 
 
+// Evitar scroll al interactuar con los canvas en mobile
+document.getElementById('canvasp5-1').addEventListener('touchstart', (e) => {
+  e.preventDefault();
+}, { passive: false });
+
+document.getElementById('canvasp5-1').addEventListener('touchmove', (e) => {
+  e.preventDefault();
+}, { passive: false });
+
+document.getElementById('canvasp5-2').addEventListener('touchstart', (e) => {
+  e.preventDefault();
+}, { passive: false });
+
+document.getElementById('canvasp5-2').addEventListener('touchmove', (e) => {
+  e.preventDefault();
+}, { passive: false });
