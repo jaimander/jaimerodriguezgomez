@@ -65,23 +65,23 @@ situacion[6] = "Uno de los dos decide cómo se debe vestir el otro.";
 situacion[7] = "Usan expresiones que lastiman su autoestima.";
 
 corazon[0] =
-  "https://cdn.glitch.global/2c8d2548-b758-42c8-89c8-d34140ef9248/10.png?v=1731259263559";
+  "img/0.png";
 corazon[1] =
-  "https://cdn.glitch.global/2c8d2548-b758-42c8-89c8-d34140ef9248/11.png?v=1731259265932";
+  "img/1.png";
 corazon[2] =
-  "https://cdn.glitch.global/2c8d2548-b758-42c8-89c8-d34140ef9248/12.png?v=1731259267495";
+  "img/2.png";
 corazon[3] =
-  "https://cdn.glitch.global/2c8d2548-b758-42c8-89c8-d34140ef9248/13.png?v=1731259268900";
+  "img/3.png";
 corazon[4] =
-  "https://cdn.glitch.global/2c8d2548-b758-42c8-89c8-d34140ef9248/14.png?v=1731259270061";
+  "img/4.png";
 corazon[5] =
-  "https://cdn.glitch.global/2c8d2548-b758-42c8-89c8-d34140ef9248/15.png?v=1731259271307";
+  "img/5.png";
 corazon[6] =
-  "https://cdn.glitch.global/2c8d2548-b758-42c8-89c8-d34140ef9248/16.png?v=1731259272563";
+  "img/6.png";
 corazon[7] =
-  "https://cdn.glitch.global/2c8d2548-b758-42c8-89c8-d34140ef9248/17.png?v=1731259273773";
+  "img/7.png";
 corazon[8] =
-  "https://cdn.glitch.global/2c8d2548-b758-42c8-89c8-d34140ef9248/18.png?v=1731260009112";
+  "img/8.png";
 
 window.onload = function () {
   for (let i = 0; i < situacion.length; i++) {
