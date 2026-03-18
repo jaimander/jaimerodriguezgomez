@@ -12,7 +12,7 @@ function activarNombreProyectoMobile() {
       if (!overlay) return;
 
       // cuando el item toca el top del viewport
-      if (rect.top <= 200 && rect.top > -100) {
+      if ((rect.top <= 150 && rect.top > -100) || (rect.top <= 150 && rect.top > -100)) {
         overlay.style.opacity = "1";
       } else {
         overlay.style.opacity = "0";
