@@ -220,7 +220,7 @@ nav li {
 
 .nombre-proyecto {
   position: absolute;
-  color: rgb(0, 0, 0);
+  color: blue;
   left: 5%;
   top: 10%;
   /* font-size: 24px;*/
@@ -232,6 +232,7 @@ nav li {
   background-color: white;
   outline-style: solid;
   max-width: 50%;
+  font-weight: 900;
 }
 
 .tipo-proyecto {
@@ -249,6 +250,7 @@ nav li {
   font-family: "Space Grotesk", sans-serif;
   background-color: white;
   outline-style: solid;
+  font-weight: 900;
 }
 
 .tiempo-proyecto {
@@ -266,6 +268,7 @@ nav li {
   font-family: "Space Grotesk", sans-serif;
   background-color: white;
   outline-style: solid;
+  font-weight: 900;
 }
 
 
