@@ -230,3 +230,29 @@ function activarNombreProyectoMobile() {
 }
 
 init();
+
+
+
+
+////
+
+document.addEventListener("DOMContentLoaded", () => {
+  const gallery = document.querySelector(".gallery-container");
+  const shuffleButton = document.querySelector("#shuffle-gallery");
+
+  if (!gallery || !shuffleButton) return;
+
+  shuffleButton.addEventListener("click", () => {
+    const projects = Array.from(gallery.children);
+
+    // Barajar los proyectos con Fisher-Yates
+    for (let i = projects.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+
+      [projects[i], projects[j]] = [projects[j], projects[i]];
+    }
+
+    // Reinsertarlos en el nuevo orden
+    projects.forEach(project => gallery.appendChild(project));
+  });
+});

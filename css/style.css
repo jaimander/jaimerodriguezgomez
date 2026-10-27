@@ -1,16 +1,23 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap");
 
-/* ---------- Base ---------- */
+/* ==================================================
+   BASE
+================================================== */
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 ul,
@@ -24,15 +31,17 @@ a {
 }
 
 body {
-  background: #fff;
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
   margin: 0;
   padding-bottom: 50px;
+  background: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-/* ---------- Navegación ---------- */
+/* ==================================================
+   NAVEGACIÓN
+================================================== */
 
 nav {
   position: fixed;
@@ -64,8 +73,8 @@ nav {
 }
 
 nav ul {
-  float: right;
   display: flex;
+  float: right;
   align-items: center;
   gap: 20px;
   margin: 5px 20px 0 0;
@@ -97,7 +106,7 @@ nav li {
   display: none;
 }
 
-/* Selector ES / EN */
+/* Selector de idioma ES / EN */
 
 .language-switch {
   display: flex;
@@ -123,16 +132,21 @@ nav li {
   color: #000;
 }
 
-/* ---------- Galería ---------- */
+/* ==================================================
+   GALERÍA — ESCRITORIO
+================================================== */
 
 .gallery-container {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  grid-auto-rows: 20em;
-  gap: 4px;
-  width: 60%;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-auto-rows: 3.5vw;
+  gap: 10px;
+
+  /* Centrado del contenedor */
+  width: 88%;
+  max-width: 1500px;
   margin: 0 auto;
-  padding-top: 100px;
+  padding: 100px 0 0;
   border: none;
 }
 
@@ -150,6 +164,8 @@ nav li {
   display: block;
   width: 100%;
   height: 100%;
+  min-width: 0;
+  min-height: 0;
   overflow: hidden;
 }
 
@@ -157,89 +173,145 @@ nav li {
   display: block;
   width: 100%;
   height: 100%;
+  margin-bottom: 0;
   object-fit: cover;
   opacity: 1;
   transition: opacity 0.5s ease;
   backface-visibility: visible;
 }
 
-/* ---------- Capa de información ---------- */
+/* Composición asimétrica */
+
+.gallery__item:nth-child(6n + 1) {
+  grid-column: 1 / span 7;
+  grid-row: span 7;
+}
+
+.gallery__item:nth-child(6n + 2) {
+  grid-column: 9 / -1;
+  grid-row: span 5;
+}
+
+.gallery__item:nth-child(6n + 3) {
+  grid-column: 3 / span 4;
+  grid-row: span 5;
+}
+
+.gallery__item:nth-child(6n + 4) {
+  grid-column: 7 / -1;
+  grid-row: span 6;
+}
+
+.gallery__item:nth-child(6n + 5) {
+  grid-column: 1 / span 5;
+  grid-row: span 4;
+}
+
+.gallery__item:nth-child(6n + 6) {
+  grid-column: 8 / -1;
+  grid-row: span 5;
+}
+
+/* ==================================================
+   INFORMACIÓN SOBRE LAS IMÁGENES
+================================================== */
 
 .contenedor-nombre-proyecto {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  background-color: rgba(212, 255, 0, 0.8);
-  background-image: radial-gradient(
-    rgb(212, 255, 0) 20%,
-    transparent 21%
-  );
-  background-size: 6px 6px;
+  overflow: visible;
+  opacity: 1;
+  background: transparent;
+  background-image: none;
   color: #000;
   pointer-events: none;
+  transition: opacity 0.3s ease;
 }
+
+/* Nombre del proyecto */
 
 .nombre-proyecto {
   position: absolute;
-  top: 10%;
-  left: 5%;
-  max-width: 80%;
-  padding: 16px 32px;
-  outline: 2px solid #000;
+  top: 8px;
+  left: 8px;
+  max-width: calc(100% - 16px);
+  padding: 4px 7px;
+  outline: 1px solid #000;
   background: #fff;
   color: #00f;
   font-family: "Space Grotesk", sans-serif;
-  font-size: 28px;
-  font-weight: 900;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
   overflow-wrap: anywhere;
 }
+
+/* Tipo de proyecto */
 
 .tipo-proyecto {
   position: absolute;
-  top: 30%;
-  right: 10%;
-  max-width: 80%;
+  top: auto;
+  right: 8px;
+  bottom: 8px;
+  max-width: calc(100% - 16px);
   margin: 0;
-  padding: 16px 32px;
-  outline: 2px solid #000;
+  padding: 4px 7px;
+  outline: 1px solid #000;
   background: #fff;
   color: #000;
   font-family: "Space Grotesk", sans-serif;
-  font-size: 22px;
-  font-weight: 900;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.2;
   text-align: right;
   overflow-wrap: anywhere;
 }
 
+/* Año o duración */
+
 .tiempo-proyecto {
   position: absolute;
-  right: 2%;
-  bottom: 10%;
+  top: 8px;
+  right: 8px;
+  bottom: auto;
   margin: 0;
-  padding: 16px 32px;
-  outline: 2px solid #000;
+  padding: 4px 7px;
+  outline: 1px solid #000;
   background: #fff;
   color: #000;
   font-family: "Space Grotesk", sans-serif;
-  font-size: 18px;
-  font-weight: 900;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.2;
   text-align: right;
 }
 
-/* Hover en dispositivos con ratón */
+/* Interacción en escritorio */
 
 @media (hover: hover) and (min-width: 981px) {
   .gallery__item > a:hover .contenedor-nombre-proyecto,
   .gallery__item > a:focus-visible .contenedor-nombre-proyecto {
-    opacity: 1;
+    background-color: rgba(212, 255, 0, 0.8);
+    background-image: radial-gradient(
+      rgb(212, 255, 0) 20%,
+      transparent 21%
+    );
+    background-size: 6px 6px;
+  }
+
+  .gallery__item > a:hover .nombre-proyecto,
+  .gallery__item > a:hover .tipo-proyecto,
+  .gallery__item > a:hover .tiempo-proyecto {
+    padding: 6px 10px;
+    font-size: 14px;
   }
 }
 
-/* ---------- Títulos generales ---------- */
+/* ==================================================
+   TÍTULOS GENERALES
+================================================== */
 
 .titulo,
 h1 {
@@ -255,7 +327,9 @@ h3 {
   font-family: "Space Grotesk", sans-serif;
 }
 
-/* ---------- Páginas interiores ---------- */
+/* ==================================================
+   PÁGINAS INTERIORES
+================================================== */
 
 .section--descripcion {
   width: 50%;
@@ -311,6 +385,8 @@ h3 {
   color: #00f;
 }
 
+/* Tablas */
+
 table {
   border-collapse: separate;
   border-spacing: 0 0.3em;
@@ -329,14 +405,62 @@ table th {
   text-align: right;
 }
 
-/* ---------- Adaptación a tablet y móvil ---------- */
+#cv-content th.an {
+  width: 120px;
+  min-width: 120px;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Imágenes generales, fuera de la galería */
+
+img {
+  margin-bottom: 10px;
+}
+
+/* ==================================================
+   TABLET
+================================================== */
 
 @media (max-width: 980px) {
   .gallery-container {
-    width: 100%;
-    grid-template-columns: minmax(0, 1fr);
-    grid-auto-rows: minmax(7em, 1fr);
-    padding-top: 80px;
+    width: 94%;
+    max-width: none;
+    margin: 0 auto;
+    padding: 80px 0 0;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-auto-rows: 5.5vw;
+    gap: 6px;
+  }
+
+  .gallery__item:nth-child(6n + 1) {
+    grid-column: 1 / span 4;
+    grid-row: span 6;
+  }
+
+  .gallery__item:nth-child(6n + 2) {
+    grid-column: 5 / -1;
+    grid-row: span 4;
+  }
+
+  .gallery__item:nth-child(6n + 3) {
+    grid-column: 2 / span 3;
+    grid-row: span 5;
+  }
+
+  .gallery__item:nth-child(6n + 4) {
+    grid-column: 4 / -1;
+    grid-row: span 5;
+  }
+
+  .gallery__item:nth-child(6n + 5) {
+    grid-column: 1 / span 3;
+    grid-row: span 4;
+  }
+
+  .gallery__item:nth-child(6n + 6) {
+    grid-column: 4 / -1;
+    grid-row: span 5;
   }
 
   .nombre-proyecto,
@@ -344,7 +468,7 @@ table th {
   .tiempo-proyecto {
     max-width: 80%;
     padding: 5px;
-    outline-width: 2px;
+    outline-width: 1px;
     font-size: 12px;
   }
 
@@ -358,9 +482,13 @@ table th {
   }
 }
 
-/* ---------- Menú móvil ---------- */
+/* ==================================================
+   MÓVIL
+================================================== */
 
 @media (max-width: 658px) {
+  /* Menú móvil */
+
   .checkbtn {
     display: block;
   }
@@ -370,6 +498,7 @@ table th {
     top: 42px;
     left: -120%;
     display: flex;
+    float: none;
     flex-direction: column;
     align-items: center;
     gap: 0;
@@ -418,47 +547,117 @@ table th {
     color: #fff;
   }
 
+  /* Galería móvil centrada */
+
+  .gallery-container {
+    width: 92%;
+    max-width: none;
+    margin: 0 auto;
+    padding: 75px 0 0;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-auto-rows: 10vw;
+    gap: 6px;
+  }
+
+  .gallery__item:nth-child(6n + 1) {
+    grid-column: 1 / -1;
+    grid-row: span 4;
+  }
+
+  .gallery__item:nth-child(6n + 2) {
+    grid-column: 2 / -1;
+    grid-row: span 3;
+  }
+
+  .gallery__item:nth-child(6n + 3) {
+    grid-column: 1 / span 3;
+    grid-row: span 3;
+  }
+
+  .gallery__item:nth-child(6n + 4) {
+    grid-column: 2 / -1;
+    grid-row: span 4;
+  }
+
+  .gallery__item:nth-child(6n + 5) {
+    grid-column: 1 / span 3;
+    grid-row: span 3;
+  }
+
+  .gallery__item:nth-child(6n + 6) {
+    grid-column: 1 / -1;
+    grid-row: span 3;
+  }
+
+  /* Etiquetas compactas */
+
+  .nombre-proyecto {
+    top: 5px;
+    left: 5px;
+    max-width: calc(100% - 10px);
+    padding: 3px 5px;
+    font-size: 10px;
+  }
+
+  .tipo-proyecto {
+    right: 5px;
+    bottom: 5px;
+    max-width: calc(100% - 10px);
+    padding: 3px 5px;
+    font-size: 9px;
+  }
+
+  .tiempo-proyecto {
+    top: 5px;
+    right: 5px;
+    padding: 3px 5px;
+    font-size: 9px;
+  }
+
   .section--descripcion {
     width: 90%;
   }
 }
 
-/* ---------- Pantallas grandes ---------- */
 
-@media (min-width: 1300px) {
-  .gallery-container {
-    width: 75%;
-    grid-auto-rows: 20em;
-  }
+/* ---------- Control de orden de la galería ---------- */
+
+.gallery-controls {
+  width: 88%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-top: 55px;
+  display: flex;
+  justify-content: flex-end;
 }
 
-img{
-  margin-bottom: 10px;
+#shuffle-gallery {
+  padding: 5px 9px;
+  border: 1px solid #000;
+  background: #fff;
+  color: #00f;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
-#cv-content th.an {
-  width: 120px;
-  min-width: 120px;
-  text-align: left;
-  vertical-align: top;
+#shuffle-gallery:hover,
+#shuffle-gallery:focus-visible {
+  background: #d4ff00;
+  color: #000;
 }
 
-/* Desktop */
-.gallery-container {
-  grid-auto-rows: 10em;
-}
-
-/* Tablet and mobile */
 @media (max-width: 980px) {
-  .gallery-container {
-    grid-auto-rows: 5em;
+  .gallery-controls {
+    width: 94%;
+    padding-top: 45px;
   }
 }
 
-/* Large screens */
-@media (min-width: 1300px) {
-  .gallery-container {
-    width: 75%;
-    grid-auto-rows: 10em;
+@media (max-width: 658px) {
+  .gallery-controls {
+    width: 92%;
+    padding-top: 42px;
   }
 }
