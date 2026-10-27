@@ -1,315 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width" , initial-scale="1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Jaime Rodríguez Gómez</title>
+
+    <meta
+      name="description"
+      content="Portafolio de Jaime Rodríguez Gómez: narrativas digitales, diseño de interacción y medios computacionales."
+    />
+
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
       rel="stylesheet"
     />
-    <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "t46et9hde5");
-</script>
+
+    <script>
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "t46et9hde5");
+    </script>
   </head>
 
   <body>
-    <nav>
+    <nav aria-label="Navegación principal">
       <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
+
+      <label for="check" class="checkbtn" aria-label="Abrir menú">
         <i class="fas fa-bars"></i>
       </label>
+
       <div id="name">
-        <p><a href="./">Jaime Rodríguez Gómez</a></p>
+        <p>
+          <a href="./">Jaime Rodríguez Gómez</a>
+        </p>
       </div>
+
       <ul>
-        <li class="nav-link"><a href="./cv.html">CV</a></li>
-        <li class="nav-link"><a href="./about.html">About</a></li>
+        <li class="nav-link">
+          <a href="./" data-i18n="nav.projects">Proyectos</a>
+        </li>
+
+        <li class="nav-link">
+          <a href="./about.html" data-i18n="nav.about">Acerca de</a>
+        </li>
+
+        <li class="nav-link">
+          <a href="./cv.html" data-i18n="nav.cv">CV</a>
+        </li>
+
+        <li class="nav-link language-switch">
+          <button type="button" data-lang="es" aria-pressed="true">ES</button>
+          <span>/</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </li>
       </ul>
     </nav>
 
-    <div class="gallery-container">
+    <main>
+      <div
+        class="gallery-container"
+        id="project-gallery"
+        aria-label="Galería de proyectos"
+      >
+        <!-- JavaScript genera aquí las tarjetas desde projects.json. -->
+      </div>
+    </main>
 
-      <div class="gallery__item">
-        <a title="bancolombia 150 años" href="proyectos/bancolombia.html"
-          ><img src="images/work/bancolombia/app.png" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Bancolombia 150 años</div>
-            <div class="tiempo-proyecto">2025</div>
-            <div class="tipo-proyecto">Realidad Aumentada</div>
-          </div>
-        </a>
-      </div>
-
-      <div class="gallery__item">
-        <a title="juliatramaalgo" href="proyectos/juliatramaalgo.html"
-          ><img src="images/work/julia-trama-algo/juliatramaalgo.png" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Julia Trama Algo</div>
-            <div class="tiempo-proyecto">2025</div>
-            <div class="tipo-proyecto">Videojuego</div>
-          </div>
-        </a>
-      </div>
-
-      <div class="gallery__item">
-        <a title="aguasoy" href="proyectos/amorenpixeles.html"
-          ><img src="images/work/amor-en-pixeles/corazon_2.png" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Amor en píxeles</div>
-            <div class="tiempo-proyecto">2024</div>
-            <div class="tipo-proyecto">Test narrativo</div>
-          </div>
-        </a>
-      </div>
-
-      
-
-      <div class="gallery__item">
-        <a title="aguasoy" href="proyectos/porqueaguasoy.html"
-          ><img src="images/aguasoy_.png" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Agua soy</div>
-            <div class="tiempo-proyecto">2024</div>
-            <div class="tipo-proyecto">Poema cíclico</div>
-          </div>
-        </a>
-      </div>
-
-      <div class="gallery__item">
-        <a title="n4t3kuk" href="proyectos/n4t3kuk.html"
-          ><img src="images/work/n4t3kuk/2.jpg" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">N4T3KUK (La vorágine 2124)</div>
-            <div class="tiempo-proyecto">2024</div>
-            <div class="tipo-proyecto">Fulldome</div>
-          </div>
-        </a>
-      </div>
-
-      <div class="gallery__item">
-        <a title="poemasinteractivos" href="proyectos/poemasinteractivos.html">
-          <img
-            src="images/poemasinteractivos1.jpg"
-            alt=""
-            class="gallery__img"
-          />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Poemas interactivos</div>
-            <div class="tiempo-proyecto">2023-</div>
-            <div class="tipo-proyecto">Programación creativa</div>
-          </div>
-        </a>
-      </div>
-
-      
-      <div class="gallery__item">
-        <a title="aguapalaplanta" href="proyectos/aguapalaplanta.html"
-          ><img src="images/work/agua-pa-la-planta/aguapalaplanta1.jpg" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Agua pa' la planta</div>
-            <div class="tiempo-proyecto">2021</div>
-            <div class="tipo-proyecto">Videojuego</div>
-          </div>
-        </a>
-      </div>
-
-      <div class="gallery__item">
-        <a title="bbcadnl" href="proyectos/bbcadnl.html"
-          ><img src="images/bbcadnl1.jpg" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">BBRADNL</div>
-            <div class="tiempo-proyecto">2020</div>
-            <div class="tipo-proyecto">Realidad Aumentada</div>
-          </div>
-        </a>
-      </div>
-
-      <div class="gallery__item">
-        <a title="apofenia" href="proyectos/apofenia.html"
-          ><img src="images/apofenia1.jpg" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Apofenia</div>
-            <div class="tiempo-proyecto">2020</div>
-            <div class="tipo-proyecto">VR</div>
-          </div></a
-        >
-      </div>
-
-      <div class="gallery__item">
-        <a title="nod" href="proyectos/nod.html"
-          ><img src="images/nod1.jpg" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">NOD</div>
-            <div class="tiempo-proyecto">2020</div>
-            <div class="tipo-proyecto">Narrativa Digital Interactiva</div>
-          </div></a
-        >
-      </div>
-
-      <div class="gallery__item">
-        <a title="ati" href="proyectos/ati.html"
-          ><img src="images/ati1.jpg" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Guardianes ATI</div>
-            <div class="tiempo-proyecto">2019</div>
-            <div class="tipo-proyecto">Videojuego</div>
-          </div></a
-        >
-      </div>
-      
-      <div class="gallery__item">
-        <a title="viejaespacial" href="proyectos/viajeespacial.html"
-          ><img src="images/viajeespacial1.jpg" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Viaje espacial</div>
-            <div class="tiempo-proyecto">2019</div>
-            <div class="tipo-proyecto">Kit pedagógico</div>
-          </div>
-        </a>
-      </div>
-     
-      <div class="gallery__item">
-        <a title="prisma" href="proyectos/prisma.html"
-          ><img src="images/prisma1.jpg" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Prisma</div>
-            <div class="tiempo-proyecto">2019</div>
-            <div class="tipo-proyecto">Video performance</div>
-          </div></a
-        >
-      </div>
-      
-
-      <div class="gallery__item">
-        <a title="tiemposinmedida" href="proyectos/tiemposinmedida.html"
-          ><img src="images/tiemposinmedida1.jpg" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Tiempo sin medida</div>
-            <div class="tiempo-proyecto">2017</div>
-            <div class="tipo-proyecto">Instalación audiovisual interactiva</div>
-          </div></a
-        >
-      </div>
-
-      <div class="gallery__item">
-        <a title="horizontesdetiempo" href="proyectos/horizontesdetiempo.html"
-          ><img
-            src="images/horizontesdetiempo1.jpg"
-            alt=""
-            class="gallery__img"
-          />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Horizontes de tiempo</div>
-            <div class="tiempo-proyecto">2017</div>
-            <div class="tipo-proyecto">Programación creativa</div>
-          </div></a
-        >
-      </div>
-      <div class="gallery__item">
-        <a title="superposiciones" href="proyectos/superposiciones.html"
-          ><img src="images/superposiciones1.jpg" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Superposiciones</div>
-            <div class="tiempo-proyecto">2016</div>
-            <div class="tipo-proyecto">Programación creativa</div>
-          </div></a
-        >
-      </div>
-      <div class="gallery__item">
-        <a title="hoyo" href="proyectos/hoyo.html"
-          ><img src="images/hoyo1.jpg" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Hoyo</div>
-            <div class="tiempo-proyecto">2015</div>
-            <div class="tipo-proyecto">Videojuego</div>
-          </div></a
-        >
-      </div>
-     
-
-      <div class="gallery__item">
-        <a title="cuentaregresiva" href="proyectos/cuentaregresiva.html"
-          ><img src="images/cuentaregresiva1.jpg" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Cuenta regresiva</div>
-            <div class="tiempo-proyecto">2014</div>
-            <div class="tipo-proyecto">Instalación interactiva</div>
-          </div>
-        </a>
-      </div>
-
-      <div class="gallery__item">
-        <a title="masasonora" href="proyectos/masasonora.html"
-          ><img src="images/masasonora1.jpg" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Masa sonora</div>
-            <div class="tiempo-proyecto">2013</div>
-            <div class="tipo-proyecto">Instalación sonora</div>
-          </div>
-        </a>
-      </div>
-
-      <div class="gallery__item">
-        <a title="progreso" href="proyectos/progreso.html"
-          ><img src="images/work/progreso/progreso1.jpg" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Progreso</div>
-            <div class="tiempo-proyecto">2013</div>
-            <div class="tipo-proyecto">Videojuego</div>
-          </div>
-        </a>
-      </div>
-
-      <div class="gallery__item">
-        <a title="alamemoriadelosniños" href="proyectos/alamemoria.html"
-          ><img src="images/alamemoria1.jpg" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">
-              A la memoria de los niños de dejaron de jugar
-            </div>
-            <div class="tiempo-proyecto">2012</div>
-            <div class="tipo-proyecto">Narrativa sonora</div>
-          </div>
-        </a>
-      </div>
-
-      <div class="gallery__item">
-        <a title="protesis" href="proyectos/protesis.html"
-          ><img src="images/work/protesis/protesis1_low.jpg" alt="" class="gallery__img" />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Prótesis</div>
-            <div class="tiempo-proyecto">2012</div>
-            <div class="tipo-proyecto">Fotografía</div>
-          </div>
-        </a>
-      </div>
-
-      <div class="gallery__item">
-        <a title="loqueduraunaguacero" href="proyectos/loqueduraunaguacero.html"
-          ><img
-            src="images/loqueduraunaguacero1.jpg"
-            alt=""
-            class="gallery__img"
-          />
-          <div class="contenedor-nombre-proyecto">
-            <div class="nombre-proyecto">Lo que dura un aguacero</div>
-            <div class="tiempo-proyecto">2012</div>
-            <div class="tipo-proyecto">Narrativa sonora</div>
-          </div>
-        </a>
-      </div>
-    </div>
-
-    <section class="section--menu-mobile"></section>
- 
-    <script src="js/script.js" defer></script>
+    <script src="./js/script.js" defer></script>
   </body>
 </html>

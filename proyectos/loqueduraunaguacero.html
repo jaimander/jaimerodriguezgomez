@@ -1,10 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width , initial-scale=1" />
-    <title>Jaime Rodríguez Gómez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lo que dura un aguacero — Jaime Rodríguez Gómez</title>
+
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -13,86 +15,101 @@
     />
   </head>
 
-  <body>
-    <nav>
+  <body data-project-id="lo-que-dura-un-aguacero">
+    <nav aria-label="Navegación principal">
       <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
+
+      <label for="check" class="checkbtn" aria-label="Abrir menú">
         <i class="fas fa-bars"></i>
       </label>
+
       <div id="name">
         <p><a href="../index.html">Jaime Rodríguez Gómez</a></p>
       </div>
+
       <ul>
-        <li><a href="../cv.html">CV</a></li>
-        <li><a href="../about.html">About</a></li>
+        <li class="nav-link">
+          <a href="../index.html" data-i18n="nav.projects">Proyectos</a>
+        </li>
+        <li class="nav-link">
+          <a href="../about.html" data-i18n="nav.about">Acerca de</a>
+        </li>
+        <li class="nav-link">
+          <a href="../cv.html" data-i18n="nav.cv">CV</a>
+        </li>
+        <li class="nav-link language-switch">
+          <button type="button" data-lang="es" aria-pressed="true">ES</button>
+          <span>/</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </li>
       </ul>
     </nav>
 
-    <section class="section--descripcion">
-      <h1 class="titulo">Lo que dura un aguacero</h1>
-      <h4 class="año">2012</h4>
-      <br>
-      <div class="desripcion--text">
-        El propósito de esta composición es representar el ciclo de vida de un
-        paraguas promedio mediante la recreación de la experiencia sonora que
-        brinda a lo largo de su vida útil, comprimiendola en una línea de tiempo
-        breve, de 1:10 min de duración, la cual alude a un rasgo propio y
-        latente de los objetos de consumo: su fugacidad. Por otro lado, la
-        composición representa la variación de dicha experiencia sonora producto
-        del paso del tiempo, cada vez que el paraguas se abre y cierra sus
-        mecanísmos sufren un desgaste, que se refleja en una especie de
-        “deterioro sonoro” hasta que deja de funcionar y por ende, de sonar.
+    <main>
+      <section class="section--descripcion">
+        <h1 class="titulo" data-project-field="title">
+          Lo que dura un aguacero
+        </h1>
 
-        <br /><br />
-        Algunos objetos desisten a mitad de camino, a destiempo,
-        precipitadamente, resultando en un silencio prematuro que establece su
-        propio límite expresivo, y así, sonoro.
+        <h4 class="año" data-project-field="year">2012</h4>
 
-        <br /><br />
-        <iframe
-          width="100%"
-          height="300"
-          scrolling="no"
-          frameborder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/79009032&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-        ></iframe>
-        <div
-          style="
-            font-size: 10px;
-            color: #cccccc;
-            line-break: anywhere;
-            word-break: normal;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-            font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
-              Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
-            font-weight: 100;
-          "
-        >
-          <a
-            href="https://soundcloud.com/jaimander"
-            title="Jaime Rodr."
-            target="_blank"
-            style="color: #cccccc; text-decoration: none"
-            >Jaime Rodr.</a
-          >
-          ·
-          <a
-            href="https://soundcloud.com/jaimander/lo-que-dura-un-aguacero"
-            title="Lo que dura un aguacero"
-            target="_blank"
-            style="color: #cccccc; text-decoration: none"
-            >Lo que dura un aguacero</a
-          >
+        <br />
+
+        <div class="descripcion--text">
+          <p
+            data-project-field="description"
+            style="white-space: pre-line"
+          ></p>
         </div>
-      </div>
-      <div class="border"></div>
-    </section>
 
-    <section class="section--menu-mobile"></section>
+        <div class="contenedor-audio" style="width: 100%">
+          <iframe
+            title="Lo que dura un aguacero — SoundCloud"
+            width="100%"
+            height="300"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            loading="lazy"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/79009032&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
 
-    <script src="script.js"></script>
+          <div
+            style="
+              font-size: 10px;
+              color: #cccccc;
+              line-break: anywhere;
+              word-break: normal;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+                Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+              font-weight: 100;
+            "
+          >
+            <a
+              href="https://soundcloud.com/jaimander"
+              title="Jaime Rodr."
+              target="_blank"
+              rel="noopener noreferrer"
+              style="color: #cccccc; text-decoration: none"
+            >Jaime Rodr.</a>
+            ·
+            <a
+              href="https://soundcloud.com/jaimander/lo-que-dura-un-aguacero"
+              title="Lo que dura un aguacero"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="color: #cccccc; text-decoration: none"
+            >Lo que dura un aguacero</a>
+          </div>
+        </div>
+
+        <div class="border"></div>
+      </section>
+    </main>
+
+    <script src="../js/project-page.js" defer></script>
   </body>
 </html>

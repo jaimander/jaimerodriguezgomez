@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jaime Rodríguez Gómez</title>
+    <title>Viaje espacial — Jaime Rodríguez Gómez</title>
+
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -13,53 +14,63 @@
     />
   </head>
 
-  <body>
-    <nav>
+  <body data-project-id="viajeespacial">
+    <nav aria-label="Navegación principal">
       <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
+
+      <label for="check" class="checkbtn" aria-label="Abrir menú">
         <i class="fas fa-bars"></i>
       </label>
+
       <div id="name">
         <p><a href="../index.html">Jaime Rodríguez Gómez</a></p>
       </div>
+
       <ul>
-        <li><a href="../cv.html">CV</a></li>
-        <li><a href="../about.html">About</a></li>
+        <li class="nav-link">
+          <a href="../index.html" data-i18n="nav.projects">Proyectos</a>
+        </li>
+        <li class="nav-link">
+          <a href="../about.html" data-i18n="nav.about">Acerca de</a>
+        </li>
+        <li class="nav-link">
+          <a href="../cv.html" data-i18n="nav.cv">CV</a>
+        </li>
+        <li class="nav-link language-switch">
+          <button type="button" data-lang="es" aria-pressed="true">ES</button>
+          <span>/</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </li>
       </ul>
     </nav>
 
-    <section class="section--descripcion">
-      <h1 class="titulo">Viaje espacial</h1>
-      <h4 class="año">2019</h4>
-      <br>
-      <div class="desripcion--text">
-        Inspirado en el modelo de relato del “viaje del héroe” y desarrollado
-        por Critertec Educación, Viaje espacial es una experiencia de
-        aprendizaje dirigida al acercamiento de la electrónica y la programación
-        en colegios públicos de Bogotá. La narrativa toma como conflicto central
-        el rescate de un náufrago en el espacio, el cual los guía por una serie
-        de misiones que empiezan desde el colegio y terminan en el espacio
-        profundo. A lo largo de 12 momentos narrativos o episodios, los
-        estudiantes resuelven misiones inspiradas en las problemáticas de su
-        contexto, usando los recursos tecnológicos de su entorno para la
-        creación.
+    <main>
+      <section class="section--descripcion">
+        <h1 class="titulo" data-project-field="title">Viaje espacial</h1>
+        <h4 class="año" data-project-field="year">2019</h4>
 
-        <br /><br />
-      </div>
+        <br />
 
-      <div class="video-container">
-        <iframe
-          src="https://www.youtube.com/embed/d9UdpBW0cEQ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <div class="border"></div>
-    </section>
+        <div class="descripcion--text">
+          <p data-project-field="description"></p>
+        </div>
+
+        <div class="video-container">
+          <iframe
+            src="https://www.youtube.com/embed/d9UdpBW0cEQ"
+            title="Viaje espacial — video del proyecto"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="border"></div>
+      </section>
+    </main>
+
     <section class="section--menu-mobile"></section>
 
-    <script src="script.js"></script>
+    <script src="../js/project-page.js" defer></script>
   </body>
 </html>

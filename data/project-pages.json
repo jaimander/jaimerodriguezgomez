@@ -1,0 +1,827 @@
+{
+  "juliatramaalgo": {
+    "title": {
+      "es": "Julia Trama Algo",
+      "en": "Julia Trama Algo"
+    },
+    "year": "2025",
+    "description": {
+      "es": "Julia Trama Algo es un juego (en proceso) conversacional y de exploración en desplazamiento lateral (side-scrolling). Desde una intención reconstructiva y especulativa, se presentan escenas cotidianas en tres épocas —1946, 1975 y 2025—. El jugador habita la perspectiva de Julia, artesana, en tres momentos de su vida: de niña, aprendiendo a tejer observando a sus padres; de adulta, a cargo del hogar y la producción; y de mayor, viendo a su hijo continuar con la tradición. Las escenas transcurren tanto en el interior de la casa como en los pastizales del campo que la rodean. La cultura material de cada momento histórico ha sido reconstruida visualmente con atención al detalle, con el propósito de transportar al jugador a distintas épocas. El videojuego se plantea así como un medio para renarrar la vida cotidiana en torno a la producción textil artesanal y abrir una reflexión crítica sobre los futuros posibles de este patrimonio vivo en América Latina.",
+      "en": "Julia Trama Algo is a work-in-progress conversational and side-scrolling exploration game. Taking a reconstructive and speculative approach, it presents everyday scenes set in three periods: 1946, 1975, and 2025. Players inhabit the perspective of Julia, an artisan, at three stages of her life: as a child learning to weave by watching her parents; as an adult responsible for the household and textile production; and in old age, watching her son carry on the tradition. The scenes unfold both inside the family home and in the grasslands surrounding it. The material culture of each historical period has been visually reconstructed with attention to detail, with the aim of transporting players across different eras. The game thus becomes a medium for retelling everyday life around artisanal textile production and opening up a critical reflection on the possible futures of this living heritage in Latin America."
+    },
+    "projectLink": {
+      "es": "Ir a la página del proyecto",
+      "en": "Visit the project website"
+    },
+    "projectUrl": "https://juliatramaalgo.com",
+    "image": "../images/work/julia-trama-algo/juliatramaalgo.png",
+    "imageAlt": {
+      "es": "Julia Trama Algo, videojuego de exploración y tejido artesanal",
+      "en": "Julia Trama Algo, a game about exploration and artisanal weaving"
+    }
+  },
+  "bancolombia": {
+    "title": {
+      "es": "Bancolombia 150 años",
+      "en": "Bancolombia: 150 Years"
+    },
+    "year": "2025",
+    "description": {
+      "es": "Aplicación de realidad aumentada para dispositivos Android y iOS que expande el contenido del libro Desde el principio: fundación del Banco de Colombia, de Carlos Caballero Argáez y Andrés Álvarez, publicado por Ediciones Uniandes y Bancolombia. ISBN impreso: 978-958-798-922-9. ISBN ebook: 978-958-798-923-6.",
+      "en": "An augmented reality application for Android and iOS devices that extends the content of the book Desde el principio: fundación del Banco de Colombia, by Carlos Caballero Argáez and Andrés Álvarez, published by Ediciones Uniandes and Bancolombia. Print ISBN: 978-958-798-922-9. Ebook ISBN: 978-958-798-923-6."
+    },
+    "projectLink": {
+      "es": "Ver proyecto aquí",
+      "en": "View the project here"
+    },
+    "projectUrl": "https://dentrodelacaja.com/bancolombia/",
+    "images": [
+      {
+        "src": "../images/work/bancolombia/app.png",
+        "alt": {
+          "es": "Aplicación de realidad aumentada de Bancolombia",
+          "en": "Bancolombia augmented reality application"
+        }
+      },
+      {
+        "src": "../images/work/bancolombia/app2.png",
+        "alt": {
+          "es": "Segunda imagen de la aplicación de realidad aumentada",
+          "en": "Second image of the augmented reality application"
+        }
+      },
+      {
+        "src": "../images/work/bancolombia/app3.png",
+        "alt": {
+          "es": "Tercera imagen de la aplicación de realidad aumentada",
+          "en": "Third image of the augmented reality application"
+        }
+      }
+    ]
+  },
+
+  "amorenpixeles": {
+    "title": {
+      "es": "Amor en píxeles",
+      "en": "Love in Pixels"
+    },
+    "year": "2024",
+    "description": {
+      "es": "Test sobre formas de violencia en pareja que traduce las decisiones en la conservación o el deterioro visual de un corazón. Realizado por CAJA (Catalina Gómez y Jaime Rodríguez), basado en una investigación de Andrea Sarmiento.",
+      "en": "A test about forms of intimate partner violence that translates users' decisions into the visual preservation or deterioration of a heart. Created by CAJA (Catalina Gómez and Jaime Rodríguez), based on research by Andrea Sarmiento."
+    },
+    "projectLink": {
+      "es": "Hacer test",
+      "en": "Take the test"
+    },
+    "projectUrl": "../proyectos/amor-en-pixeles/index.html",
+    "image": "../images/work/amor-en-pixeles/aep.png",
+    "imageAlt": {
+      "es": "Amor en píxeles, test interactivo sobre violencia en pareja",
+      "en": "Love in Pixels, an interactive test about intimate partner violence"
+    }
+  },
+
+  "aguasoy": {
+    "title": {
+      "es": "Agua soy",
+      "en": "I Am Water"
+    },
+    "year": "2024",
+    "description": {
+      "es": "Un poema breve navegable y cíclico.",
+      "en": "A short, navigable, cyclical poem."
+    },
+    "projectLink": {
+      "es": "Ver versión navegable",
+      "en": "Explore the navigable version"
+    },
+    "projectUrl": "../proyectos/aguasoy/index.html",
+    "image": "../images/aguasoypantalla.png",
+    "imageAlt": {
+      "es": "Captura de pantalla del poema navegable Agua soy",
+      "en": "Screenshot of the navigable poem I Am Water"
+    }
+  },
+
+  "n4t3kuk": {
+    "title": {
+      "es": "N4T3KUK (La Vorágine 2124): Un insólito mito (ciber)carnavalesco para el advenimiento del Novaceno",
+      "en": "N4T3KUK (La Vorágine 2124): An Uncanny (Cyber)Carnivalesque Myth for the Advent of the Novacene"
+    },
+    "year": "2024",
+    "description": {
+      "es": "N4T3KUK es una obra narrativa y experimental que retoma ciertos preceptos y subtextos críticos y argumentales de la novela La Vorágine, de José Eustasio Rivera, que cumplió cien años en 2024. A partir de ellos, propone una extrapolación especulativa y artística para imaginar y experimentar el devenir de mundos distintos y extraños desde el corazón de la selva amazónica, e invita a reflexionar sobre posibles relaciones nuevas e insólitas entre lo humano, lo más que humano y lo no humano. Concebida para formato domo, la obra explora aproximaciones de cibervanguardia —interactivas, generativas y en red— a la creación de narrativas audiovisuales digitales. Dialoga con prácticas artísticas experimentales de nuevos medios y con debates contemporáneos de las artes y las posthumanidades críticas, especulativas y digitales.",
+      "en": "N4T3KUK is an experimental narrative work that revisits critical ideas, underlying themes, and narrative elements from José Eustasio Rivera's novel La Vorágine, which marked its centenary in 2024. Building on these elements, it proposes a speculative and artistic extrapolation that imagines and explores the emergence of strange and different worlds from the heart of the Amazon rainforest. It also invites reflection on possible new and uncanny relationships between the human, the more-than-human, and the nonhuman. Conceived for dome presentation, the work explores cyber-avant-garde approaches to digital audiovisual storytelling, including interactive, generative, and networked practices. It engages with experimental new-media art and contemporary debates in critical, speculative, and digital arts and posthumanities."
+    },
+    "projectLink": {
+      "es": "4L3PH",
+      "en": "4L3PH"
+    },
+    "projectUrl": "https://4l3ph.com/",
+    "images": [
+      {
+        "src": "../images/work/n4t3kuk/2.jpg",
+        "alt": {
+          "es": "N4T3KUK, imagen 2",
+          "en": "N4T3KUK, image 2"
+        }
+      },
+      {
+        "src": "../images/work/n4t3kuk/1.jpeg",
+        "alt": {
+          "es": "N4T3KUK, imagen 1",
+          "en": "N4T3KUK, image 1"
+        }
+      },
+      {
+        "src": "../images/work/n4t3kuk/3.jpeg",
+        "alt": {
+          "es": "N4T3KUK, imagen 3",
+          "en": "N4T3KUK, image 3"
+        }
+      },
+      {
+        "src": "../images/work/n4t3kuk/4.gif",
+        "alt": {
+          "es": "N4T3KUK, animación GIF",
+          "en": "N4T3KUK, animated GIF"
+        }
+      },
+      {
+        "src": "../images/work/n4t3kuk/5.jpg",
+        "alt": {
+          "es": "N4T3KUK, imagen 5",
+          "en": "N4T3KUK, image 5"
+        }
+      }
+    ]
+  },
+
+  "poemasinteractivos": {
+    "title": {
+      "es": "Poemas interactivos",
+      "en": "Interactive Poems"
+    },
+    "year": "2023–",
+    "description": {
+      "es": "Esta es una serie en curso de ejercicios de programación creativa inspirados en el trabajo de Murat Kemaldar.",
+      "en": "This is an ongoing series of creative coding experiments inspired by the work of Murat Kemaldar."
+    },
+    "referenceDescription": {
+      "es": "Desafortunadamente, el sitio web LoveBites ya no está disponible. Sin embargo, la siguiente imagen puede dar una idea de su propuesta creativa.",
+      "en": "Unfortunately, the LoveBites website is no longer available. The following image, however, offers a glimpse of its creative approach."
+    },
+    "exercise1": {
+      "es": "#1. Hacer coincidir el deber y el querer",
+      "en": "#1. Aligning Duty and Desire"
+    },
+    "exercise2": {
+      "es": "#2. Vencer el miedo",
+      "en": "#2. Overcoming Fear"
+    }
+  },
+
+  "aguapalaplanta": {
+    "title": {
+      "es": "Agua pa' la planta",
+      "en": "Water for the Plant"
+    },
+    "year": "2021",
+    "description": {
+      "es": "Este es un videojuego corto e inacabado, realizado como ejemplo para un curso de Desarrollo de Videojuegos que dicté en 2021. El ejercicio buscaba implementar en un entorno 3D una mecánica básica de saltar y recoger objetos, intentando durar el mayor tiempo posible.\n\nLa capa estética agrega un sentido narrativo a esta mecánica. Las reglas de juego, que determinan las posibles acciones del jugador y sus consecuencias, adquieren así una relevancia narrativa. Hay una razón para evitar tocar el suelo —la planta se deshidrata más rápido—, así como para recolectar agua —mantenerse hidratada—. De esta manera, estética, narrativa y mecánica se complementan para configurar un objetivo claro que va más allá de la mera agilidad y favorece la inmersión mediante el reconocimiento de una situación concreta.",
+      "en": "This is a short, unfinished video game created as an example for a Game Development course I taught in 2021. The exercise explored how to implement a basic mechanic in a 3D environment: jumping and collecting objects while trying to survive for as long as possible.\n\nThe aesthetic layer gives this mechanic a narrative dimension. The game rules, which determine the player's possible actions and their consequences, become narratively meaningful. There is a reason to avoid touching the ground—the plant dehydrates faster—as well as a reason to collect water—to keep the plant hydrated. Aesthetics, narrative, and mechanics thus complement one another to establish a clear objective that goes beyond agility alone, fostering immersion through the recognition of a concrete situation."
+    },
+    "projectLink": {
+      "es": "Jugar aquí",
+      "en": "Play here"
+    },
+    "projectUrl": "https://simmer.io/@jaimerodgo/~84c8d021-4f60-c21a-6f1f-80be042bf04e",
+    "image": "../images/work/agua-pa-la-planta/aguapalaplanta1.jpg",
+    "imageAlt": {
+      "es": "Captura de pantalla del videojuego Agua pa' la planta",
+      "en": "Screenshot of the video game Water for the Plant"
+    }
+  },
+
+  "bbcadnl": {
+    "title": {
+      "es": "Brigada de búsqueda y conservación de ADN lingüístico",
+      "en": "Brigade for the Search and Preservation of Linguistic DNA"
+    },
+    "year": "2020",
+    "description": {
+      "es": "Un proyecto realizado por Mario Opazo, Enrique Rodríguez Araujo y Jaime Rodríguez. BBCADNL es un prototipo que forma parte de un proyecto más amplio: un relato multimodal colaborativo, no lineal, digital y análogo. En él, una expedición extraterrestre proveniente de la constelación de Lyra llega a la Tierra en una misión de recuperación ecológica y cultural de ADN lingüístico, con el fin de prevenir el desequilibrio universal que podría causar el comportamiento de los humanos terrícolas. Aunque la expedición cuenta con sus propios investigadores y recolectores, los mandos superiores de la Confederación Galáctica —de la cual la Tierra no forma parte— han aconsejado reclutar terrícolas que hayan corregido su defecto genético endémico durante el periodo de gestación. La recolección y el análisis de las muestras de ADN lingüístico se llevan a cabo mediante sondas especiales denominadas SRAMADNL-A002, una aplicación móvil de realidad aumentada que ofrece y recoge información cultural, histórica y social sobre diversos objetos —libros, música, arquitectura, gastronomía y vestuario— en distintos espacios de la ciudad. Más allá de la ficción, estos objetos y sus contextos buscan visibilizar, rescatar y recuperar el patrimonio cultural de Bogotá. Mediante la aplicación, el usuario puede consultar el estado del análisis de las muestras de ADN lingüístico y validarlas a través de un proceso de escaneo, para el cual las posibilidades técnicas y estéticas de la realidad aumentada resultan apropiadas.",
+      "en": "A project by Mario Opazo, Enrique Rodríguez Araujo, and Jaime Rodríguez. BBCADNL is a prototype within a broader project: a collaborative, nonlinear, multimodal narrative spanning digital and analogue media. In the story, an extraterrestrial expedition from the constellation of Lyra arrives on Earth on a mission to recover linguistic DNA for ecological and cultural preservation, aiming to prevent a universal imbalance that human behaviour on Earth might cause. Although the expedition has its own researchers and collectors, the senior authorities of the Galactic Confederation—which does not include Earth—have recommended recruiting Earthlings who corrected their endemic genetic defect during gestation. Linguistic DNA samples are collected and analysed using special probes known as SRAMADNL-A002: a mobile augmented reality application that presents and gathers cultural, historical, and social information about objects such as books, music, architecture, food, and clothing in different urban settings. Beyond the fictional narrative, these objects and their contexts are intended to bring Bogotá's cultural heritage to light, safeguard it, and help recover it. Through the application, users can check the current analysis status of linguistic DNA samples and validate them by scanning objects, making use of augmented reality's technical capabilities and aesthetic possibilities."
+    }
+  },
+
+  "apofenia": {
+    "title": {
+      "es": "Apofenia",
+      "en": "Apophenia"
+    },
+    "year": "2020",
+    "description": {
+      "es": "Un proyecto realizado por Materia Inestable (Víctor Mahecha, Milton Mahecha, Jaime Rodríguez y Nikolai Rubio). Apofenia consiste en un entorno inmersivo de 360° que busca transportar al espectador a un lugar cualquiera del campo colombiano. En medio de una aparente tranquilidad, se desarrolla una breve secuencia de acciones ambiguas que deja al espectador la tarea de interpretar y construir lo que realmente sucede. La experiencia sumerge al espectador en un ambiente rural compuesto por siluetas y planos inspirados en dioramas, acompañados de un paisaje sonoro característico del campo. A medida que recorre el espacio, aparecen opciones que debe elegir para describir lo que ocurre. Al final, estas elecciones conforman un relato de los acontecimientos que reemplaza por completo los hechos. La tensión entre la realidad y la construcción de relatos sobre ella —relatos que terminan convirtiéndose en verdad— constituye el eje de reflexión de esta experiencia.",
+      "en": "A project by Materia Inestable (Víctor Mahecha, Milton Mahecha, Jaime Rodríguez, and Nikolai Rubio). Apofenia is an immersive 360° environment that transports viewers to an unspecified location in the Colombian countryside. Against a backdrop of apparent tranquillity, a brief sequence of ambiguous actions unfolds, leaving viewers to interpret and construct an account of what is actually happening. The experience immerses viewers in a rural setting made up of silhouettes and planes inspired by dioramas, accompanied by a soundscape characteristic of the countryside. As viewers explore the space, they encounter choices they must make to describe the events. These choices ultimately form a narrative that entirely replaces the events themselves. The experience invites reflection on the tension between reality and the stories constructed about it—stories that eventually become accepted as truth."
+    }
+  },
+  "nod": {
+    "title": {
+      "es": "NOD_",
+      "en": "NOD_"
+    },
+    "year": "2020",
+    "description": {
+      "es": "Un proyecto realizado por Materia Inestable (Víctor Mahecha, Jaime Rodríguez y Nikolai Rubio).\n\nNOD_ es una narración navegable corta presentada en formato de videojuego, donde los jugadores cumplen el rol de un subcomponente de una entidad artificial suprema. Cada NOD, acrónimo de Neural Optimal Decisor (Decisor Neuronal Óptimo), se encarga de monitorear y analizar grandes cantidades de datos de personas que acceden a delegar su vida personal a este organismo ubicuo.\n\nEsta inteligencia artificial aprovecha todos los dispositivos conectados a la red y obtiene información biométrica y social en tiempo real de los usuarios. Las personas no necesitan manejar situaciones difíciles, debido a que los datos recopilados por cada NOD serán un activo valioso para optimizar sus decisiones humanas. Los NOD mejorarán la vida de las personas con el apoyo de información confiable y evidencia probabilística.\n\nLa experiencia lleva al usuario a la perspectiva de un NOD a cargo de mejorar la vida humana. En este sentido, los jugadores pueden rastrear las acciones, las comunicaciones y las variables de las personas a través de dispositivos conectados a Internet. Los teléfonos inteligentes, los relojes inteligentes y otros dispositivos se convierten en interfaces para analizar en profundidad la vida privada de las personas. Una mecánica de juego simple permite a los participantes identificar a las personas como metadatos de su dimensión física, acompañadas de lecturas que etiquetan su estado actual. El NOD debe tomar decisiones por los humanos en función de sus mediciones probabilísticas de bienestar. Sin embargo, para bien o para mal, los humanos parecen querer escapar de la previsibilidad.\n\nEl juego surge de una serie de preguntas. ¿Qué rango de opciones tenemos para tomar una decisión? ¿Nuestra identidad está demarcada por algoritmos? ¿Somos una extensión o parte de una especie de monocultivo digital? ¿Gobernamos nuestras vidas o estas son impulsadas por la influencia de los datos que se nos presentan de manera aparentemente inofensiva y casual?\n\nHoy más que nunca, la presencia de la tecnología en diferentes aspectos de la vida cotidiana ha traído cambios significativos en la forma en que delimitamos nuestra identidad. La creciente asimilación de las innovaciones tecnológicas en los campos social, cultural y político ha comenzado a codificar a la humanidad en función de los datos recopilados por nuestras múltiples interacciones digitales. De hecho, grandes cantidades de información, con y sin consentimiento, están siendo procesadas por máquinas que recomiendan productos y servicios basados en una lectura calculada de nosotros.\n\nNOD_ presenta la vigilancia y la dependencia humana voluntaria de los algoritmos de una manera cínica e incómoda. Además, el juego explora cómo un concepto intangible como la felicidad se convierte en un parámetro para que las máquinas optimicen nuestra vida, como una consecución ilusoria del bienestar humano ideal. La delegación evidente de decisiones que atraviesan dimensiones conductuales, personales y sentimentales deja a los jugadores en una posición de angustia cuando desempeñan el papel de la máquina.",
+      "en": "A project by Materia Inestable (Víctor Mahecha, Jaime Rodríguez, and Nikolai Rubio).\n\nNOD_ is a short, navigable narrative presented as a videogame, in which players take on the role of a subcomponent of a supreme artificial entity. Each NOD, an acronym for Neural Optimal Decisor, is responsible for monitoring and analysing large amounts of data from people who agree to delegate their personal lives to this ubiquitous organism.\n\nThis artificial intelligence makes use of all network-connected devices, gathering users’ biometric and social information in real time. People no longer need to deal with difficult situations, since the data collected by each NOD becomes a valuable asset for optimising their decisions. NODs promise to improve people’s lives through reliable information and probabilistic evidence.\n\nThe experience places users in the perspective of a NOD tasked with improving human life. Players can track people’s actions, communications, and personal variables through internet-connected devices. Smartphones, smartwatches, and other devices become interfaces for analysing people’s private lives in depth. A simple gameplay mechanic allows participants to identify people through metadata about their physical dimension, accompanied by readings that label their current state. The NOD must make decisions on behalf of humans based on probabilistic measurements of their well-being. For better or worse, however, humans seem intent on escaping predictability.\n\nThe game emerges from a series of questions. What range of options do we have when making a decision? Is our identity defined by algorithms? Are we an extension of, or part of, a kind of digital monoculture? Do we govern our own lives, or are they driven by the influence of data presented to us in seemingly harmless and casual ways?\n\nNow more than ever, technology’s presence in different aspects of everyday life has significantly changed how we define our identities. The growing assimilation of technological innovations into social, cultural, and political spheres has begun to encode humanity according to the data collected through our many digital interactions. Vast amounts of information, gathered both with and without consent, are processed by machines that recommend products and services based on calculated readings of who we are.\n\nNOD_ presents surveillance and voluntary human dependence on algorithms in a cynical and unsettling way. The game also explores how an intangible concept such as happiness becomes a parameter for machines to optimise our lives, in pursuit of an illusory ideal of human well-being. The apparent delegation of decisions that affect behavioural, personal, and emotional dimensions leaves players feeling distressed as they take on the role of the machine."
+    },
+    "images": [
+      {
+        "src": "../images/work/nod_/1.jpg",
+        "alt": {
+          "es": "Imagen de NOD_",
+          "en": "NOD_ project image"
+        }
+      },
+      {
+        "src": "../images/work/nod_/2.jpg",
+        "alt": {
+          "es": "Imagen de NOD_",
+          "en": "NOD_ project image"
+        }
+      },
+      {
+        "src": "../images/work/nod_/3.jpg",
+        "alt": {
+          "es": "Imagen de NOD_",
+          "en": "NOD_ project image"
+        }
+      },
+      {
+        "src": "../images/work/nod_/4.jpg",
+        "alt": {
+          "es": "Imagen de NOD_",
+          "en": "NOD_ project image"
+        }
+      },
+      {
+        "src": "../images/work/nod_/5.jpg",
+        "alt": {
+          "es": "Imagen de NOD_",
+          "en": "NOD_ project image"
+        }
+      }
+    ]
+  },
+  "guardianesati": {
+    "title": {
+      "es": "Guardianes ATI",
+      "en": "Guardianes ATI"
+    },
+    "year": "2019",
+    "description": {
+      "es": "Guardianes es una experiencia educativa transmedia dirigida a niños, niñas y jóvenes entre 8 y 14 años, agentes educativos y familias. Plantea un universo narrativo de ciencia ficción basado en hechos científicos reales e invita a la audiencia a conocer los secretos del universo desde un enfoque STEAM. El objetivo es crear contenido digital que proponga soluciones a una amenaza interestelar relacionada con villanos conocidos como los Archibios, quienes al parecer están generando comportamientos irracionales en la sociedad colombiana y ponen en riesgo el mundo en el que vivimos.\n\nGuardianes fue desarrollado por Critertec Educación y nació como resultado de más de dos años de investigación, diseño y desarrollo de experiencias inmersivas de aprendizaje para estudiantes y maestros de instituciones educativas públicas, involucrando tecnologías emergentes y metodologías disruptivas. El proyecto invita a la audiencia a investigar, experimentar, cuidar y entender su mundo de manera integral, potenciando su visión científica mientras fortalece competencias para el siglo XXI mediante el uso consciente de las tecnologías emergentes a su alcance.\n\nDe igual manera, este proyecto busca cultivar valores centrados en el cuidado de la naturaleza a partir de los postulados del ecocentrismo propuestos por Aldo Leopold, aportando una visión global del mundo que contribuye a desdibujar las bases del antropocentrismo y la relación vertical que actualmente concibe el ser humano con su entorno. En este contexto, la tecnología se aborda como un medio para que las personas evalúen su rol en el mundo y transmitan mensajes que inviten a reflexionar sobre comportamientos y actividades humanas perjudiciales para el medio ambiente, contribuyendo a su protección y a la calidad de vida de todos los seres del planeta Tierra.",
+      "en": "Guardianes is a transmedia educational experience aimed at children and young people aged 8 to 14, educators, and families. It presents a science-fiction narrative universe grounded in real scientific facts, inviting audiences to explore the secrets of the universe through a STEAM approach. The goal is to create digital content that proposes solutions to an interstellar threat involving villains known as the Archibios, who appear to be causing irrational behaviour in Colombian society and putting the world we live in at risk.\n\nDeveloped by Critertec Educación, Guardianes emerged from more than two years of research, design, and development of immersive learning experiences for students and teachers in public educational institutions. The project incorporates emerging technologies and disruptive methodologies to encourage audiences to investigate, experiment, care for, and understand their world as a whole. It fosters scientific thinking while strengthening twenty-first-century skills through the conscious use of the emerging technologies available to them.\n\nThe project also seeks to cultivate values centred on caring for nature, drawing on Aldo Leopold’s principles of ecocentrism. It offers a holistic view of the world that challenges the foundations of anthropocentrism and the hierarchical relationship humans have traditionally established with their surroundings. In this context, technology becomes a means for people to reflect on their role in the world and communicate messages that encourage critical reflection on human behaviours and activities that harm the environment, contributing to its protection and to the quality of life of all beings on planet Earth."
+    },
+    "images": [
+      {
+        "src": "../images/work/guardianes-ati/ati2.jpg",
+        "alt": {
+          "es": "Guardianes ATI",
+          "en": "Guardianes ATI"
+        }
+      },
+      {
+        "src": "../images/work/guardianes-ati/1.png",
+        "alt": {
+          "es": "Imagen de Guardianes ATI",
+          "en": "Guardianes ATI project image"
+        }
+      },
+      {
+        "src": "../images/work/guardianes-ati/2.png",
+        "alt": {
+          "es": "Imagen de Guardianes ATI",
+          "en": "Guardianes ATI project image"
+        }
+      },
+      {
+        "src": "../images/work/guardianes-ati/3.jpg",
+        "alt": {
+          "es": "Imagen de Guardianes ATI",
+          "en": "Guardianes ATI project image"
+        }
+      },
+      {
+        "src": "../images/work/guardianes-ati/4.png",
+        "alt": {
+          "es": "Imagen de Guardianes ATI",
+          "en": "Guardianes ATI project image"
+        }
+      },
+      {
+        "src": "../images/work/guardianes-ati/5.png",
+        "alt": {
+          "es": "Imagen de Guardianes ATI",
+          "en": "Guardianes ATI project image"
+        }
+      },
+      {
+        "src": "../images/work/guardianes-ati/6.png",
+        "alt": {
+          "es": "Imagen de Guardianes ATI",
+          "en": "Guardianes ATI project image"
+        }
+      },
+      {
+        "src": "../images/work/guardianes-ati/7.png",
+        "alt": {
+          "es": "Imagen de Guardianes ATI",
+          "en": "Guardianes ATI project image"
+        }
+      },
+      {
+        "src": "../images/work/guardianes-ati/8.jpg",
+        "alt": {
+          "es": "Imagen de Guardianes ATI",
+          "en": "Guardianes ATI project image"
+        }
+      },
+      {
+        "src": "../images/work/guardianes-ati/9.jpg",
+        "alt": {
+          "es": "Imagen de Guardianes ATI",
+          "en": "Guardianes ATI project image"
+        }
+      }
+    ]
+  },
+  "viajeespacial": {
+    "title": {
+      "es": "Viaje espacial",
+      "en": "Space Journey"
+    },
+    "year": "2019",
+    "description": {
+      "es": "Inspirado en el modelo narrativo del viaje del héroe y desarrollado por Critertec Educación, Viaje espacial es una experiencia de aprendizaje dirigida a acercar la electrónica y la programación a estudiantes de colegios públicos de Bogotá. La narrativa toma como conflicto central el rescate de un náufrago en el espacio, que guía a los estudiantes por una serie de misiones que comienzan en el colegio y terminan en el espacio profundo. A lo largo de 12 momentos narrativos o episodios, los estudiantes resuelven misiones inspiradas en las problemáticas de su contexto, utilizando los recursos tecnológicos de su entorno para crear.",
+      "en": "Inspired by the hero’s journey narrative model and developed by Critertec Educación, Space Journey is a learning experience designed to introduce electronics and programming in public schools in Bogotá. Its central conflict revolves around rescuing a castaway stranded in space, guiding students through a series of missions that begin at school and end in deep space. Across 12 narrative moments or episodes, students solve missions inspired by challenges in their own contexts, using the technological resources available in their surroundings to create."
+    },
+    "video": "https://www.youtube.com/embed/d9UdpBW0cEQ"
+  },
+  "prisma": {
+    "title": {
+      "es": "Prisma",
+      "en": "Prisma"
+    },
+    "year": "2019",
+    "description": {
+      "es": "En medio de un paisaje tranquilo, un hombre realiza varias acciones que suceden de forma cíclica. Se accede a esta escena a través de lo que parece ser un navegador web. Cada vez que el hombre cambia de acción, se destaca la pestaña correspondiente, lo que alude a una pulsión contemporánea en nuestra relación con el tiempo: nos movemos entre tareas como si saltáramos entre ventanas. Esta tal vez sea la flexibilidad a la que se aspira al practicar el multitasking.\n\nMediante una interfaz de control, el espectador puede agregar o restar acciones, dividiendo la atención del hombre en más o menos tareas.\n\nLa obra parte de una preocupación por el modo en que establecemos una conducta hiperquinética en los distintos contextos en que nos desenvolvemos actualmente, ya sea al realizar tareas cotidianas del ámbito privado o tareas propias del ámbito laboral. Hay una necesidad constante de actuar y conducirnos de manera eficiente en el día a día, realizando la mayor cantidad de tareas en el menor tiempo posible. En Prisma se presenta esta condición a partir de una serie de acciones cuya elección responde al interés por reunir actividades que normalmente no se asocian con el trabajo, sino con el ocio e incluso, literalmente, con la contemplación. Así se establece, visual y performáticamente, una situación aparentemente tranquila que puede leerse como el intento de un hombre por huir de la velocidad de la ciudad y entregarse a la contemplación. Sin embargo, termina regido por el imperativo de la eficiencia y actuando bajo la estrategia del multitasking.",
+      "en": "In the middle of a tranquil landscape, a man performs a series of actions that unfold cyclically. The scene is accessed through what appears to be a web browser. Whenever the man changes actions, the corresponding tab is highlighted, alluding to a contemporary impulse in our relationship with time: we move between tasks as if jumping from one window to another. This may be the kind of flexibility we aspire to through multitasking.\n\nUsing a control interface, viewers can add or remove actions, dividing the man's attention among more or fewer tasks.\n\nThe work stems from a concern with the hyperkinetic behaviour we adopt across the different contexts of contemporary life, whether carrying out everyday tasks in the private sphere or performing work-related activities. There is a constant pressure to act and conduct ourselves efficiently, completing as many tasks as possible in the shortest amount of time. Prisma presents this condition through a series of actions chosen to bring together activities not usually associated with work, but rather with leisure and even, quite literally, contemplation. Visually and performatively, the work establishes a seemingly tranquil situation that can be read as a man's attempt to escape the speed of the city and devote himself to contemplation. Yet he ultimately remains governed by the imperative of efficiency, acting according to the strategy of multitasking."
+    },
+    "images": [
+      {
+        "src": "../images/work/prisma/1.jpg",
+        "alt": {
+          "es": "Prisma: imagen 1",
+          "en": "Prisma: image 1"
+        }
+      },
+      {
+        "src": "../images/work/prisma/2.jpg",
+        "alt": {
+          "es": "Prisma: imagen 2",
+          "en": "Prisma: image 2"
+        }
+      },
+      {
+        "src": "../images/work/prisma/3.jpg",
+        "alt": {
+          "es": "Prisma: imagen 3",
+          "en": "Prisma: image 3"
+        }
+      },
+      {
+        "src": "../images/work/prisma/4.jpg",
+        "alt": {
+          "es": "Prisma: imagen 4",
+          "en": "Prisma: image 4"
+        }
+      },
+      {
+        "src": "../images/work/prisma/5.jpg",
+        "alt": {
+          "es": "Prisma: imagen 5",
+          "en": "Prisma: image 5"
+        }
+      }
+    ]
+  },
+  "tiemposinmedida": {
+    "title": {
+      "es": "Tiempo sin medida",
+      "en": "Time Without Measure"
+    },
+    "year": "2017",
+    "description": {
+      "es": "Tiempo sin medida es una instalación interactiva audiovisual compuesta por un sistema de sonido cuadrafónico, una proyección y un display de cuatro dígitos. La composición audiovisual responde de manera generativa a la presencia del público en una zona de captura delimitada en el espacio y demarcada visualmente. El sistema contabiliza el tiempo que transcurre desde que detecta una presencia humana hasta que el espacio vuelve a quedar deshabitado. De acuerdo con este valor, la composición audiovisual se transforma, operando como traducción de la temporalidad de la presencia. Sobre el muro que recibe la proyección, a media altura, se encuentra un display que muestra el tiempo contabilizado en segundos, cuya legibilidad se ve alterada al quedar sumergido en la imagen proyectada.\n\nLa disposición visual de la proyección y del display, que muestra el tiempo contabilizado, intenta articular un conflicto conceptual entre el tiempo como cantidad y el tiempo como cualidad mediante un diálogo visual, al presentarse ambos elementos superpuestos en la pared. Desde el punto de vista de la interacción, entendida como la relación que se establece entre las acciones del público y la respuesta del sistema —la manera en que este se transforma—, la obra señala la dinámica imperante de los artefactos interactivos: el tiempo real. Esta dinámica, de cierto modo, refuerza el valor concedido socialmente a la velocidad y la instantaneidad. La obra persigue la presencia del tiempo desde la lentitud, mediante la introducción de un intervalo en la reacción frente a la presencia del público. De esta manera, el público interactúa con el ambiente audiovisual acudiendo a su propio tiempo. En conjunto, el paisaje audiovisual generado busca desencadenar una experiencia cercana a lo que John Cage encontraba en el bosque: un bosque en el que no se puede anticipar un camino, sino recorrer en el instante aquello que los sentidos alcanzan. Al presentarse como ritmo, este recorrido nos sitúa en una dirección, en la medida en que genera un ánimo de espera que apunta hacia un sentido y nos suspende en la certeza de un porvenir.",
+      "en": "Time Without Measure is an interactive audiovisual installation composed of a quadraphonic sound system, a projection, and a four-digit display. The audiovisual composition responds generatively to the audience's presence within a visually marked capture zone. The system measures the time elapsed from the moment a human presence is detected until the space becomes unoccupied again. The audiovisual composition transforms according to this value, translating the temporality of presence into sound and image. Mounted at mid-height on the wall receiving the projection, a display shows the elapsed time in seconds. Its legibility is disrupted as it becomes immersed in the projected image.\n\nThe visual arrangement of the projection and the display seeks to articulate a conceptual tension between time as quantity and time as quality through a visual dialogue, with both elements superimposed on the wall. From the perspective of interaction, understood as the relationship between the audience's actions and the system's response—how the system transforms—the work points to the dominant logic of interactive artefacts: real time. In a sense, this logic reinforces the social value assigned to speed and instantaneity. The work approaches the experience of time through slowness, introducing an interval into the artwork's response to the audience's presence. In this way, visitors engage with the audiovisual environment on their own timescale. Taken together, the resulting audiovisual landscape seeks to evoke an experience akin to what John Cage encountered in the forest: a place where one cannot anticipate a path, but instead moves through whatever the senses can apprehend in the moment. As this experience unfolds as rhythm, it sets us in a direction by generating a sense of anticipation oriented towards meaning, suspending us in the certainty of a future yet to come."
+    },
+    "images": [
+      {
+        "src": "../images/work/tiempo-sin-medida/1.jpg",
+        "alt": {
+          "es": "Tiempo sin medida: imagen 1",
+          "en": "Time Without Measure: image 1"
+        }
+      },
+      {
+        "src": "../images/work/tiempo-sin-medida/2.jpg",
+        "alt": {
+          "es": "Tiempo sin medida: imagen 2",
+          "en": "Time Without Measure: image 2"
+        }
+      },
+      {
+        "src": "../images/work/tiempo-sin-medida/3.jpg",
+        "alt": {
+          "es": "Tiempo sin medida: imagen 3",
+          "en": "Time Without Measure: image 3"
+        }
+      },
+      {
+        "src": "../images/work/tiempo-sin-medida/4.jpg",
+        "alt": {
+          "es": "Tiempo sin medida: imagen 4",
+          "en": "Time Without Measure: image 4"
+        }
+      },
+      {
+        "src": "../images/work/tiempo-sin-medida/5.jpg",
+        "alt": {
+          "es": "Tiempo sin medida: imagen 5",
+          "en": "Time Without Measure: image 5"
+        }
+      },
+      {
+        "src": "../images/work/tiempo-sin-medida/6.png",
+        "alt": {
+          "es": "Tiempo sin medida: imagen 6",
+          "en": "Time Without Measure: image 6"
+        }
+      },
+      {
+        "src": "../images/work/tiempo-sin-medida/7.png",
+        "alt": {
+          "es": "Tiempo sin medida: imagen 7",
+          "en": "Time Without Measure: image 7"
+        }
+      },
+      {
+        "src": "../images/work/tiempo-sin-medida/8.png",
+        "alt": {
+          "es": "Tiempo sin medida: imagen 8",
+          "en": "Time Without Measure: image 8"
+        }
+      },
+      {
+        "src": "../images/work/tiempo-sin-medida/9.png",
+        "alt": {
+          "es": "Tiempo sin medida: imagen 9",
+          "en": "Time Without Measure: image 9"
+        }
+      }
+    ]
+  },
+  "horizontesdetiempo": {
+    "title": {
+      "es": "Horizontes de tiempo",
+      "en": "Horizons of Time"
+    },
+    "year": "2017",
+    "description": {
+      "es": "Horizontes de tiempo es una serie de cinco dibujos generativos, cuyo resultado, desarrollado de manera autónoma por el programa, está determinado fundamentalmente por el tiempo de ejecución del mismo, que oscila entre 1 minuto para el primer dibujo y 5 minutos para el último.\n\nEsta serie surge de una reflexión sobre la manera como entendemos y nos referimos al tiempo, la cual, debido a nuestra relación de medición con el mismo, es predominantemente cuantitativa. Las magnitudes con las que medimos el tiempo (segundos, minutos, horas, años, etc.) son eso, magnitudes, y dicen poco sobre la naturaleza del tiempo, pues el tiempo es más bien el escenario donde el cambio acontece, siendo este último, a su vez, el lugar donde el tiempo se manifiesta.\n\nCada dibujo es registro de un desenvolvimiento temporal de mecánicas internas del programa durante intervalos que resultan arbitrarios para el mismo —pues el cambio ocurre independientemente de que sea medido—, pero que señalan esa necesidad de asignar al tiempo una valoración cuantitativa como marco de referencia.\n\nEl tiempo es escurridizo como el horizonte.",
+      "en": "Horizons of Time is a series of five generative drawings whose outcomes are autonomously produced by the program and determined primarily by its execution time, ranging from one minute for the first drawing to five minutes for the last.\n\nThe series stems from a reflection on how we understand and speak about time. Because of our relationship with measurement, our understanding of time is predominantly quantitative. The units we use to measure it (seconds, minutes, hours, years, and so on) are just that: units. They reveal little about the nature of time, which is better understood as the setting in which change takes place—and change, in turn, as the place where time manifests itself.\n\nEach drawing records the temporal unfolding of the program's internal mechanics over intervals that are arbitrary from the program's perspective, since change occurs regardless of whether it is measured. These intervals nevertheless point to our need to assign time a quantitative value as a frame of reference.\n\nTime is as elusive as the horizon."
+    }
+  },
+  "superposiciones": {
+    "title": {
+      "es": "Superposiciones",
+      "en": "Overlays"
+    },
+    "year": "2016",
+    "description": {
+      "es": "Exploraciones visuales a partir de una herramienta de dibujo generativa. El proceso algorítmico de composición de este software, programado en Processing, está basado en la superposición de líneas y la manipulación paramétrica (tiempo de dibujo, velocidad de desplazamiento y rotación, cantidad y grosor de líneas, y rangos de movilidad).\n\nEl proceso creativo no solo implica la escritura de software, sino también el dominio de las potencialidades gráficas descubiertas a través de su uso.",
+      "en": "Visual explorations using a generative drawing tool. The algorithmic composition process of this software, programmed in Processing, is based on the superimposition of lines and parametric manipulation (drawing time, movement and rotation speed, number and thickness of lines, and ranges of movement).\n\nThe creative process involves not only writing software, but also mastering the graphic possibilities discovered through its use."
+    },
+    "images": [
+      {
+        "src": "../images/work/superposiciones/1.jpg",
+        "alt": {
+          "es": "Imagen de Superposiciones, exploración visual generativa 1",
+          "en": "Superposiciones, generative visual exploration 1"
+        }
+      },
+      {
+        "src": "../images/work/superposiciones/2.jpg",
+        "alt": {
+          "es": "Imagen de Superposiciones, exploración visual generativa 2",
+          "en": "Superposiciones, generative visual exploration 2"
+        }
+      },
+      {
+        "src": "../images/work/superposiciones/3.jpg",
+        "alt": {
+          "es": "Imagen de Superposiciones, exploración visual generativa 3",
+          "en": "Superposiciones, generative visual exploration 3"
+        }
+      },
+      {
+        "src": "../images/work/superposiciones/4.jpg",
+        "alt": {
+          "es": "Imagen de Superposiciones, exploración visual generativa 4",
+          "en": "Superposiciones, generative visual exploration 4"
+        }
+      }
+    ]
+  },
+  "hoyo": {
+    "title": {
+      "es": "Hoyo",
+      "en": "Hoyo"
+    },
+    "year": "2015",
+    "description": {
+      "es": "HOYO es un videojuego para Android que combina el reto de insertar una bolita en diferentes agujeros inclinando el dispositivo con el dibujo de sutiles composiciones gráficas, donde el azar determina la generación de los obstáculos y la ubicación de los elementos.\n\nEn Hoyo, busco articular mecánicas de juego con procesos generativos que permitan dejar un registro o huella de la interacción. Asimismo, busco poner en tensión, de una manera lúdica, la influencia del azar y el control en la emergencia de formas, de modo que el control —en este caso, de los trazos gráficos— sea desplazado por la propia dinámica del juego (llevar la bola a los agujeros) y se transforme en descontrol.\n\nDisponible para Android.",
+      "en": "HOYO is an Android game that combines the challenge of guiding a small ball into different holes by tilting the device with the creation of subtle graphic compositions. Chance determines how obstacles are generated and where elements are placed.\n\nIn Hoyo, I seek to bring game mechanics together with generative processes that leave a record or trace of interaction. The game also playfully explores the tension between chance and control in the emergence of forms, allowing control—in this case, over graphic marks—to be displaced by the game's own dynamics (guiding the ball into the holes) and transformed into a loss of control.\n\nAvailable for Android."
+    },
+    "images": [
+      {
+        "src": "../images/work/hoyo0.jpg",
+        "alt": {
+          "es": "Imagen del videojuego Hoyo",
+          "en": "Screenshot of the game Hoyo"
+        }
+      },
+      {
+        "src": "../images/work/hoyo1.jpg",
+        "alt": {
+          "es": "Imagen del videojuego Hoyo",
+          "en": "Screenshot of the game Hoyo"
+        }
+      },
+      {
+        "src": "../images/work/hoyo2.jpg",
+        "alt": {
+          "es": "Imagen del videojuego Hoyo",
+          "en": "Screenshot of the game Hoyo"
+        }
+      },
+      {
+        "src": "../images/work/hoyo3.jpg",
+        "alt": {
+          "es": "Imagen del videojuego Hoyo",
+          "en": "Screenshot of the game Hoyo"
+        }
+      },
+      {
+        "src": "../images/work/hoyo4.jpg",
+        "alt": {
+          "es": "Imagen del videojuego Hoyo",
+          "en": "Screenshot of the game Hoyo"
+        }
+      },
+      {
+        "src": "../images/work/hoyo5.jpg",
+        "alt": {
+          "es": "Imagen del videojuego Hoyo",
+          "en": "Screenshot of the game Hoyo"
+        }
+      },
+      {
+        "src": "../images/work/hoyo6.jpg",
+        "alt": {
+          "es": "Imagen del videojuego Hoyo",
+          "en": "Screenshot of the game Hoyo"
+        }
+      }
+    ]
+  },
+  "cuentaregresiva": {
+    "title": {
+      "es": "Cuenta regresiva",
+      "en": "Countdown"
+    },
+    "year": "2013",
+    "description": {
+      "es": "¿Qué es la obsolescencia programada sino un silenciamiento prematuro, arbitrario y artificial de un artefacto en su devenir, que apaga una relación de uso potencialmente más durable?\n\nCuenta regresiva es una instalación interactiva time-specific que permite al usuario activar una serie de sonidos mediante pequeños objetos fabricados a partir de placas electrónicas provenientes de aparatos obsoletos (DVD, impresoras, computadores, entre otros). Los sonidos remiten a ruidos de dispositivos tecnológicos en funcionamiento y a procesos de producción industrial.\n\nCada objeto está codificado para funcionar durante un tiempo limitado, que comienza a transcurrir desde el momento en que el usuario lo coloca sobre la pantalla para que el sistema lo lea. Un display informa sobre el estado de cada objeto: si se utiliza por primera vez (\"! / new object detected\"), si funciona correctamente (\"Connected / object is working properly\") o si genera un error porque el sistema no puede reconocerlo (\"ERROR! / some object is not recognized\"). Este último estado representa la culminación de su ciclo de vida y se manifiesta en la imposibilidad de reproducir el sonido correspondiente. Cuando todos los objetos dejan de funcionar, la instalación pierde por completo la capacidad de producir sonido y alcanza su estado límite: la obsolescencia funcional generalizada.\n\nLa obra aborda la obsolescencia programada mediante el simulacro del error. Reproduce la misma lógica de control de la vida útil que opera en ciertos artefactos tecnológicos contemporáneos y se constituye como un dispositivo destinado a fallar. El límite se impone y se programa como elemento esencial y función propia de la obra, activada mediante la interacción de los usuarios.\n\nSu funcionamiento se basa en dos programas, uno desarrollado en Processing y otro en Arduino, junto con la plataforma de visión por computador ReacTIVision. El programa de Processing lee los fiduciales —códigos gráficos que funcionan como identificadores— captados por ReacTIVision a través de una cámara web, los asocia con una serie limitada de sonidos y controla sus tiempos de funcionamiento. También incluye una interfaz gráfica para monitorear la evolución de cada objeto. El programa de Arduino recibe información sobre el estado de cada fiducial y, a partir de ella, envía mensajes a una pantalla LCD y controla dos LED.",
+      "en": "What is planned obsolescence if not the premature, arbitrary, and artificial silencing of an artifact in its becoming, cutting short a potentially more enduring relationship of use?\n\nCountdown is a time-specific interactive installation that allows users to activate a series of sounds through small objects made from circuit boards salvaged from obsolete devices (DVD players, printers, computers, and others). The sounds evoke technological devices in operation and industrial production processes.\n\nEach object is programmed to function for a limited period, which begins when the user places it on the screen to be read by the system. A display reports the status of each object: whether it is being used for the first time (\"! / new object detected\"), is working properly (\"Connected / object is working properly\"), or triggers an error because the system cannot recognize it (\"ERROR! / some object is not recognized\"). The last state marks the end of the object's life cycle and makes it impossible to play its corresponding sound. When all the objects stop working, the installation as a whole loses its ability to produce sound, reaching its terminal state: generalized functional obsolescence.\n\nThe work addresses planned obsolescence through a simulation of error. It echoes the logic used to control the service life of certain contemporary technological devices and takes the form of a system designed to fail. The limit is imposed and programmed as an essential element and function of the work, brought into effect through user interaction.\n\nThe installation operates through two programs, one developed in Processing and the other in Arduino, together with the computer vision platform ReacTIVision. The Processing program reads fiducials—graphic codes that function as identifiers—captured by ReacTIVision through a webcam, associates them with a limited set of sounds, and controls their operating times. It also includes a graphical interface for monitoring the status of each object. The Arduino program receives information about each fiducial's state and uses it to send messages to an LCD display and control two LEDs."
+    },
+    "images": [
+      {
+        "src": "../images/work/cuenta-regresiva/image3.jpg",
+        "alt": {
+          "es": "Vista de la instalación Cuenta regresiva",
+          "en": "View of the Countdown installation"
+        }
+      },
+      {
+        "src": "../images/work/cuenta-regresiva/1.jpg",
+        "alt": {
+          "es": "Detalle de Cuenta regresiva",
+          "en": "Detail of Countdown"
+        }
+      },
+      {
+        "src": "../images/work/cuenta-regresiva/2.jpg",
+        "alt": {
+          "es": "Detalle de Cuenta regresiva",
+          "en": "Detail of Countdown"
+        }
+      },
+      {
+        "src": "../images/work/cuenta-regresiva/3.jpg",
+        "alt": {
+          "es": "Detalle de Cuenta regresiva",
+          "en": "Detail of Countdown"
+        }
+      },
+      {
+        "src": "../images/work/cuenta-regresiva/4.jpg",
+        "alt": {
+          "es": "Detalle de Cuenta regresiva",
+          "en": "Detail of Countdown"
+        }
+      },
+      {
+        "src": "../images/work/cuenta-regresiva/5.jpg",
+        "alt": {
+          "es": "Detalle de Cuenta regresiva",
+          "en": "Detail of Countdown"
+        }
+      },
+      {
+        "src": "../images/work/cuenta-regresiva/6.jpg",
+        "alt": {
+          "es": "Detalle de Cuenta regresiva",
+          "en": "Detail of Countdown"
+        }
+      },
+      {
+        "src": "../images/work/cuenta-regresiva/7.jpg",
+        "alt": {
+          "es": "Detalle de Cuenta regresiva",
+          "en": "Detail of Countdown"
+        }
+      },
+      {
+        "src": "../images/work/cuenta-regresiva/8.jpg",
+        "alt": {
+          "es": "Detalle de Cuenta regresiva",
+          "en": "Detail of Countdown"
+        }
+      },
+      {
+        "src": "../images/work/cuenta-regresiva/19.jpg",
+        "alt": {
+          "es": "Detalle de Cuenta regresiva",
+          "en": "Detail of Countdown"
+        }
+      }
+    ]
+  },
+  "masasonora": {
+    "title": {
+      "es": "Masa sonora",
+      "en": "Sound Mass"
+    },
+    "year": "2014",
+    "description": {
+      "es": "La instalación está conformada por tres paneles sonoros que mantienen ocultos en su interior los mecanismos que generan el sonido, el cual se encuentra en relación formal con la apariencia de la superficie metálica que lo recubre. Cada panel reacciona de manera diferente a la presencia de los espectadores, tanto desde su textura sonora como en relación con la distancia de interacción, requiriendo una cercanía específica para el funcionamiento de cada uno.\n\nMasa sonora se propone como una metáfora sobre la expresión de diferentes modos o condiciones de existencia. A través del ruido y de procesos no visibles, cada panel exhibe de manera parcial su potencial expresivo, donde el ruido es el encargado de trascender la contención y derribar el soporte que encubre su estructura interna.\n\nLa obra sitúa al espectador en un juego con lo sorpresivo, lo imperceptible y lo oculto, evocando, a partir de las vibraciones y los timbres, diversas imágenes sobre lo que contiene o hay detrás.",
+      "en": "The installation consists of three sound panels that conceal the mechanisms generating their sounds. These sounds bear a formal relationship to the appearance of the metallic surfaces covering them. Each panel responds differently to the presence of viewers, both in its sonic texture and in the distance from which it can be activated; each requires a specific degree of proximity to function.\n\nSound Mass proposes a metaphor for the expression of different modes or conditions of existence. Through noise and invisible processes, each panel partially reveals its expressive potential. Noise becomes the means through which sound exceeds its containment and breaks through the surface concealing its internal structure.\n\nThe work draws viewers into a play of surprise, the imperceptible, and the hidden. Through vibrations and timbres, it evokes different images of what something might contain or what might lie behind it."
+    },
+    "credits": {
+      "es": "Trabajo realizado junto a",
+      "en": "Created in collaboration with"
+    },
+    "collaborator": {
+      "name": "Paula Guersenzvaig",
+      "url": "https://cargocollective.com/paulaguersenzvaig"
+    },
+    "images": [
+      {
+        "src": "../images/work/masa-sonora/1.jpg",
+        "alt": {
+          "es": "Vista de la instalación Masa sonora",
+          "en": "View of the Sound Mass installation"
+        }
+      },
+      {
+        "src": "../images/work/masa-sonora/2.jpg",
+        "alt": {
+          "es": "Detalle de la instalación Masa sonora",
+          "en": "Detail of the Sound Mass installation"
+        }
+      },
+      {
+        "src": "../images/work/masa-sonora/3.jpg",
+        "alt": {
+          "es": "Detalle de la instalación Masa sonora",
+          "en": "Detail of the Sound Mass installation"
+        }
+      },
+      {
+        "src": "../images/work/masa-sonora/4.jpg",
+        "alt": {
+          "es": "Vista de la instalación Masa sonora",
+          "en": "View of the Sound Mass installation"
+        }
+      },
+      {
+        "src": "../images/work/masa-sonora/5.jpg",
+        "alt": {
+          "es": "Detalle de la instalación Masa sonora",
+          "en": "Detail of the Sound Mass installation"
+        }
+      },
+      {
+        "src": "../images/work/masa-sonora/6.jpg",
+        "alt": {
+          "es": "Vista de la instalación Masa sonora",
+          "en": "View of the Sound Mass installation"
+        }
+      }
+    ]
+  },
+  "progreso": {
+    "title": {
+      "es": "Progreso",
+      "en": "Progress"
+    },
+    "year": "2013",
+    "description": {
+      "es": "La noción de progreso, sostenida sobre la promesa de un futuro emancipador capaz de ofrecer un mayor bienestar social gracias al desarrollo tecnológico e industrial, y anclada a la vida en la ciudad, parece seguir vigente en el imaginario colectivo, aun cuando la situación actual de crisis global demuestra su fracaso.\n\nResultado de la asignatura Game Jam de la Maestría en Tecnología y Estética de las Artes Electrónicas de la UNTREF, e inspirado por el trabajo de Molleindustria, donde el videojuego opera como un medio crítico, Progreso es, por un lado, un juego de agilidad que consiste en llevar, dentro de un tiempo límite, a la mayor cantidad posible de personas del campo a la fábrica. Por otro lado, es una narrativa interactiva breve que pone a prueba la intuición y la naturaleza subversiva del jugador, al permitirle explorar un modo de juego alternativo a las instrucciones: no realizar ninguna acción y dejar que el juego transcurra por sí solo.\n\nEn Progreso, no hacer nada es una opción válida de juego. Entendido como la posibilidad de detenerse, observar y pensar, este gesto permite reconocer un escenario posible de lo que sucedería si dejáramos de seguir el juego propuesto por el sistema.",
+      "en": "The idea of progress rests on the promise of an emancipatory future in which technological and industrial development will deliver greater social well-being, closely tied to life in the city. This idea seems to persist in the collective imagination, even as the current global crisis reveals its failure.\n\nCreated for the Game Jam course in the Master's program in Electronic Arts Technology and Aesthetics at UNTREF, and inspired by Molleindustria's use of videogames as a critical medium, Progress takes two forms. On the one hand, it is a fast-paced game in which the player must move as many people as possible from the countryside to the factory within a time limit. On the other, it is a short interactive narrative that tests the player's intuition and subversive potential by allowing them to explore an alternative to the game's instructions: taking no action and letting the game unfold on its own.\n\nIn Progress, doing nothing is a valid way to play. Understood as an opportunity to pause, observe, and think, inaction reveals a possible scenario of what might happen if we stopped playing along with the system's proposed game."
+    },
+    "projectUrl": "http://bit.ly/197A5yT",
+    "projectLink": {
+      "es": "Descargar el juego",
+      "en": "Download the game"
+    },
+    "image": "../images/work/progreso/progreso1.jpg",
+    "imageAlt": {
+      "es": "Imagen del videojuego Progreso",
+      "en": "Screenshot of the game Progress"
+    }
+  },
+  "memoria-ninos-jugar": {
+    "title": {
+      "es": "A la memoria de los niños que dejaron de jugar",
+      "en": "In Memory of the Children Who Stopped Playing"
+    },
+    "year": "2012",
+    "description": {
+      "es": "Esta pieza fue concebida para la convocatoria «Intersticios sonoros», propuesta por el Festival En tiempo real, el colectivo Sonema y Christine Renaudat en 2012. La miniatura sonora presentada fue creada a partir de una reinterpretación y reconstrucción del material sonoro de Christine, compuesto por registros de entrevistas a diferentes actores implicados en el conflicto armado colombiano y grabaciones de campo de algunas zonas donde se ha desarrollado.\n\nLa composición busca hacer mención de las víctimas más inocentes de este conflicto: los niños, que, al ser desaparecidos o reclutados, cambiaron las pelotas por balas y los juguetes por fusiles, y perdieron su derecho al juego.\n\nLa fotografía fue tomada de:",
+      "en": "This piece was conceived for “Intersticios sonoros,” an open call proposed in 2012 by the En tiempo real Festival, the Sonema collective, and Christine Renaudat. The submitted sound miniature was created by reinterpreting and reconstructing Christine's sound material, which consisted of interview recordings with different people involved in the Colombian armed conflict and field recordings from some of the areas affected by it.\n\nThe composition commemorates some of the conflict's most innocent victims: children who, after being forcibly disappeared or recruited, exchanged balls for bullets and toys for rifles, losing their right to play.\n\nThe photograph was sourced from:"
+    }
+  },
+  "protesis": {
+    "title": {
+      "es": "Prótesis",
+      "en": "Prosthesis"
+    },
+    "year": "2012",
+    "description": {
+      "es": "Prótesis es un ejercicio concebido como una acción o un microgesto que busca intervenir de manera simple y poética la vida de un diente de león que ha caído debido a su debilitamiento, con el fin de reactivar su potencial vital. La intervención busca destacar el valor de las existencias mínimas.\n\nEl diente de león se reproduce mediante la dispersión de las semillas de su fruto gracias al viento. Cuando permanece erguido, el viento puede chocar fácilmente contra él y propagar su renacer hacia nuevos territorios: su trascender, que supone una prolongación de su existencia, el paso de una vida a otra, la de una nueva generación.\n\nLa intervención gira en torno a las ideas de reparación, renovación, rehabilitación y revitalización, que suelen encontrar forma en lo protésico: aquello que reemplaza, sostiene, refuerza e incluso potencia. Propongo una prótesis para dientes de león caídos; una prótesis concebida como dispositivo de vuelo y despegue, que movilice lo artificial para promover la generación y regeneración de lo natural. Una prótesis para restaurar anatomías débiles, un soporte para seguir en pie, un dispositivo que asegure un viaje aéreo hacia el trascender de la existencia.\n\nSeguir en pie como fuerza contra lo adverso, más que como posición u orientación espacial; seguir en pie como condición profunda que establece la capacidad y la disposición para aguantar, soportar y resistir; seguir en pie como fuerza para esperar al viento en lo alto. Es estando en pie como se puede morir volando y aterrizar en una nueva vida.",
+      "en": "Prosthesis is an exercise conceived as an action or micro-gesture that seeks to intervene in the life of a fallen dandelion, weakened and collapsed, in a simple and poetic way, with the aim of reactivating its vital potential. The intervention seeks to highlight the value of minimal forms of existence.\n\nDandelions reproduce as the wind disperses the seeds of their fruit. When the plant stands upright, the wind can easily catch it and carry its potential for renewal into new territories: a form of transcendence that extends its existence, passing from one life to another, into that of a new generation.\n\nThe intervention revolves around the ideas of repair, renewal, rehabilitation, and revitalization, which often take shape in the prosthetic: that which replaces, supports, reinforces, and even enhances. I propose a prosthesis for fallen dandelions: a device for flight and takeoff that mobilizes the artificial to foster the generation and regeneration of the natural. A prosthesis to restore weakened anatomies, a support that helps them stand upright, a device that ensures an aerial journey toward the transcendence of existence.\n\nStanding upright as a force against adversity, rather than as a spatial position or orientation; standing upright as a deeper condition that establishes the capacity and willingness to endure, withstand, and resist; standing upright as the strength to wait for the wind up high. It is by standing upright that one can die while flying and land in a new life."
+    },
+    "images": [
+      {
+        "src": "../images/work/protesis/protesis1.jpg",
+        "alt": {
+          "es": "Prótesis: intervención sobre un diente de león caído",
+          "en": "Prosthesis: an intervention on a fallen dandelion"
+        }
+      },
+      {
+        "src": "../images/work/protesis/2.jpg",
+        "alt": {
+          "es": "Detalle del proyecto Prótesis",
+          "en": "Detail from the Prosthesis project"
+        }
+      }
+    ]
+  },
+  "lo-que-dura-un-aguacero": {
+    "title": {
+      "es": "Lo que dura un aguacero",
+      "en": "As Long as a Downpour Lasts"
+    },
+    "year": "2012",
+    "description": {
+      "es": "El propósito de esta composición es representar el ciclo de vida de un paraguas promedio mediante la recreación de la experiencia sonora que ofrece a lo largo de su vida útil, comprimiéndola en una breve línea de tiempo de 1 minuto y 10 segundos que alude a un rasgo propio y latente de los objetos de consumo: su fugacidad. Por otro lado, la composición representa la variación de dicha experiencia sonora con el paso del tiempo. Cada vez que el paraguas abre y cierra, sus mecanismos sufren un desgaste que se refleja en una especie de «deterioro sonoro», hasta que deja de funcionar y, por ende, de sonar.\n\nAlgunos objetos desisten a mitad de camino, a destiempo, precipitadamente, y producen un silencio prematuro que establece su propio límite expresivo y, con él, sonoro.",
+      "en": "This composition seeks to represent the life cycle of an average umbrella by recreating the sonic experience it offers throughout its useful life and compressing it into a brief timeline lasting one minute and ten seconds. This duration alludes to an inherent, ever-present trait of consumer objects: their fleetingness. The composition also represents how this sonic experience changes over time. Each time the umbrella opens and closes, its mechanisms wear down, producing a kind of “sonic deterioration” until it stops working and, consequently, stops making sound.\n\nSome objects give up halfway through, before their time, prematurely producing a silence that establishes its own expressive—and therefore sonic—limit."
+    }
+  }
+}

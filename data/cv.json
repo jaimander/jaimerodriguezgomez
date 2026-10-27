@@ -1,0 +1,622 @@
+{
+  "es": {
+    "title": "CV",
+    "sections": {
+      "profile": "Perfil",
+      "practice": "Áreas de práctica y docencia",
+      "teaching": "Experiencia docente",
+      "creative": "Obra creativa seleccionada",
+      "education": "Formación académica",
+      "publications": "Publicaciones y actividad académica seleccionadas",
+      "awards": "Becas, premios y reconocimientos",
+      "service": "Servicio académico y participación profesional",
+      "presentations": "Presentaciones seleccionadas",
+      "workshops": "Talleres y laboratorios creativos",
+      "exhibitions": "Exposiciones colectivas y festivales seleccionados",
+      "programmes": "Programas artísticos y educativos complementarios",
+      "skills": "Competencias técnicas"
+    },
+    "entries": {
+      "profile": [
+        {
+          "date": "",
+          "description": "Artista, diseñador, educador e investigador interdisciplinar que trabaja entre las artes sonoras y mediales, la programación creativa, los sistemas interactivos, los videojuegos y las narrativas digitales. Su práctica creativa explora cómo los procesos computacionales, las interfaces, las reglas y las formas de participación configuran experiencias estéticas y modos de relacionarse con el mundo. Magíster en Tecnología y Estética de las Artes Electrónicas, con amplia experiencia docente universitaria, integra experimentación artística, programación, teoría de medios y aprendizaje basado en proyectos. Ha trabajado con Pure Data, Processing, p5.js, Hydra, Arduino, HTML, CSS, JavaScript, Unity, Logic Pro y Reaper, explorando el sonido, la creación musical, los sistemas generativos, la computación física, la experimentación audiovisual en navegadores y los medios interactivos. Su trabajo y docencia examinan las relaciones entre tecnología, cultura, narrativa, temporalidad y producción de sentido, abordando los medios digitales como material creativo y objeto de indagación crítica."
+        }
+      ],
+      "practice": [
+        {
+          "date": "01",
+          "description": "<b>Programación creativa y medios computacionales</b>: programación artística, sistemas generativos, expresión computacional y medios interactivos."
+        },
+        {
+          "date": "02",
+          "description": "<b>Medios sonoros y audiovisuales</b>: narración sonora, interacción sónica, experimentación audiovisual y relaciones entre sonido, narrativa y entornos digitales."
+        },
+        {
+          "date": "03",
+          "description": "<b>Medios interactivos y participativos</b>: instalaciones interactivas, videojuegos, narrativas digitales, computación física y experiencias mediadas por tecnología."
+        },
+        {
+          "date": "04",
+          "description": "<b>Enfoques críticos de la tecnología</b>: sistemas computacionales, transformaciones tecnológicas, prácticas culturales, participación e implicaciones estéticas y sociales de los medios digitales."
+        },
+        {
+          "date": "05",
+          "description": "<b>Diseño y pedagogía</b>: diseño de interacción, aprendizaje basado en proyectos, prototipado, colaboración interdisciplinar y educación en tecnologías creativas."
+        }
+      ],
+      "teaching": [
+        {
+          "date": "2026",
+          "description": "<b>Universidad Jorge Tadeo Lozano — Diplomado en Storytelling</b>. <b>Docente</b>. Diseño e impartición de un módulo sobre técnicas narrativas para la comunicación estratégica: conflicto y tensión, desarrollo de líneas argumentales, narración de datos y simulaciones para conversaciones complejas. Exploración de IA generativa como herramienta para el desarrollo narrativo y comunicativo."
+        },
+        {
+          "date": "2023–2026",
+          "description": "<b>Universidad de los Andes — Facultad de Artes y Humanidades, Departamento de Narrativas Digitales</b>. <b>Profesor asistente</b>. Diseño e impartición de cursos teórico-prácticos de narrativas digitales, narrativa interactiva, videojuegos, programación creativa y narrativa sonora. Acompañamiento de proyectos mediante aprendizaje basado en proyectos, reflexión crítica sobre tecnología y experimentación con estructuras narrativas, medios computacionales y sistemas interactivos. Participación en iniciativas de investigación-creación, desarrollo curricular y servicio académico.\n<b>Cursos:</b> Programación Creativa; Narrativa Sonora; Videojuegos y Narrativa Interactiva; Narrativas Digitales; Narrativa Multimedia."
+        },
+        {
+          "date": "2025–2026",
+          "description": "<b>Universidad de los Andes — Maestría en Humanidades Digitales</b>. <b>Docente</b>. Narrativas Digitales: Del concepto a la interfaz. Exploración de las relaciones entre conceptos narrativos, medios digitales, diseño de interacción y desarrollo de interfaces."
+        },
+        {
+          "date": "2022–2023",
+          "description": "<b>Universidad de los Andes — Centro de Estudios en Periodismo (CEPER)</b>. <b>Profesor visitante</b>. Docencia que integra medios digitales, práctica creativa y diseño narrativo. Cursos: Videojuegos y Narrativa Interactiva; Programación Creativa; Narrativa Sonora; Narrativa Multimedia."
+        },
+        {
+          "date": "2019–2022",
+          "description": "<b>Universidad Jorge Tadeo Lozano — Escuela de Diseño de Producto y Facultad de Ciencias e Ingeniería</b>. <b>Profesor de cátedra</b>. Docencia en desarrollo de videojuegos, diseño de interacción, visualización de datos, movilidad creativa y arte y ciencia. Acompañamiento de estudiantes en investigación, conceptualización, prototipado y desarrollo de productos y experiencias tecnológicas.\n<b>Cursos:</b> Desarrollo de Videojuegos; Taller de Interacciones: Simulaciones; Visualización de Datos; Movilidad Creativa; Arte y Ciencia; Curso para Proyecto de Grado."
+        },
+        {
+          "date": "2017–2020",
+          "description": "<b>Critertec Educación — Programa Innovadores Pedagógicos</b>. <b>Formador</b>. Diseño e impartición de formación para docentes y directivos docentes de la Secretaría de Educación del Distrito de Bogotá. Introducción de tecnologías interactivas y enfoques creativos al pensamiento computacional en contextos educativos.\n<b>Cursos:</b> Realidad Aumentada; Programación Tangible."
+        },
+        {
+          "date": "2015–2016",
+          "description": "<b>Institución Universitaria Latina (Unilatina) — Facultad de Artes Digitales</b>. <b>Docente</b>. Diseño y Programación de Instalaciones Interactivas, Programa Académico en Contenidos Interactivos; Programación de Software e Interactividad, Programa Académico en Contenidos Sonoros."
+        }
+      ],
+      "creative": [
+        {
+          "date": "2025–actualidad",
+          "description": "<b>Julia Trama Algo</b> — Videojuego y narrativa digital interactiva. Proyecto de investigación-creación desarrollado en el Centro de Investigación y Creación (CIC), Departamento de Narrativas Digitales, Universidad de los Andes. Explora la elaboración de ruanas en Boyacá, Colombia, a través de la memoria, la cultura material, la producción cotidiana y los saberes intergeneracionales. Utiliza narrativa interactiva y sistemas computacionales para explorar las relaciones entre prácticas culturales, tiempo y transmisión. Proyecto: juliatramaalgo.com"
+        },
+        {
+          "date": "2024",
+          "description": "<b>N4T3KUK / La Vorágine 2124</b> — Obra audiovisual inmersiva y videoarte para domo. Obra audiovisual 4K de 360 grados desarrollada con el colectivo 4L3PH. Emplea prácticas especulativas y audiovisuales para imaginar futuros inquietantes mediante una reinterpretación (ciber)carnavalesca de La Vorágine. Apoyada por la Beca de Creación de Videoarte para Domo de IDARTES."
+        },
+        {
+          "date": "2017",
+          "description": "<b>Sin prisa: aproximaciones al tiempo entre la interactividad, la desaceleración y la generatividad</b> — Obra interactiva y proyecto de investigación de maestría. Investigación artística sobre el tiempo, la desaceleración, la interactividad y los procesos generativos mediante medios computacionales. Examina cómo los sistemas interactivos configuran la experiencia temporal e invitan a establecer otras relaciones con los procesos tecnológicos. Instalación audiovisual interactiva."
+        },
+        {
+          "date": "2025",
+          "description": "<b>Bancolombia 150 años</b> — Experiencia de realidad aumentada. Desarrollo de una aplicación de realidad aumentada para Android y iOS que amplía los contenidos del libro Desde el principio: fundación del Banco de Colombia, publicado por Ediciones Uniandes y Bancolombia. Integra medios impresos y digitales mediante una experiencia interactiva que combina contenido, diseño de interfaz y navegación."
+        },
+        {
+          "date": "2019",
+          "description": "<b>Guardianes ATI</b> — Experiencia educativa transmedia. Colaboración con Critertec Educación en un proyecto educativo transmedia que combina mecánicas de juego, narrativas interactivas, realidad aumentada e interacción físico-digital. El proyecto recibió una beca de coproducción Crea Digital 2019."
+        }
+      ],
+      "education": [
+        {
+          "date": "2018",
+          "description": "<b>Magíster en Tecnología y Estética de las Artes Electrónicas</b>. Universidad Nacional de Tres de Febrero (UNTREF), Buenos Aires, Argentina."
+        },
+        {
+          "date": "2012",
+          "description": "<b>Diseñador Industrial</b>. Universidad de Bogotá Jorge Tadeo Lozano, Bogotá, Colombia."
+        }
+      ],
+      "publications": [
+        {
+          "date": "2025",
+          "description": "<b>Capítulo de libro</b>: Rodríguez, J. <b>“Multimedia Storytelling”</b>. En J. A. Fisher, M. C. Reyes y J. Barbara (eds.), An Educator’s Guide to Interactive Digital Narrative: Syllabi and Resources From Around the World. Carnegie Mellon University. https://doi.org/10.1184/R1/28923917.v2"
+        },
+        {
+          "date": "2024",
+          "description": "<b>Informe de taller</b>: Rodríguez Gómez, J. Informe sobre el taller <b>“Journalism and Videogames: Where Two Worlds Meet”</b>, con Olivier Mauco. Festival Gabo."
+        }
+      ],
+      "awards": [
+        {
+          "date": "2024",
+          "description": "<b>Beca de Creación de Videoarte para Domo</b> — IDARTES. Otorgada al colectivo 4L3PH por N4T3KUK / La Vorágine 2124, con apoyo del programa Arte, Ciencia y Tecnología de IDARTES y el Planetario de Bogotá."
+        },
+        {
+          "date": "2019",
+          "description": "<b>Crea Digital</b> — Ganador. Beca de coproducción para el desarrollo de contenidos transmedia con Guardianes, en colaboración con Critertec Educación S.A.S."
+        },
+        {
+          "date": "2018",
+          "description": "<b>Crea Digital</b> — Mención de honor. Beca de coproducción para el desarrollo de videojuegos con Mimaco, proyecto de Critertec S.A.S."
+        },
+        {
+          "date": "2017",
+          "description": "<b>Beca de Residencia Audiovisual en Arte, Ciencia y Tecnología</b>. Otorgada por Tiempo sin medida, instalación audiovisual interactiva. Cinemateca de Bogotá e IDARTES."
+        }
+      ],
+      "service": [
+        {
+          "date": "2026",
+          "description": "<b>Evaluador</b> — International Conference on Interactive Digital Storytelling (ICIDS 2026)."
+        },
+        {
+          "date": "2026",
+          "description": "<b>Evaluador</b> — Pabellón, Universidad de los Andes."
+        },
+        {
+          "date": "2025",
+          "description": "<b>Art Track Chair</b> — International Conference on Interactive Digital Storytelling (ICIDS 2025). Diseño curatorial y selección de obras para Kaleidoscopic Machines in an Era of Accelerated Entanglements, exposición sobre narrativas digitales interactivas, artes mediales, IA generativa, agencias más-que-humanas y materialidades planetarias."
+        },
+        {
+          "date": "2026",
+          "description": "<b>Organizador de sesión</b> — LASA: “Ludic Forms and Digital Resistance: Visuality, Memory, and Cultural Futures in Latin American Video Games”."
+        },
+        {
+          "date": "2023",
+          "description": "<b>Organizador</b> — ciclo de charlas abiertas Experiencias en torno a las narrativas digitales, arte y videojuegos, Universidad de los Andes."
+        }
+      ],
+      "presentations": [
+        {
+          "date": "2026",
+          "description": "<b>“When Production Interweaves with Everyday Life: Scenes of Ruana Making in Boyacá Narrated through a Videogame”</b>. Congreso de la Latin American Studies Association (LASA), París, Francia. Presentación sobre Julia Trama Algo."
+        },
+        {
+          "date": "2026",
+          "description": "<b>“Re-narrating to Expand Worlds”</b>. Encuentro de Comunicaciones en Catatumbo, Centro Regional de Medios, Ocaña, Norte de Santander, Colombia."
+        },
+        {
+          "date": "2022",
+          "description": "<b>“Videojuego, narración, brevedad e interactividad”</b>. Charlas abiertas de Narrativas Digitales, Universidad de los Andes."
+        }
+      ],
+      "workshops": [
+        {
+          "date": "2025",
+          "description": "<b>Narración digital para el patrimonio cultural</b>. Taller realizado en el marco de Humanidades Digitales para la Preservación del Patrimonio Cultural Amazónico. Centro Cultural del Banco de la República, Leticia, Colombia."
+        },
+        {
+          "date": "2024",
+          "description": "<b>El giro posthumanista para pensar las narrativas digitales interactivas</b>. Diseño y facilitación conjunta con Nelson Vera en ICIDS 2024."
+        },
+        {
+          "date": "2024",
+          "description": "<b>Videojuegos como herramientas de cambio social</b>. Cofacilitador junto con Gonzalo Frasca en el EduMedia Forum."
+        },
+        {
+          "date": "2021",
+          "description": "<b>La mirada del otro Yo</b>. Laboratorio creativo digital de narración audiovisual para jóvenes, realizado en la Cinemateca de Bogotá como parte del programa Extraño LCD."
+        }
+      ],
+      "exhibitions": [
+        {
+          "date": "2025",
+          "description": "<b>Festival Fotosíntesis</b>, Parque Explora, Medellín, Colombia."
+        },
+        {
+          "date": "2024",
+          "description": "<b>Festival Audiovisual Experimental Domo Lleno</b>, Planetario de Bogotá, Colombia."
+        },
+        {
+          "date": "2021",
+          "description": "<b>XX Festival Internacional de la Imagen</b>, Universidad de Caldas, Colombia."
+        },
+        {
+          "date": "2020",
+          "description": "<b>Reclaim Futures</b>, Conference 2020."
+        },
+        {
+          "date": "2020",
+          "description": "<b>Festival RealMix</b>, IDARTES y Planetario de Bogotá, Colombia."
+        },
+        {
+          "date": "2019",
+          "description": "<b>Videoerrante</b>, Museo de Arte Miguel Urrutia, El Parqueadero, Bogotá, Colombia."
+        },
+        {
+          "date": "2017",
+          "description": "<b>FASE 9.0</b>, Intervenciones y recorridos, Centro Cultural del Bicentenario, CASo, Buenos Aires, Argentina."
+        },
+        {
+          "date": "2017",
+          "description": "<b>Festival ARTTEC</b>, Espacio LIA, Bogotá, Colombia."
+        },
+        {
+          "date": "2015",
+          "description": "<b>FASE 7.0</b>, Procesos, proyectos, experiencias, Centro Cultural Recoleta, Buenos Aires, Argentina."
+        },
+        {
+          "date": "2015",
+          "description": "<b>Máquinas del pensamiento: proyectos en proceso</b>, Maestría en Artes Electrónicas, UNTREF; Museo Castagnino + Macro, Rosario, Argentina."
+        },
+        {
+          "date": "2014",
+          "description": "<b>Intersticios Sonoros – Fragmentos de un conflicto</b>, Espacio Tangente Valentín Jalón, Burgos, España."
+        },
+        {
+          "date": "2014",
+          "description": "<b>FASE 6.0</b>, Tecnologías: políticas y poéticas, Centro Cultural Recoleta, Buenos Aires, Argentina."
+        },
+        {
+          "date": "2014",
+          "description": "<b>Obsolescencia Re-programada</b>, muerte y resurrección, MediaLab SirveVerse, La Paternal Espacio Proyecto, Buenos Aires, Argentina."
+        },
+        {
+          "date": "2013",
+          "description": "<b>Futurissima</b>, La Sin Futuro, Buenos Aires, Argentina."
+        },
+        {
+          "date": "2012",
+          "description": "<b>Memorial de voces</b>, Alianza Francesa, Bogotá, Colombia."
+        },
+        {
+          "date": "2012",
+          "description": "<b>Intersticios sonoros</b>, Sonema / Lado B, La Redada, Bogotá, Colombia."
+        },
+        {
+          "date": "2012",
+          "description": "<b>ZêppelinExpandit 2012 – BarcelonaSoLímit</b>, Orquesta del Caos, Centre de Cultura Contemporània de Barcelona, España."
+        }
+      ],
+      "programmes": [
+        {
+          "date": "2024",
+          "description": "<b>CoFutures Project, Universidad de Oslo–Bogotá</b>. Participante en el taller y laboratorio de co-futurización Who Owns the Future?"
+        },
+        {
+          "date": "2022",
+          "description": "<b>Laboratorio Migrando al Futuro: Escuchando otros mundos posibles</b>. Participante en laboratorio dirigido por Nelson Vera y Luis Carlos Barragán, Cinemateca Distrital, Bogotá, Colombia."
+        },
+        {
+          "date": "2014",
+          "description": "<b>Seminario-taller Cultura crítica en Internet, a cargo de Geert Lovink</b>. Espacio Nixso, Universidad Nacional de Tres de Febrero, Buenos Aires, Argentina."
+        },
+        {
+          "date": "2014",
+          "description": "<b>Taller de arte generativo para artistas visuales y multimediales, dirigido por Emiliano Causa</b>. MediaLab del CCEBA, Buenos Aires, Argentina."
+        },
+        {
+          "date": "2013",
+          "description": "<b>Seminario Mundos Virtuales, dictado por Iliana Hernández</b>. Universidad Nacional de Tres de Febrero, Buenos Aires, Argentina."
+        }
+      ],
+      "skills": [
+        {
+          "date": "",
+          "description": "<b>Programación creativa y computacional</b>: Unity, Processing, p5.js, Hydra, Pure Data, HTML, CSS y JavaScript."
+        },
+        {
+          "date": "",
+          "description": "<b>Computación física e interacción</b>: Arduino, programación tangible e instalaciones interactivas."
+        },
+        {
+          "date": "",
+          "description": "<b>Medios digitales e inmersivos</b>: realidad aumentada, realidad virtual, experiencias audiovisuales interactivas, videojuegos y narrativas digitales."
+        },
+        {
+          "date": "",
+          "description": "<b>Sonido y producción de audio</b>: Logic Pro y Reaper; narración sonora, interacción sónica y diseño de sonido."
+        },
+        {
+          "date": "",
+          "description": "<b>Diseño y prototipado</b>: diseño de interacción, diseño de experiencias digitales, prototipado, investigación de usuarios, evaluación heurística y Microsoft Clarity."
+        },
+        {
+          "date": "",
+          "description": "<b>Práctica colaborativa</b>: desarrollo interdisciplinar de proyectos, investigación-creación, talleres creativos y docencia basada en proyectos. Colectivo creativo: miembro de 4L3PH."
+        }
+      ]
+    }
+  },
+  "en": {
+    "title": "CV",
+    "sections": {
+      "profile": "Profile",
+      "practice": "Areas of Practice and Teaching",
+      "teaching": "Academic Teaching Experience",
+      "creative": "Selected Creative Work",
+      "education": "Education",
+      "publications": "Selected Publications and Scholarly Activity",
+      "awards": "Grants, Awards, and Recognition",
+      "service": "Academic Service and Professional Engagement",
+      "presentations": "Selected Presentations",
+      "workshops": "Creative Workshops and Laboratories",
+      "exhibitions": "Selected Group Exhibitions and Festivals",
+      "programmes": "Additional Artistic and Educational Programmes",
+      "skills": "Technical Skills"
+    },
+    "entries": {
+      "profile": [
+        {
+          "date": "",
+          "description": "Interdisciplinary artist, designer, educator, and researcher working across sound and media arts, creative coding, interactive systems, videogames, and digital storytelling. My creative practice explores how computational processes, interfaces, rules, and forms of participation shape aesthetic experiences and ways of relating to the world. With an MA in Technology and Aesthetics of Electronic Arts and extensive university-level teaching experience, I bring together artistic experimentation, programming, media theory, and project-based learning. I have worked with Pure Data, Processing, p5.js, Hydra, Arduino, HTML, CSS, JavaScript, Unity, Logic Pro, and Reaper, exploring sound, music-making, generative systems, physical computing, browser-based audiovisual experimentation, and interactive media. My work and teaching examine relationships between technology, culture, narrative, temporality, and meaning-making, approaching digital media as both creative material and a subject for critical inquiry."
+        }
+      ],
+      "practice": [
+        {
+          "date": "01",
+          "description": "<b>Creative Coding and Computational Media</b>: creative programming, generative systems, computational approaches to artistic expression, and interactive media."
+        },
+        {
+          "date": "02",
+          "description": "<b>Sound and Audiovisual Media</b>: sound storytelling, sonic interaction, audiovisual experimentation, and the relationship between sound, narrative, and digital environments."
+        },
+        {
+          "date": "03",
+          "description": "<b>Interactive and Participatory Media</b>: interactive installations, videogames, digital narratives, physical computing, and technology-mediated experiences."
+        },
+        {
+          "date": "04",
+          "description": "<b>Critical Approaches to Technology</b>: computational systems, technological transformations, cultural practices, participation, and the aesthetic and social implications of digital media."
+        },
+        {
+          "date": "05",
+          "description": "<b>Design and Pedagogy</b>: interaction design, project-based learning, prototyping, interdisciplinary collaboration, and creative technology education."
+        }
+      ],
+      "teaching": [
+        {
+          "date": "2026",
+          "description": "<b>Universidad Jorge Tadeo Lozano — Diploma in Storytelling</b>. <b>Lecturer</b>. Designed and delivered a module on narrative techniques for strategic communication, including conflict and tension, storyline development, data storytelling, and simulation exercises for complex conversations. Explored generative AI as a tool for communication and narrative development."
+        },
+        {
+          "date": "2023–2026",
+          "description": "<b>Universidad de los Andes — Faculty of Arts and Humanities, Digital Storytelling Department</b>. <b>Assistant Professor</b>. Designed and taught theoretical and practice-based courses in digital storytelling, interactive narrative, videogames, creative programming, and sound storytelling. Guided student projects through project-based learning, combining critical reflection on technology with experimentation in narrative structures, computational media, and interactive systems. Contributed to research-creation initiatives, curriculum development, and academic service.\n<b>Selected courses:</b> Creative Programming; Sound Storytelling; Video Games and Interactive Storytelling; Digital Storytelling; Multimedia Storytelling."
+        },
+        {
+          "date": "2025–2026",
+          "description": "<b>Universidad de los Andes — MA in Digital Humanities</b>. <b>Lecturer</b>. Digital Narratives: From Concept to Interface. Explored relationships between narrative concepts, digital media, interaction design, and interface development."
+        },
+        {
+          "date": "2022–2023",
+          "description": "<b>Universidad de los Andes — Center for Journalism Studies (CEPER)</b>. Visiting <b>Lecturer</b>. Taught courses integrating digital media, creative practice, and narrative design. Courses included Video Games and Interactive Storytelling, Creative Programming, Sound Storytelling, and Multimedia Storytelling."
+        },
+        {
+          "date": "2019–2022",
+          "description": "<b>Universidad Jorge Tadeo Lozano — Product Design School and Faculty of Sciences and Engineering</b>. <b>Lecturer</b>. Taught videogame development, interaction design, data visualization, creative mobility, and arts and sciences. Guided students through research, concept development, prototyping, and the development of technology-based products and experiences.\n<b>Selected courses:</b> Video Game Development; Interaction Workshop: Simulations; Data Visualization; Creative Mobility; Arts and Sciences; Capstone Project Course."
+        },
+        {
+          "date": "2017–2020",
+          "description": "<b>Critertec Educación — Pedagogical Innovators Program</b>. <b>Instructor</b>. Designed and delivered training for teachers and educational leaders from Bogotá's District Secretariat of Education, introducing interactive technologies and creative approaches to computational thinking in educational contexts.\n<b>Courses included</b> Augmented Reality and Tangible Programming."
+        },
+        {
+          "date": "2015–2016",
+          "description": "<b>Institución Universitaria Latina (Unilatina) — Faculty of Digital Arts</b>. <b>Lecturer</b>. Design and Programming of Interactive Installations, Academic Programme in Interactive Content; Software Programming and Interactivity, Academic Programme in Sonic Content."
+        }
+      ],
+      "creative": [
+        {
+          "date": "2025–present",
+          "description": "<b>Julia Trama Algo</b> — Videogame and interactive digital narrative. Research-creation project developed through the Research and Creation Center (CIC), Digital Storytelling Department, Universidad de los Andes. Explores ruana-making in Boyacá, Colombia, through memory, material culture, everyday production, and intergenerational knowledge. Uses interactive narrative and computational systems to explore relationships between cultural practices, time, and transmission. Project: juliatramaalgo.com"
+        },
+        {
+          "date": "2024",
+          "description": "<b>N4T3KUK / La Vorágine 2124</b> — Immersive audiovisual artwork and dome video art. A 4K, 360-degree dome video artwork developed with the 4L3PH collective. Uses speculative and audiovisual practices to imagine unsettling futures through a (cyber)carnivalesque reinterpretation of La Vorágine. Supported by the IDARTES Dome Video Art Creation Grant."
+        },
+        {
+          "date": "2017",
+          "description": "<b>Sin prisa: Approaches to Time through Interactivity, Deceleration, and Generativity</b> — Interactive artwork and master's research project. Artistic research investigating time, deceleration, interactivity, and generative processes through computational media. Examines how interactive systems shape temporal experience and invite alternative relationships with technological processes. Interactive audiovisual installation."
+        },
+        {
+          "date": "2025",
+          "description": "<b>Bancolombia 150 Years</b> — Augmented Reality Experience. Developed an augmented reality application for Android and iOS extending the content of Desde el principio: fundación del Banco de Colombia, published by Ediciones Uniandes and Bancolombia. Integrated print and digital media through an interactive experience combining content, interface design, and navigation."
+        },
+        {
+          "date": "2019",
+          "description": "<b>Guardianes ATI</b> — Transmedia educational experience. Collaborated with Critertec Educación on an educational transmedia project combining game mechanics, interactive narratives, augmented reality, and physical-digital interaction. The project received a Crea Digital 2019 co-production grant."
+        }
+      ],
+      "education": [
+        {
+          "date": "2018",
+          "description": "<b>MA in Technology and Aesthetics of Electronic Arts</b>. National University of Tres de Febrero (UNTREF), Buenos Aires, Argentina."
+        },
+        {
+          "date": "2012",
+          "description": "<b>Industrial Design</b>. Universidad de Bogotá Jorge Tadeo Lozano, Bogotá, Colombia."
+        }
+      ],
+      "publications": [
+        {
+          "date": "2025",
+          "description": "<b>Book chapter</b>: Rodríguez, J. <b>“Multimedia Storytelling.”</b> In J. A. Fisher, M. C. Reyes, and J. Barbara (Eds.), An Educator’s Guide to Interactive Digital Narrative: Syllabi and Resources From Around the World. Carnegie Mellon University. https://doi.org/10.1184/R1/28923917.v2"
+        },
+        {
+          "date": "2024",
+          "description": "<b>Workshop report</b>: Rodríguez Gómez, J. Report on the workshop <b>“Journalism and Videogames: Where Two Worlds Meet,”</b> with Olivier Mauco. Festival Gabo."
+        }
+      ],
+      "awards": [
+        {
+          "date": "2024",
+          "description": "<b>IDARTES Dome Video Art Creation Grant</b>. Awarded to the 4L3PH collective for N4T3KUK / La Vorágine 2124, supported by IDARTES's Arts, Sciences, and Technology programme and the Bogotá Planetarium."
+        },
+        {
+          "date": "2019",
+          "description": "<b>Crea Digital</b> — Winner. Co-production grant for transmedia content development with Guardianes, in collaboration with Critertec Educación S.A.S."
+        },
+        {
+          "date": "2018",
+          "description": "<b>Crea Digital</b> — Honorable Mention. Co-production grant for videogame development with Mimaco, a Critertec S.A.S. project."
+        },
+        {
+          "date": "2017",
+          "description": "<b>Audiovisual Residency Grant in Art, Science, and Technology</b>. Awarded for Tiempo sin medida, an interactive audiovisual installation. Cinemateca de Bogotá and IDARTES."
+        }
+      ],
+      "service": [
+        {
+          "date": "2026",
+          "description": "<b>Reviewer</b> — International Conference on Interactive Digital Storytelling (ICIDS 2026)."
+        },
+        {
+          "date": "2026",
+          "description": "<b>Reviewer</b> — Pabellón, Universidad de los Andes."
+        },
+        {
+          "date": "2025",
+          "description": "<b>Art Track Chair</b> — International Conference on Interactive Digital Storytelling (ICIDS 2025). Curatorial design and selection of works for Kaleidoscopic Machines in an Era of Accelerated Entanglements, an exhibition exploring interactive digital narratives, media arts, generative AI, more-than-human agencies, and planetary materialities."
+        },
+        {
+          "date": "2026",
+          "description": "<b>Session Organizer</b> — LASA session, “Ludic Forms and Digital Resistance: Visuality, Memory, and Cultural Futures in Latin American Video Games.”"
+        },
+        {
+          "date": "2023",
+          "description": "<b>Organizer</b> — Open Talk Series, Experiencias en torno a las narrativas digitales, arte y videojuegos, Universidad de los Andes."
+        }
+      ],
+      "presentations": [
+        {
+          "date": "2026",
+          "description": "<b>“When Production Interweaves with Everyday Life: Scenes of Ruana Making in Boyacá Narrated through a Videogame.”</b> Latin American Studies Association (LASA) Congress, Paris, France. Presentation on Julia Trama Algo."
+        },
+        {
+          "date": "2026",
+          "description": "<b>“Re-narrating to Expand Worlds.”</b> Communications Gathering in Catatumbo, Regional Media Center, Ocaña, Norte de Santander, Colombia."
+        },
+        {
+          "date": "2022",
+          "description": "<b>“Videojuego, narración, brevedad e interactividad”</b> (Videogames, Narrative, Brevity, and Interactivity). Open Talks in Digital Storytelling, Universidad de los Andes."
+        }
+      ],
+      "workshops": [
+        {
+          "date": "2025",
+          "description": "<b>Digital Storytelling for Cultural Heritage</b>. Workshop delivered as part of Digital Humanities for the Preservation of Amazonian Cultural Heritage. Banco de la República Cultural Center, Leticia, Colombia."
+        },
+        {
+          "date": "2024",
+          "description": "<b>The Posthumanist Turn to Think Interactive Digital Narratives</b>. Co-designed and co-facilitated with Nelson Vera at ICIDS 2024."
+        },
+        {
+          "date": "2024",
+          "description": "<b>Videogames as Tools for Social Change</b>. Co-facilitated with Gonzalo Frasca as part of the EduMedia Forum."
+        },
+        {
+          "date": "2021",
+          "description": "<b>La mirada del otro Yo</b>. Creative digital laboratory in audiovisual storytelling for young people, held at Cinemateca de Bogotá as part of the Extraño LCD programme."
+        }
+      ],
+      "exhibitions": [
+        {
+          "date": "2025",
+          "description": "<b>Festival Fotosíntesis</b>, Parque Explora, Medellín, Colombia."
+        },
+        {
+          "date": "2024",
+          "description": "<b>Festival Audiovisual Experimental Domo Lleno</b>, Bogotá Planetarium, Colombia."
+        },
+        {
+          "date": "2021",
+          "description": "<b>XX Festival Internacional de la Imagen</b>, Universidad de Caldas, Colombia."
+        },
+        {
+          "date": "2020",
+          "description": "<b>Reclaim Futures</b>, Conference 2020."
+        },
+        {
+          "date": "2020",
+          "description": "<b>Festival RealMix</b>, IDARTES and Bogotá Planetarium, Colombia."
+        },
+        {
+          "date": "2019",
+          "description": "<b>Videoerrante</b>, Museo de Arte Miguel Urrutia, El Parqueadero, Bogotá, Colombia."
+        },
+        {
+          "date": "2017",
+          "description": "<b>FASE 9.0</b>, Intervenciones y recorridos, Centro Cultural del Bicentenario, CASo, Buenos Aires, Argentina."
+        },
+        {
+          "date": "2017",
+          "description": "<b>Festival ARTTEC</b>, Espacio LIA, Bogotá, Colombia."
+        },
+        {
+          "date": "2015",
+          "description": "<b>FASE 7.0</b>, Procesos, proyectos, experiencias, Centro Cultural Recoleta, Buenos Aires, Argentina."
+        },
+        {
+          "date": "2015",
+          "description": "<b>Máquinas del pensamiento: proyectos en proceso</b>, MA in Electronic Arts, UNTREF; Museo Castagnino + Macro, Rosario, Argentina."
+        },
+        {
+          "date": "2014",
+          "description": "<b>Intersticios Sonoros – Fragmentos de un conflicto</b>, Espacio Tangente Valentín Jalón, Burgos, Spain."
+        },
+        {
+          "date": "2014",
+          "description": "<b>FASE 6.0</b>, Tecnologías: políticas y poéticas, Centro Cultural Recoleta, Buenos Aires, Argentina."
+        },
+        {
+          "date": "2014",
+          "description": "<b>Obsolescencia Re-programada</b>, muerte y resurrección, MediaLab SirveVerse, La Paternal Espacio Proyecto, Buenos Aires, Argentina."
+        },
+        {
+          "date": "2013",
+          "description": "<b>Futurissima</b>, La Sin Futuro, Buenos Aires, Argentina."
+        },
+        {
+          "date": "2012",
+          "description": "<b>Memorial de voces</b>, Alianza Francesa, Bogotá, Colombia."
+        },
+        {
+          "date": "2012",
+          "description": "<b>Intersticios sonoros</b>, Sonema / Lado B, La Redada, Bogotá, Colombia."
+        },
+        {
+          "date": "2012",
+          "description": "<b>ZêppelinExpandit 2012 – BarcelonaSoLímit</b>, Orquesta del Caos, Centre de Cultura Contemporània de Barcelona, Spain."
+        }
+      ],
+      "programmes": [
+        {
+          "date": "2024",
+          "description": "<b>CoFutures Project, University of Oslo–Bogotá</b>. Participant in the co-futuring workshop and laboratory Who Owns the Future?"
+        },
+        {
+          "date": "2022",
+          "description": "<b>Laboratorio Migrando al Futuro: Escuchando otros mundos posibles</b>. Participant in a laboratory led by Nelson Vera and Luis Carlos Barragán, Cinemateca Distrital, Bogotá, Colombia."
+        },
+        {
+          "date": "2014",
+          "description": "<b>Critical Internet Culture Seminar-Workshop, led by Geert Lovink</b>. Espacio Nixso, National University of Tres de Febrero, Buenos Aires, Argentina."
+        },
+        {
+          "date": "2014",
+          "description": "<b>Generative Art Workshop for Visual and Multimedia Artists, led by Emiliano Causa</b>. MediaLab del CCEBA, Buenos Aires, Argentina."
+        },
+        {
+          "date": "2013",
+          "description": "<b>Seminario Mundos Virtuales, led by Iliana Hernández</b>. National University of Tres de Febrero, Buenos Aires, Argentina."
+        }
+      ],
+      "skills": [
+        {
+          "date": "",
+          "description": "<b>Creative Coding and Programming</b>: Unity, Processing, p5.js, Hydra, Pure Data, HTML, CSS, and JavaScript."
+        },
+        {
+          "date": "",
+          "description": "<b>Interactive and Physical Computing</b>: Arduino, tangible programming, and interactive installations."
+        },
+        {
+          "date": "",
+          "description": "<b>Digital and Immersive Media</b>: augmented reality, virtual reality, interactive audiovisual experiences, videogames, and digital narratives."
+        },
+        {
+          "date": "",
+          "description": "<b>Sound and Audio Production</b>: Logic Pro and Reaper; sound storytelling, sonic interaction, and sound design."
+        },
+        {
+          "date": "",
+          "description": "<b>Design and Prototyping</b>: interaction design, digital experience design, prototyping, user research, heuristic evaluation, and Microsoft Clarity."
+        },
+        {
+          "date": "",
+          "description": "<b>Collaborative Practice</b>: interdisciplinary project development, research-creation, creative workshops, and project-based teaching. Creative collective: member of 4L3PH."
+        }
+      ]
+    }
+  }
+}

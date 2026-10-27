@@ -4,7 +4,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jaime Rodríguez Gómez</title>
+
+    <title>Masa sonora — Jaime Rodríguez Gómez</title>
+
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -13,105 +15,89 @@
     />
   </head>
 
-  <body>
-    <nav>
+  <body data-project-id="masasonora">
+    <nav aria-label="Navegación principal">
       <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
+
+      <label for="check" class="checkbtn" aria-label="Abrir menú">
         <i class="fas fa-bars"></i>
       </label>
+
       <div id="name">
-        <p><a href="../index.html">Jaime Rodríguez Gómez</a></p>
+        <p>
+          <a href="../index.html">Jaime Rodríguez Gómez</a>
+        </p>
       </div>
+
       <ul>
-        <li><a href="../cv.html">CV</a></li>
-        <li><a href="../about.html">About</a></li>
+        <li class="nav-link">
+          <a href="../index.html" data-i18n="nav.projects">Proyectos</a>
+        </li>
+        <li class="nav-link">
+          <a href="../about.html" data-i18n="nav.about">Acerca de</a>
+        </li>
+        <li class="nav-link">
+          <a href="../cv.html" data-i18n="nav.cv">CV</a>
+        </li>
+        <li class="nav-link language-switch">
+          <button type="button" data-lang="es" aria-pressed="true">
+            ES
+          </button>
+          <span>/</span>
+          <button type="button" data-lang="en" aria-pressed="false">
+            EN
+          </button>
+        </li>
       </ul>
     </nav>
 
-    <section class="section--descripcion">
-      <h1 class="titulo">Masa sonora</h1>
-      <h4 class="año">2014</h4>
-      <br>
-      <div class="desripcion--text">
-        La instalación está conformada por tres paneles sonoros que mantienen
-        ocultos en su interior los mecanismos que generan el sonido, el cual se
-        encuentra en relación formal con la apariencia de la superficie metálica
-        que lo recubre. Cada panel reacciona de manera diferente a la presencia
-        de los espectadores, tanto desde su textura sonora como en relación a la
-        distancia de interacción, requiriendo una cercanía específica para el
-        funcionamiento de cada uno.
-        <br /><br />
+    <main>
+      <section class="section--descripcion">
+        <h1 class="titulo" data-project-field="title">
+          Masa sonora
+        </h1>
 
-        <em>Masa sonora</em> se propone como una metáfora sobre la expresión de
-        diferentes modos o condiciones de existencia. A través del ruido y de
-        procesos no visibles, cada panel exhibe de manera parcial su potencial
-        expresivo, donde el ruido es el encargado de trascender la contención y
-        derribar el soporte que encubre su estructura interna.
+        <h4 class="año" data-project-field="year">2014</h4>
 
-        <br /><br />
-        La obra sitúa al espectador en un juego con lo sorpresivo, lo
-        imperceptible y lo oculto, evocando a partir de las vibraciones y
-        timbres diversas imágenes sobre lo que ‘contiene’ o hay ‘detrás’.
+        <br />
 
-        <br /><br />
-        Trabajo realizado junto a
-        <a href="https://cargocollective.com/paulaguersenzvaig" class="link"
-          >Paula Guersenzvaig</a
-        >. <br /><br />
-      </div>
+        <div class="descripcion--text">
+          <p
+            data-project-field="description"
+            style="white-space: pre-line"
+          ></p>
 
-      <div class="video-container">
-        <iframe
-          src="https://www.youtube.com/embed/LaCWzhfSSqs"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
+          <p>
+            <span data-project-field="credits">
+              Trabajo realizado junto a
+            </span>
+            <a
+              href="https://cargocollective.com/paulaguersenzvaig"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Paula Guersenzvaig</a>.
+          </p>
+        </div>
 
-        <div class="contenedor-img">
-        <img
-          src="../images/work/masa-sonora/1.jpg"
-          alt="Imagen de Masa Sonora"
-        />
-      </div>
-       <div class="contenedor-img">
-        <img
-          src="../images/work/masa-sonora/2.jpg"
-          alt="Imagen de Masa Sonora"
-        />
-      </div>
-       <div class="contenedor-img">
-        <img
-          src="../images/work/masa-sonora/3.jpg"
-          alt="Imagen de Masa Sonora"
-        />
-      </div>
-       <div class="contenedor-img">
-        <img
-          src="../images/work/masa-sonora/4.jpg"
-          alt="Imagen de Masa Sonora"
-        />
-      </div>
-       <div class="contenedor-img">
-        <img
-          src="../images/work/masa-sonora/5.jpg"
-          alt="Imagen de Masa Sonora"
-        />
-      </div>
-       <div class="contenedor-img">
-        <img
-          src="../images/work/masa-sonora/6.jpg"
-          alt="Imagen de Masa Sonora"
-        />
-      </div>
+        <div class="video-container">
+          <iframe
+            src="https://www.youtube.com/embed/LaCWzhfSSqs"
+            title="Masa sonora — video de la instalación"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
 
-      <div class="border"></div>
-    </section>
+        <div data-project-images></div>
+
+        <div class="border"></div>
+      </section>
+    </main>
 
     <section class="section--menu-mobile"></section>
 
-    <script src="script.js"></script>
+    <script src="../js/project-page.js" defer></script>
   </body>
 </html>

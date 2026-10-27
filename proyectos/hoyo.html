@@ -4,7 +4,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jaime Rodríguez Gómez</title>
+
+    <title>Hoyo — Jaime Rodríguez Gómez</title>
+
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -13,116 +15,79 @@
     />
   </head>
 
-  <body>
-    <nav>
+  <body data-project-id="hoyo">
+    <nav aria-label="Navegación principal">
       <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
+
+      <label for="check" class="checkbtn" aria-label="Abrir menú">
         <i class="fas fa-bars"></i>
       </label>
+
       <div id="name">
-        <p><a href="../index.html">Jaime Rodríguez Gómez</a></p>
+        <p>
+          <a href="../index.html">Jaime Rodríguez Gómez</a>
+        </p>
       </div>
+
       <ul>
-        <li><a href="../cv.html">CV</a></li>
-        <li><a href="../about.html">About</a></li>
+        <li class="nav-link">
+          <a href="../index.html" data-i18n="nav.projects">Proyectos</a>
+        </li>
+        <li class="nav-link">
+          <a href="../about.html" data-i18n="nav.about">Acerca de</a>
+        </li>
+        <li class="nav-link">
+          <a href="../cv.html" data-i18n="nav.cv">CV</a>
+        </li>
+        <li class="nav-link language-switch">
+          <button type="button" data-lang="es" aria-pressed="true">
+            ES
+          </button>
+          <span>/</span>
+          <button type="button" data-lang="en" aria-pressed="false">
+            EN
+          </button>
+        </li>
       </ul>
     </nav>
 
-    <section class="section--descripcion">
-      <h1 class="titulo">Hoyo</h1>
-      <h4 class="año">2015</h4>
-      <br>
-      <div class="desripcion--text">
-        <em>HOYO</em> es un videojuego para Android que combina el reto de
-        insertar una bolita en diferentes agujeros inclinando el dispositivo,
-        con el dibujo de sutiles composiciones gráficas, donde el azar determina
-        la generación de los obstáculos y ubicación de los elementos.
+    <main>
+      <section class="section--descripcion">
+        <h1 class="titulo" data-project-field="title">Hoyo</h1>
 
-        <br /><br />
-        Esta serie surge de una reflexión sobre la manera como entendemos y nos
-        referimos al tiempo, la cual, debido a nuestra relación de medición con
-        el mismo, es predominantemente cuantitativa. Las magnitudes con las que
-        medimos el tiempo (segundos, minutos, horas, años, etc.) son eso,
-        magnitudes, y dicen poco sobre la naturaleza del tiempo, pues el tiempo
-        es más bien el escenario donde el cambio acontece, siendo este último a
-        su vez, el lugar donde el tiempo se manifiesta.
+        <h4 class="año" data-project-field="year">2015</h4>
 
-        <br /><br />
+        <br />
 
-        En “Hoyo”, busco articular mecánicas de juego con procesos generativos,
-        que permitan dejar un registro o huella de la interacción; asimismo
-        poner en tensión de una manera lúdica, la influencia del azar y el
-        control en la emergencia de formas, donde el control —en este caso de
-        los trazos gráficos— sea desplazado por la misma dinámica del juego
-        (llevar la bola a los agujeros) y se transforme en descontrol.
+        <div class="descripcion--text">
+          <p
+            data-project-field="description"
+            style="white-space: pre-line"
+          ></p>
+        </div>
 
-        <br /><br />
-        Disponible para Android.
-        <br /><br />
-      </div>
-      <div class="video-container">
-        <iframe
-          width="100%"
-          height="300"
-          src="https://www.youtube.com/embed/Nij_3JaHOR4"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <br>
-      <div class="contenedor-img">
-        <img
-          src="../images/work/hoyo0.jpg"
-          alt="Imagen de Hoyo"
-        />
-      </div>
-      <div class="contenedor-img">
-        <img
-          src="../images/work/hoyo1.jpg"
-          alt="Imagen de Hoyo"
-        />
-      </div>
-      <div class="contenedor-img">
-        <img
-          src="../images/work/hoyo2.jpg"
-          alt="Imagen de Hoyo"
-        />
-      </div>
-      <div class="contenedor-img">
-        <img
-          src="../images/work/hoyo3.jpg"
-          alt="Imagen de Hoyo"
-        />
-      </div>
-      <div class="contenedor-img">
-        <img
-          src="../images/work/hoyo4.jpg"
-          alt="Imagen de Hoyo"
-        />
-      </div>
-      <div class="contenedor-img">
-        <img
-          src="../images/work/hoyo5.jpg"
-          alt="Imagen de Hoyo"
-        />
-      </div>
-      <div class="contenedor-img">
-        <img
-          src="../images/work/hoyo6.jpg"
-          alt="Imagen de Hoyo"
-        />
-      </div>
+        <div class="video-container">
+          <iframe
+            width="100%"
+            height="300"
+            src="https://www.youtube.com/embed/Nij_3JaHOR4"
+            title="Hoyo — gameplay video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
 
-      <div class="border"></div>
-      
-      
+        <br />
 
-    </section>
+        <div data-project-images></div>
+
+        <div class="border"></div>
+      </section>
+    </main>
 
     <section class="section--menu-mobile"></section>
 
-    <script src="script.js"></script>
+    <script src="../js/project-page.js" defer></script>
   </body>
 </html>

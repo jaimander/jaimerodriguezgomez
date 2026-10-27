@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agua soy — Jaime Rodríguez Gómez</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body data-project-id="aguasoy">
+    <nav aria-label="Navegación principal">
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn" aria-label="Abrir menú">
+        <i class="fas fa-bars"></i>
+      </label>
+
+      <div id="name">
+        <p><a href="../index.html">Jaime Rodríguez Gómez</a></p>
+      </div>
+
+      <ul>
+        <li class="nav-link">
+          <a href="../index.html" data-i18n="nav.projects">Proyectos</a>
+        </li>
+        <li class="nav-link">
+          <a href="../about.html" data-i18n="nav.about">Acerca de</a>
+        </li>
+        <li class="nav-link">
+          <a href="../cv.html" data-i18n="nav.cv">CV</a>
+        </li>
+        <li class="nav-link language-switch">
+          <button type="button" data-lang="es" aria-pressed="true">ES</button>
+          <span>/</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="section--descripcion">
+        <h1 class="titulo" data-project-field="title">Agua soy</h1>
+
+        <h4 class="año" data-project-field="year">2024</h4>
+
+        <br />
+
+        <div class="descripcion--text">
+          <p data-project-field="description">
+            Un poema breve navegable y cíclico.
+          </p>
+
+          <p>
+            <a
+              href="../proyectos/aguasoy/index.html"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-project-link
+            >Ver versión navegable</a>
+          </p>
+        </div>
+
+        <div class="contenedor-img">
+          <img
+            data-project-image
+            src="../images/aguasoypantalla.png"
+            alt="Captura de pantalla de Agua soy"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+      </section>
+    </main>
+
+    <script src="../js/project-page.js" defer></script>
+  </body>
+</html>

@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jaime Rodríguez Gómez</title>
+    <title>Tiempo sin medida — Jaime Rodríguez Gómez</title>
+
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -13,159 +14,121 @@
     />
   </head>
 
-  <body>
-    <nav>
+  <body data-project-id="tiemposinmedida">
+    <nav aria-label="Navegación principal">
       <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
+
+      <label for="check" class="checkbtn" aria-label="Abrir menú">
         <i class="fas fa-bars"></i>
       </label>
+
       <div id="name">
         <p><a href="../index.html">Jaime Rodríguez Gómez</a></p>
       </div>
+
       <ul>
-        <li><a href="../cv.html">CV</a></li>
-        <li><a href="../about.html">About</a></li>
+        <li class="nav-link">
+          <a href="../index.html" data-i18n="nav.projects">Proyectos</a>
+        </li>
+        <li class="nav-link">
+          <a href="../about.html" data-i18n="nav.about">Acerca de</a>
+        </li>
+        <li class="nav-link">
+          <a href="../cv.html" data-i18n="nav.cv">CV</a>
+        </li>
+        <li class="nav-link language-switch">
+          <button type="button" data-lang="es" aria-pressed="true">ES</button>
+          <span>/</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </li>
       </ul>
     </nav>
 
-    <section class="section--descripcion">
-      <h1 class="titulo">Tiempo sin medida</h1>
-      <h4 class="año">2017</h4>
-      <br>
-      <div class="desripcion--text">
-        “Tiempo sin medida” es una instalación interactiva audiovisual,
-        compuesta por un sistema de sonido cuadrafónico, una proyección y un
-        display de 4 dígitos. La composición audiovisual responde de manera
-        generativa a la presencia del público en una zona de captura delimitada
-        en el espacio y demarcada visualmente. El sistema contabiliza el tiempo
-        que pasa desde que alguna presencia humana es detectada hasta que el
-        espacio vuelve a quedar deshabitado. De acuerdo a este valor, la
-        composición audiovisual se transforma, operando como traducción de la
-        temporalidad de la presencia. Sobre el muro que recibe la proyección, se
-        encuentra a media altura, un display que muestra el tiempo contabilizado
-        (en segundos), cuya legibilidad resulta alterada al quedar sumergido en
-        la imagen proyectada.
+    <main>
+      <section class="section--descripcion">
+        <h1 class="titulo" data-project-field="title">
+          Tiempo sin medida
+        </h1>
+        <h4 class="año" data-project-field="year">2017</h4>
 
-        <br /><br />
-        La disposición visual de la proyección y del display (que muestra el
-        tiempo contabilizado) intenta articular un conflicto conceptual entre el
-        tiempo cantidad y el tiempo cualidad, a través de un diálogo visual, al
-        presentarse en la pared de manera superpuesta. Desde el punto de vista
-        de la interacción, entendida como la relación que se establece entre las
-        acciones del público y la respuesta del sistema (la manera como éste se
-        transforma), la obra hace un señalamiento a la dinámica imperante de los
-        artefactos interactivos -el tiempo real-, la cual, de cierto modo,
-        refuerza el valor concedido socialmente a la velocidad y la
-        instantaneidad. La obra persigue la presencia del tiempo desde la
-        lentitud, esto es, mediante la introducción del intervalo en la reacción
-        de la obra frente a la presencia del público. De tal manera, este último
-        interactúa con el ambiente audiovisual acudiendo a su propio tiempo. En
-        conjunto, el paisaje audiovisual generado busca disparar una experiencia
-        cercana a lo que John Cage encontraba en el bosque, un bosque en el que
-        no se puede anticipar un camino sino recorrer en el instante lo que los
-        sentidos alcanzan, y que al presentarse como ritmo, nos sitúa en una
-        dirección en la medida en que genera en nosotros un ánimo de espera que
-        apunta hacia un sentido, nos suspende en la certeza de un advenir
-        futuro.
+        <br />
 
-        <br /><br />
-      </div>
+        <div class="descripcion--text">
+          <p
+            data-project-field="description"
+            style="white-space: pre-line"
+          ></p>
+        </div>
 
-      <div style="padding: 56.25% 0 0 0; position: relative">
-        <iframe
-          src="https://player.vimeo.com/video/202311461?h=d240bb862c&byline=0"
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
-          frameborder="0"
-          allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <script src="https://player.vimeo.com/api/player.js"></script>
-      <p>
-        <a href="https://vimeo.com/202311461">Tiempo sin medida (en proceso)</a>
-        from <a href="https://vimeo.com/user7059721">Jaime Rodriguez</a> on
-        <a href="https://vimeo.com">Vimeo</a>.
-      </p>
-
-      <div style="padding: 70.87% 0 0 0; position: relative">
-        <iframe
-          src="https://player.vimeo.com/video/230872731?h=cfdabb0eab&byline=0"
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
-          frameborder="0"
-          allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <script src="https://player.vimeo.com/api/player.js"></script>
-      <p>
-        <a href="https://vimeo.com/230872731"
-          >&quot;Tiempo sin medida&quot;. Instalaci&oacute;n audiovisual.
-          (Excerpts))</a
+        <div
+          class="video-container"
+          style="padding: 56.25% 0 0 0; position: relative"
         >
-        from <a href="https://vimeo.com/user7059721">Jaime Rodriguez</a> on
-        <a href="https://vimeo.com">Vimeo</a>.
-      </p>
-      <div class="border"></div>
+          <iframe
+            src="https://player.vimeo.com/video/202311461?h=d240bb862c&byline=0"
+            title="Tiempo sin medida — en proceso"
+            style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            "
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
 
-      <div class="contenedor-img">
-        <img
-          src="../images/work/tiempo-sin-medida/1.jpg"
-          alt="Imagen de Hoyo"
-        />
-      </div>
-       <div class="contenedor-img">
-        <img
-          src="../images/work/tiempo-sin-medida/2.jpg"
-          alt="Imagen de Hoyo"
-        />
-      </div>
-       <div class="contenedor-img">
-        <img
-          src="../images/work/tiempo-sin-medida/3.jpg"
-          alt="Imagen de Hoyo"
-        />
-      </div>
-       <div class="contenedor-img">
-        <img
-          src="../images/work/tiempo-sin-medida/4.jpg"
-          alt="Imagen de Hoyo"
-        />
-      </div>
-       <div class="contenedor-img">
-        <img
-          src="../images/work/tiempo-sin-medida/5.jpg"
-          alt="Imagen de Hoyo"
-        />
-      </div>
-       <div class="contenedor-img">
-        <img
-          src="../images/work/tiempo-sin-medida/6.png"
-          alt="Imagen de Hoyo"
-        />
-      </div>
-       <div class="contenedor-img">
-        <img
-          src="../images/work/tiempo-sin-medida/7.png"
-          alt="Imagen de Hoyo"
-        />
-      </div>
-       <div class="contenedor-img">
-        <img
-          src="../images/work/tiempo-sin-medida/8.png"
-          alt="Imagen de Hoyo"
-        />
-      </div>
-       <div class="contenedor-img">
-        <img
-          src="../images/work/tiempo-sin-medida/9.png"
-          alt="Imagen de Hoyo"
-        />
-      </div>
+        <p>
+          <a href="https://vimeo.com/202311461">
+            Tiempo sin medida (en proceso)
+          </a>
+          from
+          <a href="https://vimeo.com/user7059721">Jaime Rodriguez</a>
+          on
+          <a href="https://vimeo.com">Vimeo</a>.
+        </p>
 
-    </section>
+        <div
+          class="video-container"
+          style="padding: 70.87% 0 0 0; position: relative"
+        >
+          <iframe
+            src="https://player.vimeo.com/video/230872731?h=cfdabb0eab&byline=0"
+            title="Tiempo sin medida — instalación audiovisual"
+            style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            "
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <p>
+          <a href="https://vimeo.com/230872731">
+            "Tiempo sin medida". Instalación audiovisual. (Excerpts)
+          </a>
+          from
+          <a href="https://vimeo.com/user7059721">Jaime Rodriguez</a>
+          on
+          <a href="https://vimeo.com">Vimeo</a>.
+        </p>
+
+        <div data-project-images></div>
+
+        <div class="border"></div>
+      </section>
+    </main>
 
     <section class="section--menu-mobile"></section>
 
-    <script src="script.js"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="../js/project-page.js" defer></script>
   </body>
 </html>

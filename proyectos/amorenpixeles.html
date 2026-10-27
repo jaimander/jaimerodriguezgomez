@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jaime Rodríguez Gómez</title>
+    <title>Amor en píxeles — Jaime Rodríguez Gómez</title>
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -13,45 +14,74 @@
     />
   </head>
 
-  <body>
-    <nav>
+  <body data-project-id="amorenpixeles">
+    <nav aria-label="Navegación principal">
       <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
+      <label for="check" class="checkbtn" aria-label="Abrir menú">
         <i class="fas fa-bars"></i>
       </label>
+
       <div id="name">
         <p><a href="../index.html">Jaime Rodríguez Gómez</a></p>
       </div>
+
       <ul>
-        <li><a href="../cv.html">CV</a></li>
-        <li><a href="../about.html">About</a></li>
+        <li class="nav-link">
+          <a href="../index.html" data-i18n="nav.projects">Proyectos</a>
+        </li>
+        <li class="nav-link">
+          <a href="../about.html" data-i18n="nav.about">Acerca de</a>
+        </li>
+        <li class="nav-link">
+          <a href="../cv.html" data-i18n="nav.cv">CV</a>
+        </li>
+        <li class="nav-link language-switch">
+          <button type="button" data-lang="es" aria-pressed="true">ES</button>
+          <span>/</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </li>
       </ul>
     </nav>
 
-    <section class="section--descripcion">
-      <h1 class="titulo">Amor en píxeles</h1>
-      <h4 class="año">2024</h4>
-      <br>
-      <div class="desripcion--text">
-        Test sobre formas de violencia en pareja que traduce las desiciones en conservación o deterioro visual de un corazón. 
+    <main>
+      <section class="section--descripcion">
+        <h1 class="titulo" data-project-field="title">
+          Amor en píxeles
+        </h1>
 
-        Realizado por CAJA (Catalina Gómez y Jaime Rodríguez), basado en una investigación de Andrea Sarmiento.
-        <br /><br />
-        <a
-          href="../proyectos/amor-en-pixeles/index.html"
-          class="link"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Hacer test</a>
-          <br /><br />
-      </div>
-      <div class="contenedor-img">
-        <img src="../images/work/amor-en-pixeles/aep.png" />
-      </div>
-    </section>
+        <h4 class="año" data-project-field="year">2024</h4>
 
-    <section class="section--menu-mobile"></section>
+        <br />
 
-    <script src="script.js"></script>
+        <div class="descripcion--text">
+          <p data-project-field="description">
+            Test sobre formas de violencia en pareja que traduce las decisiones
+            en la conservación o el deterioro visual de un corazón.
+          </p>
+
+          <p>
+            <a
+              href="../proyectos/amor-en-pixeles/index.html"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-project-link
+            >Hacer test</a>
+          </p>
+        </div>
+
+        <div class="contenedor-img">
+          <img
+            data-project-image
+            src="../images/work/amor-en-pixeles/aep.png"
+            alt="Amor en píxeles"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+      </section>
+    </main>
+
+    <script src="../js/project-page.js" defer></script>
   </body>
 </html>

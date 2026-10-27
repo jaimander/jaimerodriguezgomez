@@ -1,69 +1,92 @@
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jaime Rodríguez Gómez</title>
+
+    <title>Julia Trama Algo — Jaime Rodríguez Gómez</title>
+
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
+
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
       rel="stylesheet"
     />
   </head>
 
-  <body>
-    <nav>
+  <body data-project-id="juliatramaalgo">
+    <nav aria-label="Navegación principal">
       <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
+
+      <label for="check" class="checkbtn" aria-label="Abrir menú">
         <i class="fas fa-bars"></i>
       </label>
+
       <div id="name">
         <p><a href="../index.html">Jaime Rodríguez Gómez</a></p>
       </div>
+
       <ul>
-        <li><a href="../cv.html">CV</a></li>
-        <li><a href="../about.html">About</a></li>
+        <li class="nav-link">
+          <a href="../index.html" data-i18n="nav.projects">Proyectos</a>
+        </li>
+
+        <li class="nav-link">
+          <a href="../about.html" data-i18n="nav.about">Acerca de</a>
+        </li>
+
+        <li class="nav-link">
+          <a href="../cv.html" data-i18n="nav.cv">CV</a>
+        </li>
+
+        <li class="nav-link language-switch">
+          <button type="button" data-lang="es" aria-pressed="true">ES</button>
+          <span>/</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </li>
       </ul>
     </nav>
 
-    <section class="section--descripcion">
-      <h1 class="titulo">Julia Trama Algo</h1>
-      <h4 class="año">2025</h4>
-      <br>
-      <div class="desripcion--text">
-        Julia Trama Algo, es un juego (en proceso) conversacional y de exploración en
-        desplazamiento lateral (side scrolling). Desde una intención
-        reconstructiva y especulativa, se presentan escenas cotidianas en tres
-        épocas ─1946, 1975 y 2025─. El jugador habita la perspectiva de Julia,
-        artesana, en tres momentos de su vida: de niña, aprendiendo a tejer
-        observando a sus padres; de adulta, a cargo del hogar y la producción; y
-        de mayor, viendo a su hijo continuar con la tradición. Las escenas
-        transcurren en tanto en el interior de la casa como en los pastizales
-        del campo que la rodean. La cultura material de cada momento histórico
-        ha sido reconstruida visualmente con atención al detalle, con el
-        propósito de transportar al jugador a distintas épocas. El videojuego se
-        plantea así como un medio para re-narrar la vida cotidiana en torno a la
-        producción textil artesanal y abrir una reflexión crítica sobre los
-        futuros posibles de este patrimonio vivo en América Latina.
-        <br /><br />
-        <a
-          href="https://juliatramaalgo.com"
-          class="link"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Ir a la página del proyecto</a
-        >
-        <br /><br />
-      </div>
-      <div class="contenedor-img">
-        <img src="../images/work/julia-trama-algo/juliatramaalgo.png" />
-      </div>
-    </section>
+    <main>
+      <section class="section--descripcion">
+        <h1 class="titulo" data-project-field="title">
+          Julia Trama Algo
+        </h1>
 
-    <section class="section--menu-mobile"></section>
+        <h4 class="año" data-project-field="year">2025</h4>
 
-    <script src="script.js"></script>
+        <br />
+
+        <div class="descripcion--text">
+          <p data-project-field="description">
+            Julia Trama Algo es un juego en proceso conversacional y de
+            exploración en desplazamiento lateral.
+          </p>
+
+          <p>
+            <a
+              href="https://juliatramaalgo.com"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-project-link
+            >Ir a la página del proyecto</a>
+          </p>
+        </div>
+
+        <div class="contenedor-img">
+          <img
+            data-project-image
+            src="../images/work/julia-trama-algo/juliatramaalgo.png"
+            alt="Julia Trama Algo"
+          />
+        </div>
+      </section>
+    </main>
+
+    <script src="../js/project-page.js" defer></script>
   </body>
 </html>

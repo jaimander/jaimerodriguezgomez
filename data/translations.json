@@ -1,0 +1,85 @@
+{
+  "es": {
+    "nav": {
+      "projects": "Proyectos",
+      "about": "Acerca de",
+      "cv": "CV"
+    },
+    "home": {
+      "title": "Jaime Rodríguez Gómez",
+      "intro": "Diseñador e investigador interdisciplinar que trabaja entre narrativas digitales, diseño de interacción, prácticas artísticas y medios computacionales."
+    },
+    "categories": {
+      "videoGame": "Videojuego",
+      "augmentedReality": "Realidad aumentada",
+      "interactiveNarrative": "Narrativa digital interactiva",
+      "creativeCoding": "Programación creativa",
+      "soundNarrative": "Narrativa sonora",
+      "interactiveInstallation": "Instalación interactiva",
+      "soundInstallation": "Instalación sonora",
+      "fulldome": "Fulldome",
+      "videoPerformance": "Video performance",
+      "educationalKit": "Kit pedagógico",
+      "narrativeQuiz": "Test narrativo",
+      "vr": "Realidad virtual",
+      "photography": "Fotografía",
+      "video": "Video",
+      "generativeDrawing": "Dibujo generativo",
+      "microLandArt": "Micro Land Art",
+      "loopPoetry": "Poesía cíclica",
+      "transmediaEducationalProgram": "Universo transmedia educativo",
+      "audiovisualInteractiveInstallation": "Instalación interactiva audiovisual"
+    },
+    "about": {
+      "title": "Sobre mí",
+      "paragraph1": "Soy diseñador e investigador interdisciplinar que trabaja entre narrativas digitales, diseño de interacción, prácticas artísticas y medios computacionales. Mi práctica combina investigación, diseño, narración y experimentación para explorar cómo las reglas, las interfaces y los sistemas dan forma a experiencias, mundos e interpretaciones de la realidad.",
+      "paragraph2": "Trabajo con videojuegos, narrativas interactivas, programación creativa, instalaciones audiovisuales y otros medios digitales. Me interesa explorar las posibilidades expresivas de estos medios, así como cuestiones relacionadas con el juego, la temporalidad, la atención y las relaciones entre humanos y otros seres y entornos.",
+      "paragraph3": "También desarrollo proyectos educativos y acompaño procesos de aprendizaje que conectan la reflexión crítica con la experimentación y la creación.",
+      "paragraph4": "Soy magíster en Tecnología y Estética de las Artes Electrónicas por la Universidad Nacional de Tres de Febrero (UNTREF), Argentina, y diseñador industrial por la Universidad Jorge Tadeo Lozano, Colombia.",
+      "paragraph5": "Formo parte de Materia Inestable, un colectivo artístico interdisciplinar, y de 4L3PH, un nodo de creadores dedicado a imaginar narrativas especulativas y experimentar con prácticas artísticas (ciber)vanguardistas a través de diversos medios.",
+      "email": "Correo electrónico"
+    }
+  },
+  "en": {
+    "nav": {
+      "projects": "Projects",
+      "about": "About",
+      "cv": "CV"
+    },
+    "home": {
+      "title": "Jaime Rodríguez Gómez",
+      "intro": "An interdisciplinary designer and researcher working across digital narratives, interaction design, artistic practice, and computational media."
+    },
+    "categories": {
+      "videoGame": "Video game",
+      "augmentedReality": "Augmented reality",
+      "interactiveNarrative": "Interactive digital narrative",
+      "creativeCoding": "Creative coding",
+      "soundNarrative": "Sound narrative",
+      "interactiveInstallation": "Interactive installation",
+      "soundInstallation": "Sound installation",
+      "fulldome": "Fulldome",
+      "videoPerformance": "Video performance",
+      "educationalKit": "Educational kit",
+      "narrativeQuiz": "Narrative quiz",
+      "vr": "Virtual reality",
+      "photography": "Photography",
+      "video": "Video",
+      "generativeDrawing": "Generative drawing",
+      "microLandArt": "Micro land art",
+      "loopPoetry": "Loop poetry",
+      "transmediaEducationalProgram": "Transmedial educational worldbuilding",
+      "audiovisualInteractiveInstallation": "Audiovisual interactive installation"
+    },
+    "about": {
+      "title": "About",
+      "paragraph1": "I am an interdisciplinary designer and researcher working across digital narratives, interaction design, artistic practice, and computational media. My practice brings together research, design, storytelling, and experimentation to explore how rules, interfaces, and systems shape experiences, worlds, and interpretations of reality.",
+      "paragraph2": "I work with videogames, interactive narratives, creative coding, audiovisual installations, and other digital media. I am interested in exploring their expressive possibilities, as well as questions related to play, temporality, attention, and relationships between humans, other beings, and their environments.",
+      "paragraph3": "I also develop educational projects and facilitate learning processes that connect critical reflection with experimentation and creative practice.",
+      "paragraph4": "I hold an MA in Technology and Aesthetics of Electronic Arts from the National University of Tres de Febrero (UNTREF), Argentina, and a degree in Industrial Design from Universidad Jorge Tadeo Lozano, Colombia.",
+      "paragraph5": "I am part of Materia Inestable, an interdisciplinary art collective, and 4L3PH, a network of creators exploring speculative narratives and experimental (cyber-)avant-garde artistic practices across diverse media.",
+      "email": "Email"
+    }
+  }
+  
+}

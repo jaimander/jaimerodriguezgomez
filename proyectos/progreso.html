@@ -1,10 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jaime Rodríguez Gómez</title>
+
+    <title>Progreso — Jaime Rodríguez Gómez</title>
+
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -13,63 +15,76 @@
     />
   </head>
 
-  <body>
-    <nav>
+  <body data-project-id="progreso">
+    <nav aria-label="Navegación principal">
       <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
+
+      <label for="check" class="checkbtn" aria-label="Abrir menú">
         <i class="fas fa-bars"></i>
       </label>
+
       <div id="name">
-        <p><a href="../index.html">Jaime Rodríguez Gómez</a></p>
+        <p>
+          <a href="../index.html">Jaime Rodríguez Gómez</a>
+        </p>
       </div>
+
       <ul>
-        <li><a href="../cv.html">CV</a></li>
-        <li><a href="../about.html">About</a></li>
+        <li class="nav-link">
+          <a href="../index.html" data-i18n="nav.projects">Proyectos</a>
+        </li>
+        <li class="nav-link">
+          <a href="../about.html" data-i18n="nav.about">Acerca de</a>
+        </li>
+        <li class="nav-link">
+          <a href="../cv.html" data-i18n="nav.cv">CV</a>
+        </li>
+        <li class="nav-link language-switch">
+          <button type="button" data-lang="es" aria-pressed="true">ES</button>
+          <span>/</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </li>
       </ul>
     </nav>
 
-    <section class="section--descripcion">
-      <h1 class="titulo">Progreso</h1>
-      <h4 class="año">2013</h4>
-      <br>
-      <div class="desripcion--text">
-        La noción de progreso, sostenida sobre la promesa de un futuro
-        emancipador capaz de ofrecer un mayor bienestar social gracias al
-        desarrollo tecnológico e industrial, y anclado a la vida en la ciudad,
-        parece seguir vigente en el imaginario colectivo, aún cuando la
-        situación actual de crisis global demuestra su fracaso.
-        <br /><br />
+    <main>
+      <section class="section--descripcion">
+        <h1 class="titulo" data-project-field="title">Progreso</h1>
 
-        Resultado de la asignatura Game Jam de la Maestría en Tecnología y
-        Estética de las Artes Electrónicas de la UNTREF, e inspirado por el
-        trabajo de MolleIndustria donde el videojuego opera como un medio
-        crítico, Progreso es por un lado, un juego de agilidad que consiste en
-        llevar en un tiempo límite a la mayor cantidad de personas del campo a
-        la fábrica, y por otro, una narrativa interactiva corta que pone a
-        prueba la intuición y la naturaleza subversiva propia del jugador,
-        mediante la posibilidad de explorar un modo de juego alterno a la
-        instrucción misma de éste, o dicho de otra forma, la posibilidad de no
-        realizar ninguna acción y dejar que el juego transcurra sólo.
-        <br /><br />
+        <h4 class="año" data-project-field="year">2013</h4>
 
-        En Progreso no hacer nada es válido como una opción de juego, donde
-        “hacer nada”, asumido como la posibilidad de detenerse, observar y
-        pensar, permite reconocer un escenario posible de lo que sucedería si no
-        seguimos el juego propuesto por el sistema.
-        <br /><br />
+        <br />
 
-        <div class="contenedor-img">
-          <img src="../images/work/progreso/progreso1.jpg" />
+        <div class="descripcion--text">
+          <p data-project-field="description" style="white-space: pre-line"></p>
         </div>
 
-        Link de descarga:
-        <a href="http://bit.ly/197A5yT" class="link">http://bit.ly/197A5yT</a>
-      </div>
-      <div class="border"></div>
-    </section>
+        <div class="contenedor-img">
+          <img
+            data-project-image
+            src="../images/work/progreso/progreso1.jpg"
+            alt="Imagen del videojuego Progreso"
+            loading="lazy"
+          />
+        </div>
+
+        <p>
+          <a
+            data-project-link
+            href="http://bit.ly/197A5yT"
+            class="link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Descargar el juego</a
+          >
+        </p>
+
+        <div class="border"></div>
+      </section>
+    </main>
 
     <section class="section--menu-mobile"></section>
 
-    <script src="script.js"></script>
+    <script src="../js/project-page.js" defer></script>
   </body>
 </html>

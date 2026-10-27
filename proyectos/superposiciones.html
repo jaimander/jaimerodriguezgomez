@@ -4,7 +4,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jaime Rodríguez Gómez</title>
+
+    <title>Superposiciones — Jaime Rodríguez Gómez</title>
+
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -13,70 +15,69 @@
     />
   </head>
 
-  <body>
-    <nav>
+  <body data-project-id="superposiciones">
+    <nav aria-label="Navegación principal">
       <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
+
+      <label for="check" class="checkbtn" aria-label="Abrir menú">
         <i class="fas fa-bars"></i>
       </label>
+
       <div id="name">
-        <p><a href="../index.html">Jaime Rodríguez Gómez</a></p>
+        <p>
+          <a href="../index.html">Jaime Rodríguez Gómez</a>
+        </p>
       </div>
+
       <ul>
-        <li><a href="../cv.html">CV</a></li>
-        <li><a href="../about.html">About</a></li>
+        <li class="nav-link">
+          <a href="../index.html" data-i18n="nav.projects">Proyectos</a>
+        </li>
+        <li class="nav-link">
+          <a href="../about.html" data-i18n="nav.about">Acerca de</a>
+        </li>
+        <li class="nav-link">
+          <a href="../cv.html" data-i18n="nav.cv">CV</a>
+        </li>
+        <li class="nav-link language-switch">
+          <button type="button" data-lang="es" aria-pressed="true">
+            ES
+          </button>
+          <span>/</span>
+          <button type="button" data-lang="en" aria-pressed="false">
+            EN
+          </button>
+        </li>
       </ul>
     </nav>
 
-    <section class="section--descripcion">
-      <h1 class="titulo">Superposiciones</h1>
-      <h4 class="año">2016</h4>
-      <br>
-      <div class="desripcion--text">
-        Exploraciones visuales a partir una herramienta de dibujo generativa. El
-        proceso algorítmico de composición de este software programado en
-        Processing, está basado en la superposición de líneas y manipulación
-        paramétrica (tiempo de dibujo, velocidad de desplazamiento y rotación,
-        cantidad y grosor de líneas, y rangos de movilidad).
+    <main>
+      <section class="section--descripcion">
+        <h1 class="titulo" data-project-field="title">
+          Superposiciones
+        </h1>
 
-        <br /><br />
+        <h4 class="año" data-project-field="year">2016</h4>
 
-        El proceso creativo no sólo implica la escritura de software, sino el
-        domino de las mismas potencialidades gráficas descubiertas a través de
-        su uso.
-      </div>
-      <br>
+        <br />
 
-      <div class="contenedor-img">
-        <img
-          src="../images/work/superposiciones/1.jpg"
-          alt="Imagen de Superposiciones"
-        />
-      </div>
-       <div class="contenedor-img">
-        <img
-          src="../images/work/superposiciones/2.jpg"
-          alt="Imagen de Superposiciones"
-        />
-      </div>
-       <div class="contenedor-img">
-        <img
-          src="../images/work/superposiciones/3.jpg"
-          alt="Imagen de Superposiciones"
-        />
-      </div>
-       <div class="contenedor-img">
-        <img
-          src="../images/work/superposiciones/4.jpg"
-          alt="Imagen de Superposiciones"
-        />
-      </div>
+        <div class="descripcion--text">
+          <p
+            data-project-field="description"
+            style="white-space: pre-line"
+          ></p>
+        </div>
 
-      <div class="border"></div>
-    </section>
+        <br />
+
+        <div data-project-images></div>
+
+        <div class="border"></div>
+      </section>
+    </main>
 
     <section class="section--menu-mobile"></section>
 
-    <script src="script.js"></script>
+    <script src="../js/project-page.js" defer></script>
   </body>
 </html>

@@ -1,0 +1,256 @@
+
+[
+  {
+    "id": "bancolombia",
+    "year": "2025",
+    "image": "images/work/bancolombia/app.png",
+    "title": {
+      "es": "Bancolombia 150 años",
+      "en": "Bancolombia: 150 Years"
+    },
+    "category": "augmentedReality",
+    "url": "proyectos/bancolombia.html"
+  },
+  {
+    "id": "juliatramaalgo",
+    "year": "2025",
+    "image": "images/work/julia-trama-algo/juliatramaalgo.png",
+    "title": {
+      "es": "Julia Trama Algo",
+      "en": "Julia Trama Algo"
+    },
+    "category": "videoGame",
+    "url": "proyectos/juliatramaalgo.html"
+  },
+  {
+    "id": "amor-en-pixeles",
+    "year": "2024",
+    "image": "images/work/amor-en-pixeles/corazon_2.png",
+    "title": {
+      "es": "Amor en píxeles",
+      "en": "Love in Pixels"
+    },
+    "category": "narrativeQuiz",
+    "url": "proyectos/amorenpixeles.html"
+  },
+  {
+    "id": "agua-soy",
+    "year": "2024",
+    "image": "images/work/agua-soy/agua-soy.png",
+    "title": {
+      "es": "Agua soy",
+      "en": "I Am Water"
+    },
+    "category": "loopPoetry",
+    "url": "proyectos/aguasoy.html"
+  },
+  {
+    "id": "n4t3kuk",
+    "year": "2024",
+    "image": "images/work/n4t3kuk/2.jpg",
+    "title": {
+      "es": "N4T3KUK",
+      "en": "N4T3KUK"
+    },
+    "category": "fulldome",
+    "url": "proyectos/n4t3kuk.html"
+  },
+  {
+    "id": "poemas-interactivos",
+    "year": "2023–",
+    "image": "images/work/poemas-interactivos/poemasinteractivos1.jpg",
+    "title": {
+      "es": "Poemas interactivos",
+      "en": "Interactive Poems"
+    },
+    "category": "interactiveNarrative",
+    "url": "proyectos/poemasinteractivos.html"
+  },
+  {
+    "id": "agua-pa-la-planta",
+    "year": "2021",
+    "image": "images/work/agua-pa-la-planta/aguapalaplanta1.jpg",
+    "title": {
+      "es": "Agua pa' la planta",
+      "en": "Water for the Plant"
+    },
+    "category": "videoGame",
+    "url": "proyectos/aguapalaplanta.html"
+  },
+  {
+    "id": "bbradnl",
+    "year": "2020",
+    "image": "images/work/bbradnl/bbcadnl1.jpg",
+    "title": {
+      "es": "BBRADNL",
+      "en": "BBRADNL"
+    },
+    "category": "augmentedReality",
+    "url": "proyectos/bbradnl.html"
+  },
+  {
+    "id": "apofenia",
+    "year": "2020",
+    "image": "images/work/apofenia/apofenia1.jpg",
+    "title": {
+      "es": "Apofenia",
+      "en": "Apophenia"
+    },
+    "category": "interactiveNarrative",
+    "url": "proyectos/apofenia.html"
+  },
+  {
+    "id": "nod_",
+    "year": "2020",
+    "image": "images/work/nod_/2.jpg",
+    "title": {
+      "es": "NOD_",
+      "en": "NOD_"
+    },
+    "category": "interactiveInstallation",
+    "url": "proyectos/nod.html"
+  },
+  {
+    "id": "guardianes-ati",
+    "year": "2019",
+    "image": "images/work/guardianes-ati/4.png",
+    "title": {
+      "es": "Guardianes ATI",
+      "en": "ATI Guardians"
+    },
+    "category": "transmediaEducationalProgram",
+    "url": "proyectos/guardianesati.html"
+  },
+  {
+    "id": "viaje-espacial",
+    "year": "2019",
+    "image": "images/work/viaje-espacial/viajeespacial1.jpg",
+    "title": {
+      "es": "Viaje espacial",
+      "en": "Space Journey"
+    },
+    "category": "educationalKit",
+    "url": "proyectos/viajeespacial.html"
+  },
+  {
+    "id": "prisma",
+    "year": "2019",
+    "image": "images/work/prisma/2.jpg",
+    "title": {
+      "es": "Prisma",
+      "en": "Prism"
+    },
+    "category": "interactiveInstallation",
+    "url": "proyectos/prisma.html"
+  },
+  {
+    "id": "tiempo-sin-medida",
+    "year": "2017",
+    "image": "images/work/tiempo-sin-medida/tsm2.png",
+    "title": {
+      "es": "Tiempo sin medida",
+      "en": "Time Without Measure"
+    },
+    "category": "audiovisualInteractiveInstallation",
+    "url": "proyectos/tiemposinmedida.html"
+  },
+  {
+    "id": "horizontes-de-tiempo",
+    "year": "2017",
+    "image": "images/work/horizontes-de-tiempo/horizontesdetiempo1.jpg",
+    "title": {
+      "es": "Horizontes de tiempo",
+      "en": "Horizons of Time"
+    },
+    "category": "soundInstallation",
+    "url": "proyectos/horizontesdetiempo.html"
+  },
+  {
+    "id": "superposiciones",
+    "year": "2016",
+    "image": "images/work/superposiciones/4.jpg",
+    "title": {
+      "es": "Superposiciones",
+      "en": "Superimpositions"
+    },
+    "category": "generativeDrawing",
+    "url": "proyectos/superposiciones.html"
+  },
+  {
+    "id": "hoyo",
+    "year": "2015",
+    "image": "images/work/hoyo/hoyo1.jpg",
+    "title": {
+      "es": "Hoyo",
+      "en": "Hoyo"
+    },
+    "category": "videoGame",
+    "url": "proyectos/hoyo.html"
+  },
+  {
+    "id": "cuenta-regresiva",
+    "year": "2014",
+    "image": "images/work/cuenta-regresiva/4.jpg",
+    "title": {
+      "es": "Cuenta regresiva",
+      "en": "Countdown"
+    },
+    "category": "interactiveInstallation",
+    "url": "proyectos/cuentaregresiva.html"
+  },
+  {
+    "id": "masa-sonora",
+    "year": "2013",
+    "image": "images/work/masa-sonora/1.jpg",
+    "title": {
+      "es": "Masa sonora",
+      "en": "Sound Mass"
+    },
+    "category": "soundInstallation",
+    "url": "proyectos/masasonora.html"
+  },
+  {
+    "id": "progreso",
+    "year": "2013",
+    "image": "images/work/progreso/progreso1.jpg",
+    "title": {
+      "es": "Progreso",
+      "en": "Progress"
+    },
+    "category": "videoGame",
+    "url": "proyectos/progreso.html"
+  },
+  {
+    "id": "memoria-ninos-jugar",
+    "year": "2012",
+    "image": "images/work/memoria-ninos-jugar/alamemoria1.jpg",
+    "title": {
+      "es": "A la memoria de los niños que dejaron de jugar",
+      "en": "In Memory of the Children Who Stopped Playing"
+    },
+    "category": "soundNarrative",
+    "url": "proyectos/alamemoria.html"
+  },
+  {
+    "id": "protesis",
+    "year": "2012",
+    "image": "images/work/protesis/protesis1.jpg",
+    "title": {
+      "es": "Prótesis",
+      "en": "Prosthesis"
+    },
+    "category": "microLandArt",
+    "url": "proyectos/protesis.html"
+  },
+  {
+    "id": "lo-que-dura-un-aguacero",
+    "year": "2012",
+    "image": "images/work/lo-que-dura-un-aguacero/loqueduraunaguacero1.jpg",
+    "title": {
+      "es": "Lo que dura un aguacero",
+      "en": "As Long as a Rainstorm Lasts"
+    },
+    "category": "soundNarrative",
+    "url": "proyectos/loqueduraunaguacero.html"
+  }
+]

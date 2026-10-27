@@ -1,10 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jaime Rodríguez Gómez</title>
+    <title>Apofenia — Jaime Rodríguez Gómez</title>
+
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -13,63 +15,66 @@
     />
   </head>
 
-  <body>
-    <nav>
+  <body data-project-id="apofenia">
+    <nav aria-label="Navegación principal">
       <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
+
+      <label for="check" class="checkbtn" aria-label="Abrir menú">
         <i class="fas fa-bars"></i>
       </label>
+
       <div id="name">
         <p><a href="../index.html">Jaime Rodríguez Gómez</a></p>
       </div>
+
       <ul>
-        <li><a href="../cv.html">CV</a></li>
-        <li><a href="../about.html">About</a></li>
+        <li class="nav-link">
+          <a href="../index.html" data-i18n="nav.projects">Proyectos</a>
+        </li>
+        <li class="nav-link">
+          <a href="../about.html" data-i18n="nav.about">Acerca de</a>
+        </li>
+        <li class="nav-link">
+          <a href="../cv.html" data-i18n="nav.cv">CV</a>
+        </li>
+        <li class="nav-link language-switch">
+          <button type="button" data-lang="es" aria-pressed="true">ES</button>
+          <span>/</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </li>
       </ul>
     </nav>
 
-    <section class="section--descripcion">
-      <h1 class="titulo">Apofenia</h1>
-      <h4 class="año">2020</h4>
-      <br>
-      <div class="desripcion--text">
-        <p>
-          Un proyecto realizado por Materia Inestable (Victor Mahecha / Milton
-          Mahecha / Jaime Rodríguez / Nikolai Rubio)
-        </p>
+    <main>
+      <section class="section--descripcion">
+        <h1 class="titulo" data-project-field="title">Apofenia</h1>
 
-        <p>
-          Apofenia consiste en un entorno 360° inmersivo que busca transportar
-          al espectador a un lugar cualquiera en el campo colombiano, donde se
-          pueden observar en medio de una aparente tranquilidad, una secuencia
-          breve de acciones ambiguas que dejan a la interpretación, la
-          construcción de lo que realmente sucede. El espectador puede
-          sumergirse en un ambiente rural, conformado por siluetas y planos
-          inspirados en dioramas, y un paisaje sonoro típico del campo. A medida
-          que recorre el espacio, aparecen opciones que debe elegir para
-          describir lo que ocurre, conformando al final un relato de lo
-          sucedido, que reemplaza totalmente a los hechos. Esta tensión entre la
-          realidad y la construcción de los relatos acerca de la realidad que se
-          convierten en verdad, es el eje sobre el cual propone reflexionar esta
-          experiencia.
-        </p>
-      </div>
+        <h4 class="año" data-project-field="year">2020</h4>
 
-      <div class="video-container">
-        <iframe
-          src="https://www.youtube.com/embed/IqiQsR8Viwo"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
+        <br />
 
-      <div class="border"></div>
-    </section>
+        <div class="descripcion--text">
+          <p data-project-field="description">
+            Un proyecto realizado por Materia Inestable. Apofenia es un entorno
+            inmersivo de 360° que explora cómo construimos relatos sobre la
+            realidad a partir de acciones ambiguas.
+          </p>
+        </div>
 
-    <section class="section--menu-mobile"></section>
+        <div class="video-container">
+          <iframe
+            src="https://www.youtube.com/embed/IqiQsR8Viwo"
+            title="Apofenia — video del proyecto"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
 
-    <script src="script.js"></script>
+        <div class="border"></div>
+      </section>
+    </main>
+
+    <script src="../js/project-page.js" defer></script>
   </body>
 </html>

@@ -1,10 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jaime Rodríguez Gómez</title>
+    <title>A la memoria de los niños que dejaron de jugar</title>
+
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -13,69 +15,82 @@
     />
   </head>
 
-  <body>
-    <nav>
+  <body data-project-id="memoria-ninos-jugar">
+    <nav aria-label="Navegación principal">
       <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
+
+      <label for="check" class="checkbtn" aria-label="Abrir menú">
         <i class="fas fa-bars"></i>
       </label>
+
       <div id="name">
         <p><a href="../index.html">Jaime Rodríguez Gómez</a></p>
       </div>
+
       <ul>
-        <li><a href="../cv.html">CV</a></li>
-        <li><a href="../about.html">About</a></li>
+        <li class="nav-link">
+          <a href="../index.html" data-i18n="nav.projects">Proyectos</a>
+        </li>
+        <li class="nav-link">
+          <a href="../about.html" data-i18n="nav.about">Acerca de</a>
+        </li>
+        <li class="nav-link">
+          <a href="../cv.html" data-i18n="nav.cv">CV</a>
+        </li>
+        <li class="nav-link language-switch">
+          <button type="button" data-lang="es" aria-pressed="true">ES</button>
+          <span>/</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </li>
       </ul>
     </nav>
 
-    <section class="section--descripcion">
-      <h1 class="titulo">A la memoria de los niños que dejaron de jugar</h1>
-      <h4 class="año">2012</h4>
-      <br>
+    <main>
+      <section class="section--descripcion">
+        <h1 class="titulo" data-project-field="title">
+          A la memoria de los niños que dejaron de jugar
+        </h1>
 
-      <div class="desripcion--text">
-        <p>
-          Esta pieza fue concebida para la convocatoria «Intersticios sonoros»,
-          propuesta por el Festival En tiempo real, el colectivo Sonema y
-          Christine Renaudat en el año 2012. La miniatura sonora presentada fue
-          creada a partir de una reinterpretación y reconstrucción del material
-          sonoro de Christine, compuesto por registros de entrevistas de
-          diferentes actores implicados en el conflicto armado colombiano y
-          grabaciones de campo de algunas zonas en donde se ha desarrollado.
-        </p>
+        <h4 class="año" data-project-field="year">2012</h4>
 
-        <p>
-          La composición busca hacer mención de las víctimas más inocentes de
-          este conflicto, los niños, que por haber sido desaparecidos o
-          reclutados, cambiaron las pelotas por balas y los juguetes por
-          fusiles, y perdieron su derecho al juego.
-        </p>
+        <br />
 
-        <p>
-          La fotografía fue tomada de
-          <a href="https://memorialdevoces.wordpress.com/" class="link"
-            >https://memorialdevoces.wordpress.com/</a
+        <div class="descripcion--text">
+          <p
+            data-project-field="description"
+            style="white-space: pre-line"
+          ></p>
+
+          <p>
+            <a
+              href="https://memorialdevoces.wordpress.com/"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://memorialdevoces.wordpress.com/
+            </a>
+          </p>
+        </div>
+
+        <div class="contenedor-audio" style="width: 100%">
+          <iframe
+            title="A la memoria de los niños que dejaron de jugar — pieza sonora"
+            src="https://bandcamp.com/EmbeddedPlayer/album=1162645989/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3880908518/transparent=true/"
+            style="border: 0; width: 100%; height: 400px"
+            seamless
+            loading="lazy"
           >
-        </p>
-      </div>
+            <a href="https://ssonema.bandcamp.com/album/intersticios-sonoros">
+              Intersticios Sonoros by Jaime Andrés Rodríguez Gómez
+            </a>
+          </iframe>
+        </div>
 
-      <div style="width: 100%; height: 100%">
-        <iframe
-          src="https://bandcamp.com/EmbeddedPlayer/album=1162645989/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3880908518/transparent=true/"
-          style="border: 0; width: 100%; height: 100%"
-          seamless
-        >
-          <a href="https://ssonema.bandcamp.com/album/intersticios-sonoros">
-            Intersticios Sonoros by Jaime Andrés Rodríguez Gómez
-          </a>
-        </iframe>
-      </div>
+        <div class="border"></div>
+      </section>
+    </main>
 
-      <div class="border"></div>
-    </section>
-
-    <section class="section--menu-mobile"></section>
-
-    <script src="script.js"></script>
+    <script src="../js/project-page.js" defer></script>
   </body>
 </html>

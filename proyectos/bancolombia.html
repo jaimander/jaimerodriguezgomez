@@ -1,69 +1,82 @@
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jaime Rodríguez Gómez</title>
+
+    <title>Bancolombia 150 años — Jaime Rodríguez Gómez</title>
+
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
+
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
       rel="stylesheet"
     />
   </head>
 
-  <body>
-    <nav>
+  <body data-project-id="bancolombia">
+    <nav aria-label="Navegación principal">
       <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
+
+      <label for="check" class="checkbtn" aria-label="Abrir menú">
         <i class="fas fa-bars"></i>
       </label>
+
       <div id="name">
         <p><a href="../index.html">Jaime Rodríguez Gómez</a></p>
       </div>
+
       <ul>
-        <li><a href="../cv.html">CV</a></li>
-        <li><a href="../about.html">About</a></li>
+        <li class="nav-link">
+          <a href="../index.html" data-i18n="nav.projects">Proyectos</a>
+        </li>
+        <li class="nav-link">
+          <a href="../about.html" data-i18n="nav.about">Acerca de</a>
+        </li>
+        <li class="nav-link">
+          <a href="../cv.html" data-i18n="nav.cv">CV</a>
+        </li>
+        <li class="nav-link language-switch">
+          <button type="button" data-lang="es" aria-pressed="true">ES</button>
+          <span>/</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </li>
       </ul>
     </nav>
 
-    <section class="section--descripcion">
-      <h1 class="titulo">Bancolombia 150 años</h1>
-      <h4 class="año">2025</h4>
-      <br>
-      <div class="desripcion--text">
-       Aplicación de aplicación de Realidad Aumentada para dispositivos Android y iOS,
-que expande el contenido del libro "Desde el principio: fundación del Banco de Colombia", de
-los autores Carlos Caballero Argáez y Andrés Álvarez, publicado por Ediciones Uniandes y
-Bancolombia, libro con ISBN registrado 978-958-798-922-9 impreso, 978-958-798-923-6 ebook.
-        
-        <br><br>
-       Ver proyecto 
-        <a
-          href="https://dentrodelacaja.com/bancolombia/"
-          class="link"
-          >aquí</a
-        >.
+    <main>
+      <section class="section--descripcion">
+        <h1 class="titulo" data-project-field="title">
+          Bancolombia 150 años
+        </h1>
 
-        <br /><br />
-        <div class="contenedor-img">
-          <img src="../images/work/bancolombia/app.png" />
-        </div>
-       
-        <div class="contenedor-img">
-          <img src="../images/work/bancolombia/app2.png" />
-        </div>
-      
-        <div class="contenedor-img">
-          <img src="../images/work/bancolombia/app3.png" />
-        </div>
-      </div>
-      <div class="border"></div>
-    </section>
+        <h4 class="año" data-project-field="year">2025</h4>
 
-    <section class="section--menu-mobile"></section>
+        <br />
 
-    <script src="script.js"></script>
+        <div class="descripcion--text">
+          <p data-project-field="description">
+            Aplicación de realidad aumentada para dispositivos Android y iOS.
+          </p>
+
+          <p>
+            <a
+              href="https://dentrodelacaja.com/bancolombia/"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-project-link
+            >Ver proyecto aquí</a>
+          </p>
+        </div>
+
+        <div class="project-image-gallery" data-project-images></div>
+      </section>
+    </main>
+
+    <script src="../js/project-page.js" defer></script>
   </body>
 </html>
