@@ -445,7 +445,7 @@ img{
 
 /* Desktop */
 .gallery-container {
-  grid-auto-rows: 30em;
+  grid-auto-rows: 10em;
 }
 
 /* Tablet and mobile */
