@@ -1,16 +1,12 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap");
 
-
-
 /* ==================================================
    BASE
 ================================================== */
-
 
 /* ==================================================
    TYPOGRAPHY CONTROLS
@@ -309,10 +305,7 @@ nav li {
   .gallery__item > a:hover .contenedor-nombre-proyecto,
   .gallery__item > a:focus-visible .contenedor-nombre-proyecto {
     background-color: rgba(212, 255, 0, 0.8);
-    background-image: radial-gradient(
-      rgb(212, 255, 0) 20%,
-      transparent 21%
-    );
+    background-image: radial-gradient(rgb(212, 255, 0) 20%, transparent 21%);
     background-size: 6px 6px;
   }
 
@@ -653,7 +646,6 @@ img {
   }
 }
 
-
 /* ---------- Control de orden de la galería ---------- */
 
 .gallery-controls {
@@ -673,7 +665,9 @@ img {
   font-family: "Space Grotesk", sans-serif;
   font-size: 12px;
   cursor: pointer;
-  transition: background 0.2s ease, color 0.2s ease;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
 }
 
 #shuffle-gallery:hover,
@@ -695,10 +689,6 @@ img {
     padding-top: 42px;
   }
 }
-
-
-
-
 
 /* ==================================================
    CV — ESPACIADO Y JERARQUÍA VISUAL
@@ -806,7 +796,6 @@ img {
   }
 }
 
-
 /* ==================================================
    CV — ANCHO DE COLUMNAS
 ================================================== */
@@ -842,8 +831,6 @@ img {
     padding-right: 12px;
   }
 }
-
-
 
 /* General spacing for interior pages */
 .descripcion--text,
@@ -881,4 +868,9 @@ img {
   height: min(80vh, 800px);
   min-height: 500px;
   border: none;
+}
+
+nav {
+  border: none;
+  border-bottom: 1px solid blue;
 }
