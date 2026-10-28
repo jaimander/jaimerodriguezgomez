@@ -1,4 +1,3 @@
-
 let translations = {};
 let projects = [];
 let currentLanguage = "es";
@@ -11,7 +10,7 @@ async function cargarJSON(ruta) {
     response = await fetch(ruta);
   } catch (error) {
     throw new Error(
-      `No se pudo acceder a ${ruta}. Comprueba que estás usando un servidor local y que la ruta existe.`
+      `No se pudo acceder a ${ruta}. Comprueba que estás usando un servidor local y que la ruta existe.`,
     );
   }
 
@@ -23,7 +22,7 @@ async function cargarJSON(ruta) {
     return await response.json();
   } catch (error) {
     throw new Error(
-      `${ruta} no contiene JSON válido. Detalle: ${error.message}`
+      `${ruta} no contiene JSON válido. Detalle: ${error.message}`,
     );
   }
 }
@@ -32,7 +31,7 @@ async function init() {
   try {
     const [loadedTranslations, loadedProjects] = await Promise.all([
       cargarJSON("./data/translations.json"),
-      cargarJSON("./data/projects.json")
+      cargarJSON("./data/projects.json"),
     ]);
 
     // Comprobar que los archivos tienen la estructura esperada.
@@ -42,7 +41,7 @@ async function init() {
       !Array.isArray(loadedProjects)
     ) {
       throw new Error(
-        "La estructura de translations.json o projects.json no es la esperada."
+        "La estructura de translations.json o projects.json no es la esperada.",
       );
     }
 
@@ -59,7 +58,7 @@ async function init() {
       // El sitio sigue funcionando sin localStorage.
     }
 
-    document.querySelectorAll("[data-lang]").forEach(button => {
+    document.querySelectorAll("[data-lang]").forEach((button) => {
       button.addEventListener("click", () => {
         const language = button.dataset.lang;
 
@@ -103,7 +102,7 @@ function renderPage() {
 
   document.documentElement.lang = currentLanguage;
 
-  document.querySelectorAll("[data-i18n]").forEach(element => {
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
     const value = getTranslation(dictionary, element.dataset.i18n);
 
     if (typeof value === "string") {
@@ -111,10 +110,10 @@ function renderPage() {
     }
   });
 
-  document.querySelectorAll("[data-lang]").forEach(button => {
+  document.querySelectorAll("[data-lang]").forEach((button) => {
     button.setAttribute(
       "aria-pressed",
-      String(button.dataset.lang === currentLanguage)
+      String(button.dataset.lang === currentLanguage),
     );
   });
 
@@ -133,7 +132,7 @@ function renderProjects(dictionary) {
 
   const fragment = document.createDocumentFragment();
 
-  projects.forEach(project => {
+  projects.forEach((project) => {
     const title =
       project.title?.[currentLanguage] ??
       project.title?.es ??
@@ -141,9 +140,7 @@ function renderProjects(dictionary) {
       "Proyecto sin título";
 
     const category =
-      dictionary.categories?.[project.category] ??
-      project.category ??
-      "";
+      dictionary.categories?.[project.category] ?? project.category ?? "";
 
     const card = document.createElement("div");
     card.className = "gallery__item";
@@ -191,27 +188,27 @@ function actualizarNombreProyectoMobile() {
   if (!mediaQueryMobile) return;
 
   const overlays = document.querySelectorAll(
-    ".gallery__item .contenedor-nombre-proyecto"
+    ".gallery__item .contenedor-nombre-proyecto",
   );
 
   if (!mediaQueryMobile.matches) {
-    overlays.forEach(overlay => {
+    overlays.forEach((overlay) => {
       overlay.style.opacity = "";
     });
 
     return;
   }
 
-  document.querySelectorAll(".gallery__item").forEach(item => {
+  document.querySelectorAll(".gallery__item").forEach((item) => {
     const rect = item.getBoundingClientRect();
     const overlay = item.querySelector(".contenedor-nombre-proyecto");
 
     if (!overlay) return;
 
     const nearViewportEdge =
-      (rect.top <= 80 && rect.top > -100) ||
-      (rect.bottom >= window.innerHeight - 80 &&
-        rect.bottom < window.innerHeight + 100);
+      (rect.top <= 80 && rect.top > -80) ||
+      (rect.bottom >= window.innerHeight - 60 &&
+        rect.bottom < window.innerHeight + 80);
 
     overlay.style.opacity = nearViewportEdge ? "1" : "0";
   });
@@ -221,7 +218,7 @@ function activarNombreProyectoMobile() {
   mediaQueryMobile = window.matchMedia("(max-width: 980px)");
 
   window.addEventListener("scroll", actualizarNombreProyectoMobile, {
-    passive: true
+    passive: true,
   });
 
   window.addEventListener("resize", actualizarNombreProyectoMobile);
@@ -230,9 +227,6 @@ function activarNombreProyectoMobile() {
 }
 
 init();
-
-
-
 
 ////
 
@@ -253,6 +247,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Reinsertarlos en el nuevo orden
-    projects.forEach(project => gallery.appendChild(project));
+    projects.forEach((project) => gallery.appendChild(project));
   });
 });

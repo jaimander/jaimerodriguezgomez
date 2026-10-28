@@ -38,6 +38,9 @@
       "paragraph4": "Soy magíster en Tecnología y Estética de las Artes Electrónicas por la Universidad Nacional de Tres de Febrero (UNTREF), Argentina, y diseñador industrial por la Universidad Jorge Tadeo Lozano, Colombia.",
       "paragraph5": "Formo parte de Materia Inestable, un colectivo artístico interdisciplinar, y de 4L3PH, un nodo de creadores dedicado a imaginar narrativas especulativas y experimentar con prácticas artísticas (ciber)vanguardistas a través de diversos medios.",
       "email": "Correo electrónico"
+    },
+    "gallery": {
+      "shuffle": "Reordenar ↻"
     }
   },
   "en": {
@@ -79,6 +82,9 @@
       "paragraph4": "I hold an MA in Technology and Aesthetics of Electronic Arts from the National University of Tres de Febrero (UNTREF), Argentina, and a degree in Industrial Design from Universidad Jorge Tadeo Lozano, Colombia.",
       "paragraph5": "I am part of Materia Inestable, an interdisciplinary art collective, and 4L3PH, a network of creators exploring speculative narratives and experimental (cyber-)avant-garde artistic practices across diverse media.",
       "email": "Email"
+    },
+    "gallery": {
+      "shuffle": "Shuffle ↻"
     }
   }
   

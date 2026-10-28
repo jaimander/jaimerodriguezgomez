@@ -1,5 +1,15 @@
-
 [
+  {
+    "id": "gladys",
+    "year": "2026",
+    "image": "images/work/maquina-de-pensar-en-gladys/maquina-de-pensar-en-gladys.png",
+    "title": {
+      "es": "Adaptación de La Máquina de Pensar en Gladys",
+      "en": "Adaptation of La Máquina de Pensar en Gladys"
+    },
+    "category": "interactiveNarrative",
+    "url": "proyectos/maquinadepensarengladys.html"
+  },
   {
     "id": "bancolombia",
     "year": "2025",
@@ -65,6 +75,17 @@
     },
     "category": "interactiveNarrative",
     "url": "proyectos/poemasinteractivos.html"
+  },
+  {
+    "id": "el-futuro-es-un-pajaro",
+    "year": "2022",
+    "image": "images/work/el-futuro-es-un-pajaro/futuropajaro2.png",
+    "title": {
+      "es": "Migrando al futuro",
+      "en": "Migrating into the Future"
+    },
+    "category": "soundNarrative",
+    "url": "proyectos/elfuturoesunpajaro.html"
   },
   {
     "id": "agua-pa-la-planta",

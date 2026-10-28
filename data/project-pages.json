@@ -1,4 +1,16 @@
 {
+  "gladys": {
+  "title": {
+    "es": "Adaptación de La máquina de pensar en Gladys",
+    "en": "Adaptation of The Thinking Machine in Gladys"
+  },
+  "year": "2026",
+  "description": {
+    "es": "Adaptación interactiva del cuento «La máquina de pensar en Gladys», de Mario Levrero.",
+    "en": "Interactive adaptation of the short story “The Thinking Machine in Gladys” by Mario Levrero."
+  },
+  "image": "images/work/maquina-de-pensar-en-gladys/maquina-de-pensar-en-gladys.png"
+},
   "juliatramaalgo": {
     "title": {
       "es": "Julia Trama Algo",
@@ -156,6 +168,18 @@
         }
       }
     ]
+  },
+  "elfuturoesunpajaro": {
+    "title": {
+      "es": "El futuro es un pájaro",
+      "en": "The Future Is a Bird"
+    },
+    "year": "2022",
+    "description": {
+      "es": "Pieza audiovisual resultado del laboratorio «Migrando al futuro: Escuchando otros mundos posibles», dirigido por Nelson Vera y Luis Carlos Barragán. Una comunidad que vive en un entorno natural se ve obligada a huir porque su territorio está en riesgo. Su supervivencia se encuentra en peligro, por lo que uno de sus integrantes se refugia en la virtualidad. Su cuerpo material se adapta a su nuevo entorno, mientras encuentra sonidos y sensaciones distintas a las que estaba acostumbrado. Después de esta metamorfosis, el protagonista transmigra de nuevo a la materia orgánica viva para diluirse en una red de criaturas selváticas. El futuro es un pájaro que susurra el eco de nuestros nombres.",
+      "en": "An audiovisual piece created as part of the laboratory «Migrating into the Future: Listening to Other Possible Worlds», directed by Nelson Vera and Luis Carlos Barragán. A community living in a natural environment is forced to flee because its territory is under threat. With its survival at stake, one of its members takes refuge in virtuality. His material body adapts to this new environment, where he encounters sounds and sensations unlike those he was accustomed to. After this metamorphosis, the protagonist transmigrates back into living organic matter, dissolving into a network of jungle creatures. The future is a bird whispering the echo of our names."
+    },
+    "video": "https://www.youtube.com/embed/0BHG_xw7lWo"
   },
 
   "poemasinteractivos": {
