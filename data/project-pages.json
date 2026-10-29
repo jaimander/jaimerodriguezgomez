@@ -1,16 +1,16 @@
 {
   "gladys": {
-  "title": {
-    "es": "Adaptación de La máquina de pensar en Gladys",
-    "en": "Adaptation of The Thinking Machine in Gladys"
+    "title": {
+      "es": "Adaptación de La máquina de pensar en Gladys",
+      "en": "Adaptation of The Thinking Machine in Gladys"
+    },
+    "year": "2026",
+    "description": {
+      "es": "Adaptación interactiva del cuento «La máquina de pensar en Gladys», de Mario Levrero.",
+      "en": "Interactive adaptation of the short story “The Thinking Machine in Gladys” by Mario Levrero."
+    },
+    "image": "images/work/maquina-de-pensar-en-gladys/maquina-de-pensar-en-gladys.png"
   },
-  "year": "2026",
-  "description": {
-    "es": "Adaptación interactiva del cuento «La máquina de pensar en Gladys», de Mario Levrero.",
-    "en": "Interactive adaptation of the short story “The Thinking Machine in Gladys” by Mario Levrero."
-  },
-  "image": "images/work/maquina-de-pensar-en-gladys/maquina-de-pensar-en-gladys.png"
-},
   "juliatramaalgo": {
     "title": {
       "es": "Julia Trama Algo",
