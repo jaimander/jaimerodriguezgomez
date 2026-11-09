@@ -881,12 +881,12 @@ img {
 
   /* Tarjetas grandes: alternar */
   .gallery__item[data-importance="1"]:nth-child(even),
-  .gallery__item[data-importance="2"]:nth-child(even) {
+  .gallery__item[data-importance="2"]:nth-child(odd) {
     justify-self: end;
   }
 
   /* Algunas tarjetas pequeñas se desplazan a la derecha */
-  .gallery__item[data-importance="3"]:nth-child(odd),
+  .gallery__item[data-importance="3"]:nth-child(even),
   .gallery__item[data-importance="4"]:nth-child(odd) {
     justify-self: end;
   }
@@ -911,6 +911,6 @@ img {
   }
 
   .gallery__item:nth-child(odd) {
-    justify-self: start;
+    justify-self: center;
   }
 }
