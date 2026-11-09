@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap");
@@ -497,7 +496,6 @@ img {
 ================================================== */
 
 @media (max-width: 658px) {
-
   /* Menú móvil */
 
   .checkbtn {
@@ -878,7 +876,6 @@ img {
 /* Escritorio: alternar izquierda y derecha */
 
 @media (min-width: 981px) {
-
   /* Tarjetas grandes: alternar */
   .gallery__item[data-importance="1"]:nth-child(even),
   .gallery__item[data-importance="2"]:nth-child(odd) {
@@ -989,4 +986,36 @@ img {
     grid-column: span 2;
     grid-row: span 2;
   }
+}
+
+.typing-text {
+  display: inline;
+}
+
+.typing-text::after {
+  content: "";
+  display: inline-block;
+  height: 0.9em;
+  border-right: 1px solid currentColor;
+  margin-left: 3px;
+  vertical-align: -0.08em;
+  animation: cursorBlink 0.8s steps(2, start) infinite;
+}
+
+@keyframes cursorBlink {
+  to {
+    visibility: hidden;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .typing-text::after {
+    animation: none;
+    visibility: hidden;
+  }
+}
+
+
+#random-word {
+ color:rgb(129, 129, 255);
 }

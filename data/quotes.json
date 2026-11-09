@@ -1,8 +1,8 @@
 [
   {
     "id": "jugar-con-la-realidad",
-    "es": "Jugar con la realidad.",
-    "en": "Playing with reality.",
+    "es": "Jugar con la realidad y asumirla a la vez extraña y familiar.",
+    "en": "Playing with reality and embracing it as both strange and familiar.",
     "importance": 1
   },
   {
@@ -18,21 +18,39 @@
     "importance": 3
   },
   {
+    "id": "tiempo-expeciencia",
+    "es": "No existe un único lenguaje.",
+    "en": "There is no such thing as a single language.",
+    "importance": 3
+  },
+  {
     "id": "interfaz-mundo",
-    "es": "Toda interfaz propone una forma de estar en el mundo.",
-    "en": "Every interface proposes a way of being in the world.",
+    "es": "Toda interfaz propone una forma de entender el mundo.",
+    "en": "Every interface proposes a way of understanding the world.",
     "importance": 2
   },
   {
     "id": "investigar-situaciones",
-    "es": "Investigar también es construir y enmarcar situaciones.",
-    "en": "Research is also about constructing and framing situations.",
-    "importance": 3
+    "es": "Investigar mediante el despliegue de situaciones.",
+    "en": "Research through the unfolding of situations.",
+    "importance": 2
   },
   {
     "id": "condiciones-juego",
     "es": "¿Qué sucede cuando cambiamos las condiciones del juego?",
     "en": "What happens when we change the rules of the game?",
     "importance": 2
+  },
+  {
+    "id": "control",
+    "es": "Ceder el control y esperar.",
+    "en": "To relinquish control and wait.",
+    "importance": 2
+  },
+  {
+    "id": "mundos",
+    "es": "Explorar mundos, alternar perspectivas y jugar con lo posible.",
+    "en": "Exploring worlds, shifting perspectives, and playing with possibilities",
+    "importance": 1
   }
 ]

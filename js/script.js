@@ -1,7 +1,16 @@
+
 let translations = {};
 let projects = [];
+let quotes = [];
+let words = [];
+
 let currentLanguage = "es";
+let currentWord = "";
 let mediaQueryMobile;
+
+// --------------------------------------------------
+// CARGAR ARCHIVOS JSON
+// --------------------------------------------------
 
 async function cargarJSON(ruta) {
   let response;
@@ -27,30 +36,43 @@ async function cargarJSON(ruta) {
   }
 }
 
+// --------------------------------------------------
+// INICIALIZACIÓN
+// --------------------------------------------------
+
 async function init() {
   try {
-    const [loadedTranslations, loadedProjects, loadedQuotes] = await Promise.all([
+    const [
+      loadedTranslations,
+      loadedProjects,
+      loadedQuotes,
+      loadedWords,
+    ] = await Promise.all([
       cargarJSON("./data/translations.json"),
       cargarJSON("./data/projects.json"),
       cargarJSON("./data/quotes.json"),
+      cargarJSON("./data/words.json"),
     ]);
 
-    // Comprobar que los archivos tienen la estructura esperada.
+    // Comprobar estructura de los archivos.
     if (
       !loadedTranslations.es ||
       !loadedTranslations.en ||
       !Array.isArray(loadedProjects) ||
-      !Array.isArray(loadedQuotes)
+      !Array.isArray(loadedQuotes) ||
+      !Array.isArray(loadedWords.words)
     ) {
       throw new Error(
-        "La estructura de translations.json o projects.json no es la esperada.",
+        "La estructura de los archivos JSON no es la esperada.",
       );
     }
 
     translations = loadedTranslations;
     projects = loadedProjects;
     quotes = loadedQuotes;
+    words = loadedWords.words;
 
+    // Recuperar idioma guardado.
     try {
       const savedLanguage = localStorage.getItem("preferredLanguage");
 
@@ -61,6 +83,7 @@ async function init() {
       // El sitio sigue funcionando sin localStorage.
     }
 
+    // Eventos para cambiar idioma.
     document.querySelectorAll("[data-lang]").forEach((button) => {
       button.addEventListener("click", () => {
         const language = button.dataset.lang;
@@ -79,9 +102,19 @@ async function init() {
       });
     });
 
-    // Registrar los eventos una sola vez.
+    // Registrar eventos una sola vez.
     activarNombreProyectoMobile();
+    activarShuffle();
+
+    // Mostrar primera palabra.
+    changeWord();
+
+    // Cambiar palabra cada cinco segundos.
+    setInterval(changeWord, 500);
+
+    // Renderizar página.
     renderPage();
+
   } catch (error) {
     console.error("Error al iniciar el sitio:", error);
 
@@ -94,6 +127,34 @@ async function init() {
   }
 }
 
+// --------------------------------------------------
+// PALABRA ALEATORIA JUNTO AL NOMBRE
+// --------------------------------------------------
+
+function changeWord() {
+  const randomWord = document.getElementById("random-word");
+
+  if (!randomWord || words.length === 0) return;
+
+  let nextWord;
+
+  do {
+    const randomIndex = Math.floor(Math.random() * words.length);
+
+    nextWord =
+      words[randomIndex][currentLanguage] ??
+      words[randomIndex].es;
+
+  } while (words.length > 1 && nextWord === currentWord);
+
+  currentWord = nextWord;
+  randomWord.textContent = currentWord;
+}
+
+// --------------------------------------------------
+// TRADUCCIONES
+// --------------------------------------------------
+
 function getTranslation(dictionary, key) {
   return key.split(".").reduce((value, part) => value?.[part], dictionary);
 }
@@ -103,8 +164,13 @@ function renderPage() {
 
   if (!dictionary) return;
 
+  // Actualizar idioma del documento.
   document.documentElement.lang = currentLanguage;
 
+  // Actualizar palabra aleatoria.
+  changeWord();
+
+  // Actualizar textos traducibles.
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const value = getTranslation(dictionary, element.dataset.i18n);
 
@@ -113,6 +179,7 @@ function renderPage() {
     }
   });
 
+  // Actualizar botones de idioma.
   document.querySelectorAll("[data-lang]").forEach((button) => {
     button.setAttribute(
       "aria-pressed",
@@ -120,6 +187,7 @@ function renderPage() {
     );
   });
 
+  // Actualizar título de página.
   document.title =
     currentLanguage === "en"
       ? "Jaime Rodríguez Gómez — Portfolio"
@@ -128,13 +196,48 @@ function renderPage() {
   renderProjects(dictionary);
 }
 
+// --------------------------------------------------
+// DISTRIBUIR TODAS LAS FRASES
+// --------------------------------------------------
+
+function distribuirFrases() {
+  const totalQuotes = quotes.length;
+  const totalProjects = projects.length;
+
+  const quotesByPosition = new Map();
+
+  if (totalQuotes === 0 || totalProjects === 0) {
+    return quotesByPosition;
+  }
+
+  quotes.forEach((quote, index) => {
+    const position = Math.floor(
+      ((index + 1) * totalProjects) / (totalQuotes + 1),
+    );
+
+    if (!quotesByPosition.has(position)) {
+      quotesByPosition.set(position, []);
+    }
+
+    quotesByPosition.get(position).push(quote);
+  });
+
+  return quotesByPosition;
+}
+
+// --------------------------------------------------
+// RENDERIZAR GALERÍA
+// --------------------------------------------------
+
 function renderProjects(dictionary) {
   const gallery = document.getElementById("project-gallery");
 
   if (!gallery) return;
 
   const fragment = document.createDocumentFragment();
-  let quoteIndex = 0;
+
+  // Calcular posiciones de todas las frases.
+  const quotesByPosition = distribuirFrases();
 
   projects.forEach((project, index) => {
     const title =
@@ -186,20 +289,99 @@ function renderProjects(dictionary) {
     details.append(projectTitle, year, projectCategory);
     link.append(image, details);
     card.append(link);
+
     fragment.append(card);
 
-    // Insertar frases entre proyectos.
-    if ((index + 1) % 3 === 0 && quoteIndex < quotes.length) {
-      fragment.appendChild(crearFrase(quotes[quoteIndex]));
-      quoteIndex++;
+    // Insertar frases en posiciones distribuidas.
+    if (quotesByPosition.has(index)) {
+      quotesByPosition.get(index).forEach((quote) => {
+        fragment.appendChild(crearFrase(quote));
+      });
     }
   });
 
   gallery.replaceChildren(fragment);
 
-  // Actualizar las capas también después de cambiar de idioma.
+  // Actualizar capas después de renderizar.
   actualizarNombreProyectoMobile();
 }
+
+// --------------------------------------------------
+// CREAR FRASES
+// --------------------------------------------------
+
+function crearFrase(quote) {
+  const element = document.createElement("div");
+
+  element.className = "gallery__quote";
+  element.dataset.importance = quote.importance || 2;
+  element.dataset.quote = quote.id;
+
+  const paragraph = document.createElement("p");
+
+  const fullText = quote[currentLanguage] ?? quote.es ?? "";
+
+  paragraph.className = "typing-text";
+  paragraph.textContent = "";
+
+  element.setAttribute("aria-label", fullText);
+
+  element.appendChild(paragraph);
+
+  iniciarEfectoEscritura(paragraph, fullText);
+
+  return element;
+}
+
+// Efecto de escritura y borrado continuo.
+function iniciarEfectoEscritura(element, text) {
+  const characters = Array.from(text);
+
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    element.textContent = text;
+    return;
+  }
+
+  let index = 0;
+  let deleting = false;
+
+  function tick() {
+    // Detener el ciclo si la frase ya no está en la galería.
+    if (!element.isConnected) return;
+
+    if (!deleting) {
+      index++;
+      element.textContent = characters.slice(0, index).join("");
+
+      if (index >= characters.length) {
+        deleting = true;
+        setTimeout(tick, 2500);
+        return;
+      }
+
+      setTimeout(tick, 65);
+
+    } else {
+      index--;
+      element.textContent = characters.slice(0, index).join("");
+
+      if (index <= 0) {
+        deleting = false;
+        setTimeout(tick, 700);
+        return;
+      }
+
+      setTimeout(tick, 35);
+    }
+  }
+
+  // Pequeño retraso inicial aleatorio.
+  setTimeout(tick, Math.random() * 1500);
+}
+
+// --------------------------------------------------
+// NOMBRES DE PROYECTOS EN MOBILE
+// --------------------------------------------------
 
 function actualizarNombreProyectoMobile() {
   if (!mediaQueryMobile) return;
@@ -218,6 +400,7 @@ function actualizarNombreProyectoMobile() {
 
   document.querySelectorAll(".gallery__item").forEach((item) => {
     const rect = item.getBoundingClientRect();
+
     const overlay = item.querySelector(".contenedor-nombre-proyecto");
 
     if (!overlay) return;
@@ -228,6 +411,7 @@ function actualizarNombreProyectoMobile() {
         rect.bottom < window.innerHeight + 80);
 
     overlay.style.opacity = nearViewportEdge ? "1" : "0";
+
     item.classList.toggle("near-viewport-edge", nearViewportEdge);
   });
 }
@@ -244,43 +428,55 @@ function activarNombreProyectoMobile() {
   actualizarNombreProyectoMobile();
 }
 
-init();
+// --------------------------------------------------
+// BARAJAR GALERÍA
+// --------------------------------------------------
 
-////
-
-document.addEventListener("DOMContentLoaded", () => {
+function activarShuffle() {
   const gallery = document.querySelector(".gallery-container");
   const shuffleButton = document.querySelector("#shuffle-gallery");
 
   if (!gallery || !shuffleButton) return;
 
   shuffleButton.addEventListener("click", () => {
-    const projects = Array.from(gallery.children);
+    // Barajar únicamente los proyectos.
+    const projectCards = Array.from(gallery.children).filter((element) =>
+      element.classList.contains("gallery__item"),
+    );
 
-    // Barajar los proyectos con Fisher-Yates
-    for (let i = projects.length - 1; i > 0; i--) {
+    // Fisher-Yates.
+    for (let i = projectCards.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
 
-      [projects[i], projects[j]] = [projects[j], projects[i]];
+      [projectCards[i], projectCards[j]] = [
+        projectCards[j],
+        projectCards[i],
+      ];
     }
 
-    // Reinsertarlos en el nuevo orden
-    projects.forEach((project) => gallery.appendChild(project));
+    // Volver a renderizar para conservar todas las frases
+    // distribuidas entre los proyectos.
+    projects = projectCards
+      .map((card) => {
+        const title = card.querySelector(".nombre-proyecto")?.textContent;
+
+        return projects.find((project) => {
+          const projectTitle =
+            project.title?.[currentLanguage] ??
+            project.title?.es ??
+            project.id;
+
+          return projectTitle === title;
+        });
+      })
+      .filter(Boolean);
+
+    renderProjects(translations[currentLanguage]);
   });
-});
-
-function crearFrase(quote) {
-  const element = document.createElement("div");
-
-  element.className = "gallery__quote";
-  element.dataset.importance = quote.importance || 2;
-  element.dataset.quote = quote.id;
-
-  const paragraph = document.createElement("p");
-
-  paragraph.textContent = quote[currentLanguage] ?? quote.es ?? "";
-
-  element.appendChild(paragraph);
-
-  return element;
 }
+
+// --------------------------------------------------
+// INICIAR
+// --------------------------------------------------
+
+init();
