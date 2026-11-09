@@ -897,3 +897,10 @@ img {
     justify-self: end;
   }
 }
+
+@media (max-width: 980px) {
+  .gallery__item.near-viewport-edge {
+    outline: 1px solid blue;
+    border: 1px solid blue;
+  }
+}

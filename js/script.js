@@ -218,6 +218,7 @@ function actualizarNombreProyectoMobile() {
         rect.bottom < window.innerHeight + 80);
 
     overlay.style.opacity = nearViewportEdge ? "1" : "0";
+    item.classList.toggle("near-viewport-edge", nearViewportEdge);
   });
 }
 
