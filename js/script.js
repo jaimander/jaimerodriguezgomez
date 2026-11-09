@@ -29,16 +29,18 @@ async function cargarJSON(ruta) {
 
 async function init() {
   try {
-    const [loadedTranslations, loadedProjects] = await Promise.all([
+    const [loadedTranslations, loadedProjects, loadedQuotes] = await Promise.all([
       cargarJSON("./data/translations.json"),
       cargarJSON("./data/projects.json"),
+      cargarJSON("./data/quotes.json"),
     ]);
 
     // Comprobar que los archivos tienen la estructura esperada.
     if (
       !loadedTranslations.es ||
       !loadedTranslations.en ||
-      !Array.isArray(loadedProjects)
+      !Array.isArray(loadedProjects) ||
+      !Array.isArray(loadedQuotes)
     ) {
       throw new Error(
         "La estructura de translations.json o projects.json no es la esperada.",
@@ -47,6 +49,7 @@ async function init() {
 
     translations = loadedTranslations;
     projects = loadedProjects;
+    quotes = loadedQuotes;
 
     try {
       const savedLanguage = localStorage.getItem("preferredLanguage");
@@ -131,8 +134,9 @@ function renderProjects(dictionary) {
   if (!gallery) return;
 
   const fragment = document.createDocumentFragment();
+  let quoteIndex = 0;
 
-  projects.forEach((project) => {
+  projects.forEach((project, index) => {
     const title =
       project.title?.[currentLanguage] ??
       project.title?.es ??
@@ -183,6 +187,12 @@ function renderProjects(dictionary) {
     link.append(image, details);
     card.append(link);
     fragment.append(card);
+
+    // Insertar frases entre proyectos.
+    if ((index + 1) % 3 === 0 && quoteIndex < quotes.length) {
+      fragment.appendChild(crearFrase(quotes[quoteIndex]));
+      quoteIndex++;
+    }
   });
 
   gallery.replaceChildren(fragment);
@@ -258,3 +268,19 @@ document.addEventListener("DOMContentLoaded", () => {
     projects.forEach((project) => gallery.appendChild(project));
   });
 });
+
+function crearFrase(quote) {
+  const element = document.createElement("div");
+
+  element.className = "gallery__quote";
+  element.dataset.importance = quote.importance || 2;
+  element.dataset.quote = quote.id;
+
+  const paragraph = document.createElement("p");
+
+  paragraph.textContent = quote[currentLanguage] ?? quote.es ?? "";
+
+  element.appendChild(paragraph);
+
+  return element;
+}

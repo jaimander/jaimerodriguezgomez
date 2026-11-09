@@ -1,0 +1,38 @@
+[
+  {
+    "id": "jugar-con-la-realidad",
+    "es": "Jugar con la realidad.",
+    "en": "Playing with reality.",
+    "importance": 1
+  },
+  {
+    "id": "reglas-materiales",
+    "es": "Las reglas también son materiales creativos.",
+    "en": "Rules are creative materials too.",
+    "importance": 2
+  },
+  {
+    "id": "pensar-haciendo",
+    "es": "Pensar haciendo. Aprender experimentando.",
+    "en": "Thinking through making. Learning through experimenting.",
+    "importance": 3
+  },
+  {
+    "id": "interfaz-mundo",
+    "es": "Toda interfaz propone una forma de estar en el mundo.",
+    "en": "Every interface proposes a way of being in the world.",
+    "importance": 2
+  },
+  {
+    "id": "investigar-situaciones",
+    "es": "Investigar también es construir y enmarcar situaciones.",
+    "en": "Research is also about constructing and framing situations.",
+    "importance": 3
+  },
+  {
+    "id": "condiciones-juego",
+    "es": "¿Qué sucede cuando cambiamos las condiciones del juego?",
+    "en": "What happens when we change the rules of the game?",
+    "importance": 2
+  }
+]
