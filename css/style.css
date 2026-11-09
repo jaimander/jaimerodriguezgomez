@@ -904,3 +904,13 @@ img {
     border: 1px solid blue;
   }
 }
+
+@media (max-width: 658px) {
+  .gallery__item:nth-child(even) {
+    justify-self: end;
+  }
+
+  .gallery__item:nth-child(odd) {
+    justify-self: start;
+  }
+}
