@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap");
@@ -6,10 +7,6 @@
 
 /* ==================================================
    BASE
-================================================== */
-
-/* ==================================================
-   TYPOGRAPHY CONTROLS
 ================================================== */
 
 :root {
@@ -63,6 +60,8 @@ nav {
   height: 42px;
   padding: 1px;
   background: #fff;
+  border: none;
+  border-bottom: 1px solid blue;
 }
 
 #name {
@@ -153,7 +152,6 @@ nav li {
   grid-auto-rows: 3.5vw;
   gap: 10px;
 
-  /* Centrado del contenedor */
   width: 88%;
   max-width: 1500px;
   margin: 0 auto;
@@ -168,6 +166,28 @@ nav li {
   align-items: center;
   min-width: 0;
   min-height: 0;
+}
+
+/* Tamaños según importancia */
+
+.gallery__item[data-importance="1"] {
+  grid-column: span 8;
+  grid-row: span 8;
+}
+
+.gallery__item[data-importance="2"] {
+  grid-column: span 7;
+  grid-row: span 6;
+}
+
+.gallery__item[data-importance="3"] {
+  grid-column: span 5;
+  grid-row: span 5;
+}
+
+.gallery__item[data-importance="4"] {
+  grid-column: span 4;
+  grid-row: span 4;
 }
 
 .gallery__item > a {
@@ -189,38 +209,6 @@ nav li {
   opacity: 1;
   transition: opacity 0.5s ease;
   backface-visibility: visible;
-}
-
-/* Composición asimétrica */
-
-.gallery__item:nth-child(6n + 1) {
-  grid-column: 1 / span 7;
-  grid-row: span 7;
-}
-
-.gallery__item:nth-child(6n + 2) {
-  grid-column: 9 / -1;
-  grid-row: span 5;
-}
-
-.gallery__item:nth-child(6n + 3) {
-  grid-column: 3 / span 4;
-  grid-row: span 5;
-}
-
-.gallery__item:nth-child(6n + 4) {
-  grid-column: 7 / -1;
-  grid-row: span 6;
-}
-
-.gallery__item:nth-child(6n + 5) {
-  grid-column: 1 / span 5;
-  grid-row: span 4;
-}
-
-.gallery__item:nth-child(6n + 6) {
-  grid-column: 8 / -1;
-  grid-row: span 5;
 }
 
 /* ==================================================
@@ -394,7 +382,9 @@ h3 {
   color: #00f;
 }
 
-/* Tablas */
+/* ==================================================
+   TABLAS
+================================================== */
 
 table {
   border-collapse: separate;
@@ -423,6 +413,7 @@ table th {
 }
 
 /* Primera columna del CV */
+
 #cv-content {
   width: 100%;
   table-layout: auto;
@@ -460,34 +451,26 @@ img {
     gap: 6px;
   }
 
-  .gallery__item:nth-child(6n + 1) {
-    grid-column: 1 / span 4;
+  /* Tamaños según importancia — Tablet */
+
+  .gallery__item[data-importance="1"] {
+    grid-column: span 6;
+    grid-row: span 7;
+  }
+
+  .gallery__item[data-importance="2"] {
+    grid-column: span 5;
     grid-row: span 6;
   }
 
-  .gallery__item:nth-child(6n + 2) {
-    grid-column: 5 / -1;
+  .gallery__item[data-importance="3"] {
+    grid-column: span 4;
+    grid-row: span 5;
+  }
+
+  .gallery__item[data-importance="4"] {
+    grid-column: span 3;
     grid-row: span 4;
-  }
-
-  .gallery__item:nth-child(6n + 3) {
-    grid-column: 2 / span 3;
-    grid-row: span 5;
-  }
-
-  .gallery__item:nth-child(6n + 4) {
-    grid-column: 4 / -1;
-    grid-row: span 5;
-  }
-
-  .gallery__item:nth-child(6n + 5) {
-    grid-column: 1 / span 3;
-    grid-row: span 4;
-  }
-
-  .gallery__item:nth-child(6n + 6) {
-    grid-column: 4 / -1;
-    grid-row: span 5;
   }
 
   .nombre-proyecto,
@@ -514,6 +497,7 @@ img {
 ================================================== */
 
 @media (max-width: 658px) {
+
   /* Menú móvil */
 
   .checkbtn {
@@ -574,7 +558,7 @@ img {
     color: #fff;
   }
 
-  /* Galería móvil centrada */
+  /* Galería móvil */
 
   .gallery-container {
     width: 92%;
@@ -586,34 +570,26 @@ img {
     gap: 6px;
   }
 
-  .gallery__item:nth-child(6n + 1) {
+  /* Tamaños según importancia — Móvil */
+
+  .gallery__item[data-importance="1"] {
     grid-column: 1 / -1;
+    grid-row: span 5;
+  }
+
+  .gallery__item[data-importance="2"] {
+    grid-column: span 3;
     grid-row: span 4;
   }
 
-  .gallery__item:nth-child(6n + 2) {
-    grid-column: 2 / -1;
+  .gallery__item[data-importance="3"] {
+    grid-column: span 2;
     grid-row: span 3;
   }
 
-  .gallery__item:nth-child(6n + 3) {
-    grid-column: 1 / span 3;
-    grid-row: span 3;
-  }
-
-  .gallery__item:nth-child(6n + 4) {
-    grid-column: 2 / -1;
-    grid-row: span 4;
-  }
-
-  .gallery__item:nth-child(6n + 5) {
-    grid-column: 1 / span 3;
-    grid-row: span 3;
-  }
-
-  .gallery__item:nth-child(6n + 6) {
-    grid-column: 1 / -1;
-    grid-row: span 3;
+  .gallery__item[data-importance="4"] {
+    grid-column: span 2;
+    grid-row: span 2;
   }
 
   /* Etiquetas compactas */
@@ -646,7 +622,9 @@ img {
   }
 }
 
-/* ---------- Control de orden de la galería ---------- */
+/* ==================================================
+   CONTROL DE ORDEN DE LA GALERÍA
+================================================== */
 
 .gallery-controls {
   width: 88%;
@@ -695,12 +673,14 @@ img {
 ================================================== */
 
 /* Espacio general alrededor del contenido del CV */
+
 #cv-content {
   border-collapse: separate;
   border-spacing: 0 10px;
 }
 
 /* Separación entre columnas y alineación */
+
 #cv-content th {
   padding-bottom: 12px;
   line-height: 1.4;
@@ -708,6 +688,7 @@ img {
 }
 
 /* Columna de años */
+
 #cv-content th.an {
   width: 120px;
   min-width: 120px;
@@ -716,6 +697,7 @@ img {
 }
 
 /* Espacio dentro de las celdas de contenido */
+
 #cv-content td {
   padding-bottom: 6px;
   line-height: 1.45;
@@ -723,6 +705,7 @@ img {
 }
 
 /* Encabezados de sección del CV */
+
 #cv-content h2 {
   margin-top: 42px;
   margin-bottom: 16px;
@@ -734,11 +717,13 @@ img {
 }
 
 /* La primera sección no necesita tanto espacio superior */
+
 #cv-content h2:first-child {
   margin-top: 0;
 }
 
 /* Subtítulos dentro de cada sección */
+
 #cv-content h3 {
   margin-top: 18px;
   margin-bottom: 8px;
@@ -748,6 +733,7 @@ img {
 }
 
 /* Evita que los párrafos y listas queden amontonados */
+
 #cv-content p {
   margin-bottom: 8px;
   line-height: 1.45;
@@ -765,6 +751,7 @@ img {
 }
 
 /* Ajuste para pantallas pequeñas */
+
 @media (max-width: 658px) {
   #cv-content {
     border-spacing: 0 7px;
@@ -808,6 +795,7 @@ img {
 }
 
 /* Primera columna: fechas y años */
+
 #cv-content th.an,
 #cv-content td.an {
   width: 220px;
@@ -817,6 +805,7 @@ img {
 }
 
 /* Segunda columna: contenido */
+
 #cv-content th:not(.an),
 #cv-content td:not(.an) {
   width: auto;
@@ -824,6 +813,7 @@ img {
 }
 
 /* En pantallas pequeñas */
+
 @media (max-width: 658px) {
   #cv-content th.an,
   #cv-content td.an {
@@ -832,7 +822,12 @@ img {
   }
 }
 
+/* ==================================================
+   DESCRIPCIONES
+================================================== */
+
 /* General spacing for interior pages */
+
 .descripcion--text,
 .section--descripcion p {
   padding-bottom: 40px;
@@ -840,6 +835,7 @@ img {
 }
 
 /* Reduced spacing only on the About page */
+
 .about-page .section--descripcion p {
   padding-bottom: 16px;
   line-height: 1.3;
@@ -851,10 +847,15 @@ img {
 }
 
 /* About page only */
+
 .about-page .section--descripcion p {
   padding-bottom: 16px;
   line-height: var(--line-height-body);
 }
+
+/* ==================================================
+   BITSY
+================================================== */
 
 .bitsy-container {
   width: 100%;
@@ -870,7 +871,29 @@ img {
   border: none;
 }
 
-nav {
-  border: none;
-  border-bottom: 1px solid blue;
+/* ==================================================
+   ALTERNAR ALINEACIÓN DE LAS TARJETAS
+================================================== */
+
+/* Escritorio: alternar izquierda y derecha */
+
+@media (min-width: 981px) {
+
+  /* Tarjetas grandes: alternar */
+  .gallery__item[data-importance="1"]:nth-child(even),
+  .gallery__item[data-importance="2"]:nth-child(even) {
+    justify-self: end;
+  }
+
+  /* Algunas tarjetas pequeñas se desplazan a la derecha */
+  .gallery__item[data-importance="3"]:nth-child(odd),
+  .gallery__item[data-importance="4"]:nth-child(odd) {
+    justify-self: end;
+  }
+}
+
+@media (min-width: 659px) and (max-width: 980px) {
+  .gallery__item:nth-child(even) {
+    justify-self: end;
+  }
 }

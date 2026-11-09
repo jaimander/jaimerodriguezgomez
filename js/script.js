@@ -145,6 +145,13 @@ function renderProjects(dictionary) {
     const card = document.createElement("div");
     card.className = "gallery__item";
 
+    // Importancia del proyecto: valores de 1 a 4.
+    const importance = [1, 2, 3, 4].includes(Number(project.importance))
+      ? Number(project.importance)
+      : 3;
+
+    card.dataset.importance = importance;
+
     const link = document.createElement("a");
     link.href = project.url || "#";
     link.title = title;

@@ -3,6 +3,7 @@
     "id": "gladys",
     "year": "2026",
     "image": "images/work/maquina-de-pensar-en-gladys/maquina-de-pensar-en-gladys.png",
+    "importance": "3",
     "title": {
       "es": "Adaptación de La Máquina de Pensar en Gladys",
       "en": "Adaptation of La Máquina de Pensar en Gladys"
@@ -14,6 +15,7 @@
     "id": "bancolombia",
     "year": "2025",
     "image": "images/work/bancolombia/app.png",
+     "importance": "3",
     "title": {
       "es": "Bancolombia 150 años",
       "en": "Bancolombia: 150 Years"
@@ -25,6 +27,7 @@
     "id": "juliatramaalgo",
     "year": "2025",
     "image": "images/work/julia-trama-algo/juliatramaalgo.png",
+     "importance": "1",
     "title": {
       "es": "Julia Trama Algo",
       "en": "Julia Trama Algo"
@@ -36,6 +39,7 @@
     "id": "amor-en-pixeles",
     "year": "2024",
     "image": "images/work/amor-en-pixeles/corazon_2.png",
+     "importance": "4",
     "title": {
       "es": "Amor en píxeles",
       "en": "Love in Pixels"
@@ -47,6 +51,7 @@
     "id": "agua-soy",
     "year": "2024",
     "image": "images/work/agua-soy/agua-soy.png",
+     "importance": "4",
     "title": {
       "es": "Agua soy",
       "en": "I Am Water"
@@ -58,6 +63,7 @@
     "id": "n4t3kuk",
     "year": "2024",
     "image": "images/work/n4t3kuk/2.jpg",
+     "importance": "2",
     "title": {
       "es": "N4T3KUK",
       "en": "N4T3KUK"
@@ -69,6 +75,7 @@
     "id": "poemas-interactivos",
     "year": "2023–",
     "image": "images/work/poemas-interactivos/poemasinteractivos1.jpg",
+     "importance": "4",
     "title": {
       "es": "Poemas interactivos",
       "en": "Interactive Poems"
@@ -80,6 +87,7 @@
     "id": "el-futuro-es-un-pajaro",
     "year": "2022",
     "image": "images/work/el-futuro-es-un-pajaro/futuropajaro2.png",
+     "importance": "4",
     "title": {
       "es": "Migrando al futuro",
       "en": "Migrating into the Future"
@@ -91,6 +99,7 @@
     "id": "agua-pa-la-planta",
     "year": "2021",
     "image": "images/work/agua-pa-la-planta/aguapalaplanta1.jpg",
+     "importance": "4",
     "title": {
       "es": "Agua pa' la planta",
       "en": "Water for the Plant"
@@ -102,6 +111,7 @@
     "id": "bbradnl",
     "year": "2020",
     "image": "images/work/bbradnl/bbcadnl1.jpg",
+     "importance": "3",
     "title": {
       "es": "BBRADNL",
       "en": "BBRADNL"
@@ -113,6 +123,7 @@
     "id": "apofenia",
     "year": "2020",
     "image": "images/work/apofenia/apofenia1.jpg",
+     "importance": "2",
     "title": {
       "es": "Apofenia",
       "en": "Apophenia"
@@ -124,17 +135,19 @@
     "id": "nod_",
     "year": "2020",
     "image": "images/work/nod_/2.jpg",
+     "importance": "2",
     "title": {
       "es": "NOD_",
       "en": "NOD_"
     },
-    "category": "interactiveInstallation",
+    "category": "interactiveNarrative",
     "url": "proyectos/nod.html"
   },
   {
     "id": "guardianes-ati",
     "year": "2019",
     "image": "images/work/guardianes-ati/4.png",
+     "importance": "2",
     "title": {
       "es": "Guardianes ATI",
       "en": "ATI Guardians"
@@ -146,6 +159,7 @@
     "id": "viaje-espacial",
     "year": "2019",
     "image": "images/work/viaje-espacial/viajeespacial1.jpg",
+     "importance": "3",
     "title": {
       "es": "Viaje espacial",
       "en": "Space Journey"
@@ -157,17 +171,19 @@
     "id": "prisma",
     "year": "2019",
     "image": "images/work/prisma/2.jpg",
+     "importance": "2",
     "title": {
       "es": "Prisma",
       "en": "Prism"
     },
-    "category": "interactiveInstallation",
+    "category": "videoPerformance",
     "url": "proyectos/prisma.html"
   },
   {
     "id": "tiempo-sin-medida",
     "year": "2017",
     "image": "images/work/tiempo-sin-medida/tsm2.png",
+     "importance": "1",
     "title": {
       "es": "Tiempo sin medida",
       "en": "Time Without Measure"
@@ -179,6 +195,7 @@
     "id": "horizontes-de-tiempo",
     "year": "2017",
     "image": "images/work/horizontes-de-tiempo/horizontesdetiempo1.jpg",
+     "importance": "3",
     "title": {
       "es": "Horizontes de tiempo",
       "en": "Horizons of Time"
@@ -190,6 +207,7 @@
     "id": "superposiciones",
     "year": "2016",
     "image": "images/work/superposiciones/4.jpg",
+     "importance": "4",
     "title": {
       "es": "Superposiciones",
       "en": "Superimpositions"
@@ -201,6 +219,7 @@
     "id": "hoyo",
     "year": "2015",
     "image": "images/work/hoyo/hoyo1.jpg",
+     "importance": "2",
     "title": {
       "es": "Hoyo",
       "en": "Hoyo"
@@ -212,6 +231,7 @@
     "id": "cuenta-regresiva",
     "year": "2014",
     "image": "images/work/cuenta-regresiva/4.jpg",
+     "importance": "1",
     "title": {
       "es": "Cuenta regresiva",
       "en": "Countdown"
@@ -223,6 +243,7 @@
     "id": "masa-sonora",
     "year": "2013",
     "image": "images/work/masa-sonora/1.jpg",
+     "importance": "3",
     "title": {
       "es": "Masa sonora",
       "en": "Sound Mass"
@@ -234,6 +255,7 @@
     "id": "progreso",
     "year": "2013",
     "image": "images/work/progreso/progreso1.jpg",
+     "importance": "1",
     "title": {
       "es": "Progreso",
       "en": "Progress"
@@ -245,6 +267,7 @@
     "id": "memoria-ninos-jugar",
     "year": "2012",
     "image": "images/work/memoria-ninos-jugar/alamemoria1.jpg",
+     "importance": "4",
     "title": {
       "es": "A la memoria de los niños que dejaron de jugar",
       "en": "In Memory of the Children Who Stopped Playing"
@@ -256,6 +279,7 @@
     "id": "protesis",
     "year": "2012",
     "image": "images/work/protesis/protesis1.jpg",
+     "importance": "3",
     "title": {
       "es": "Prótesis",
       "en": "Prosthesis"
@@ -267,6 +291,7 @@
     "id": "lo-que-dura-un-aguacero",
     "year": "2012",
     "image": "images/work/lo-que-dura-un-aguacero/loqueduraunaguacero1.jpg",
+     "importance": "4",
     "title": {
       "es": "Lo que dura un aguacero",
       "en": "As Long as a Rainstorm Lasts"
