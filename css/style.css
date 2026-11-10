@@ -899,7 +899,18 @@ img {
   #name p{
     font-size: 16px;
   }
+
 }
+
+@media (min-width: 980px) {
+ #scanner-falso-abajo, #scanner-falso-arriba{
+    display: none;
+
+  }
+
+}
+
+ 
 
 /* ==================================================
    ALTERNAR ALINEACIÓN DE LAS TARJETAS
