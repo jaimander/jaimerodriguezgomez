@@ -149,7 +149,7 @@ nav li {
   height: 79px;
   border-bottom-style:dotted;
   border-bottom-width: 2px;
-  border-bottom-color: rgb(133, 133, 255);
+  border-bottom-color: rgb(162, 255, 255);
   z-index: -1;
 }
 
@@ -161,7 +161,7 @@ nav li {
   height: 58px;
   border-top-style:dotted;
   border-top-width: 2px;
-  border-top-color: rgb(133, 133, 255);
+  border-top-color: rgb(162, 255, 255);
   z-index: -1;
 }
 
