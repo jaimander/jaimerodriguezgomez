@@ -141,6 +141,17 @@ nav li {
   color: #000;
 }
 
+#scanner-falso{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 79px;
+  border-bottom-style:dotted;
+  border-bottom-width: 2px;
+  border-bottom-color: rgb(133, 133, 255);
+  z-index: -1;
+}
 /* ==================================================
    GALERÍA — ESCRITORIO
 ================================================== */
@@ -636,6 +647,7 @@ img {
 #shuffle-gallery {
   padding: 5px 9px;
   border: 1px solid #000;
+  margin-top: 10px;
   background: #fff;
   color: #00f;
   font-family: "Space Grotesk", sans-serif;
@@ -867,6 +879,13 @@ img {
   height: min(80vh, 800px);
   min-height: 500px;
   border: none;
+}
+
+
+@media (max-width: 980px) {
+  #name p{
+    font-size: 16px;
+  }
 }
 
 /* ==================================================
