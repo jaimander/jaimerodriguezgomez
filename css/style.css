@@ -499,7 +499,7 @@ img {
   .nombre-proyecto,
   .tipo-proyecto,
   .tiempo-proyecto {
-    max-width: 80%;
+    max-width: 60%;
     padding: 5px;
     outline-width: 1px;
     font-size: 12px;
@@ -971,6 +971,8 @@ img {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 500;
   line-height: 1.15;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .gallery__quote p {
@@ -1062,3 +1064,13 @@ img {
 #random-word {
  color:rgb(129, 129, 255);
 }
+
+
+.nombre-proyecto,
+  .tipo-proyecto,
+  .tiempo-proyecto {
+    max-width: 60%;
+    padding: 5px;
+    outline-width: 1px;
+ /*   font-size: 12px;*/
+  }

@@ -1,3 +1,4 @@
+
 [
   {
     "id": "jugar-con-la-realidad",
@@ -31,14 +32,14 @@
   },
   {
     "id": "investigar-situaciones",
-    "es": "Investigar mediante el despliegue de situaciones.",
-    "en": "Research through the unfolding of situations.",
+    "es": "Investigar es crear situaciones para pensar.",
+    "en": "Research means creating situations for thinking.",
     "importance": 2
   },
   {
     "id": "condiciones-juego",
-    "es": "¿Qué sucede cuando cambiamos las condiciones del juego?",
-    "en": "What happens when we change the rules of the game?",
+    "es": "El error como oportunidad de transformación de un sistema.",
+    "en": "Mistakes as opportunities for system transformation.",
     "importance": 2
   },
   {
@@ -49,8 +50,8 @@
   },
   {
     "id": "mundos",
-    "es": "Explorar mundos, alternar perspectivas y jugar con lo posible.",
-    "en": "Exploring worlds, shifting perspectives, and playing with possibilities",
+    "es": "Explorar mundos, alternar perspectivas y ensayar lo posible.",
+    "en": "Exploring worlds, shifting perspectives, and testing possibilities.",
     "importance": 1
   }
 ]
