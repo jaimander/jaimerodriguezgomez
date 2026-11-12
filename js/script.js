@@ -143,7 +143,7 @@ async function init() {
     // Cambiar palabra cada cinco segundos.
 
     if (words.length > 0) {
-      setInterval(changeWord, 5000);
+      setInterval(changeWord, 200);
     }
 
   } catch (error) {
