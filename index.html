@@ -1,8 +1,8 @@
+
 <!doctype html>
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Jaime Rodríguez Gómez</title>
@@ -12,14 +12,24 @@
       content="Portafolio de Jaime Rodríguez Gómez: narrativas digitales, diseño de interacción y medios computacionales."
     />
 
-    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <meta name="theme-color" content="#ffffff" />
 
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+
+    <!-- Conexión anticipada a Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Solo se carga Space Grotesk, la fuente usada en tu CSS -->
     <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
       rel="stylesheet"
     />
 
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Clarity: carga asíncrona, no bloquea la página -->
     <script>
       (function (c, l, a, r, i, t, y) {
         c[a] =
@@ -27,28 +37,36 @@
           function () {
             (c[a].q = c[a].q || []).push(arguments);
           };
+
         t = l.createElement(r);
         t.async = 1;
         t.src = "https://www.clarity.ms/tag/" + i;
+
         y = l.getElementsByTagName(r)[0];
         y.parentNode.insertBefore(t, y);
       })(window, document, "clarity", "script", "t46et9hde5");
     </script>
+
+    <!-- JavaScript principal -->
+    <script src="./js/script.js" defer></script>
+    <script src="./js/actions.js" defer></script>
   </head>
 
   <body>
     <div id="scanner-falso-arriba"></div>
-     <div id="scanner-falso-abajo"></div>
+    <div id="scanner-falso-abajo"></div>
+
     <nav aria-label="Navegación principal">
       <input type="checkbox" id="check" />
 
       <label for="check" class="checkbtn" aria-label="Abrir menú">
-        <i class="fas fa-bars"></i>
+        <span aria-hidden="true">☰</span>
       </label>
 
       <div id="name">
         <p>
-          <a href="./">Jaime Rodríguez Gómez</a>    <span id="random-word"></span>
+          <a href="./">Jaime Rodríguez Gómez</a>
+          <span id="random-word"></span>
         </p>
       </div>
 
@@ -79,16 +97,14 @@
           Reordenar ↻
         </button>
       </div>
+
       <div
         class="gallery-container"
         id="project-gallery"
         aria-label="Galería de proyectos"
       >
-        <!-- JavaScript genera aquí las tarjetas desde projects.json. -->
+        <!-- Los proyectos se generan desde projects.json -->
       </div>
     </main>
-
-    <script src="./js/script.js" defer></script>
-    <script src="./js/actions.js" defer></script>
   </body>
 </html>
